@@ -1,0 +1,1171 @@
+{
+	id: "0D6AEB2B4E28FBD6"
+	group: ""
+	order_index: 1
+	filename: "shop"
+	title: "Shop"
+	icon: "decimal_coins:coin_100"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "1x Terrasteel ingot"
+			icon: "botania:terrasteel_ingot"
+			x: -1.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["60977FB1A20D739C"]
+			id: "2F44C4CA936DF79E"
+			tasks: [{
+				id: "3A39698F440A6B01"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3EC81407E4E78B6D"
+				type: "item"
+				team_reward: true
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			title: "10x Elementium Ingot"
+			icon: "botania:elementium_ingot"
+			x: -0.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["05FCAB98D60C4188"]
+			id: "761D04FC22F2F627"
+			tasks: [{
+				id: "5CBCF3B8C659EF14"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D75C4AF86CF6AC1"
+				type: "item"
+				team_reward: true
+				item: "botania:elementium_ingot"
+				count: 10
+			}]
+		}
+		{
+			title: "5x Infused Iron ingot"
+			icon: "naturesaura:infused_iron"
+			x: -1.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["209E8E5C4C4FDE65"]
+			id: "34ED2DA6DC8E19BC"
+			tasks: [{
+				id: "0991790438B2A4E0"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "35AF3FE353FFDA90"
+				type: "item"
+				team_reward: true
+				item: "naturesaura:infused_iron"
+				count: 5
+			}]
+		}
+		{
+			title: "16x Iron ingot"
+			icon: "minecraft:iron_ingot"
+			x: -10.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["4BD5F8A095C15E61"]
+			id: "03953D62FDAA060E"
+			tasks: [{
+				id: "4DB4A0D5AADBEA6E"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14035F9177BF730D"
+				type: "item"
+				team_reward: true
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "5x Tainted Gold Ingot"
+			icon: "naturesaura:tainted_gold"
+			x: -0.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["7F47A2B80FA8122A"]
+			id: "2CAB8799D43680F5"
+			tasks: [{
+				id: "288C695DA5239449"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1858987C7101DF6C"
+				type: "item"
+				team_reward: true
+				item: "naturesaura:tainted_gold"
+				count: 5
+			}]
+		}
+		{
+			title: "6x Ingot of the Skies"
+			icon: "naturesaura:sky_ingot"
+			x: -1.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3FFB427BE9055990"]
+			id: "1F162CD296418BD8"
+			tasks: [{
+				id: "533F1920DC01891F"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32B1428055022193"
+				type: "item"
+				team_reward: true
+				item: "naturesaura:sky_ingot"
+				count: 6
+			}]
+		}
+		{
+			title: "8x Brass Ingot"
+			icon: "create:brass_ingot"
+			x: -5.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["07E75EB414953E31"]
+			id: "2A2F9819DE3656B5"
+			tasks: [{
+				id: "4BEB7C1A280E89DC"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "36F5E93F276495B7"
+				type: "item"
+				team_reward: true
+				item: "create:brass_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "50x Adesite Alloy"
+			icon: "create:andesite_alloy"
+			x: -6.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["775CD8607FB6618A"]
+			id: "2BA0649ABA4C904B"
+			tasks: [{
+				id: "7D39F81A946A9153"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D62B7A615E29ED4"
+				type: "item"
+				team_reward: true
+				item: "create:andesite_alloy"
+				count: 50
+			}]
+		}
+		{
+			title: "10x Gold ingot"
+			icon: "minecraft:gold_ingot"
+			x: -9.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"799626B76C7E5509"
+				"2EADF779D02067AA"
+			]
+			id: "66EC008C0DD18DE5"
+			tasks: [{
+				id: "5E8EA3FFE6D5A325"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63DA646B698A1114"
+				type: "item"
+				team_reward: true
+				item: "minecraft:gold_ingot"
+				count: 10
+			}]
+		}
+		{
+			title: "2x Pink Slime ingot"
+			icon: "industrialforegoing:pink_slime_ingot"
+			x: 1.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["07FDB2ADF7A64D06"]
+			id: "54070CB0F87D5900"
+			tasks: [{
+				id: "3B96651CFD8FBDEC"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2DEA8C7BACEAE473"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:pink_slime_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "8x Slimesteel Ingot"
+			icon: "tconstruct:slimesteel_ingot"
+			x: 2.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["32CAD5043CC64B02"]
+			id: "7666E802683E7777"
+			tasks: [{
+				id: "34A7AA9C0B45F309"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D848E4389CA70F1"
+				type: "item"
+				team_reward: true
+				item: "tconstruct:slimesteel_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "3x Queen's Slime ingot"
+			icon: "tconstruct:queens_slime_ingot"
+			x: 3.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["32CAD5043CC64B02"]
+			id: "776780A04E26D6B4"
+			tasks: [{
+				id: "4D5C667E56B8599B"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "747F9490F65320A9"
+				type: "item"
+				team_reward: true
+				item: "tconstruct:queens_slime_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "3x Vivid Alloy Ingot"
+			icon: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			x: 1.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["0786C14473741661"]
+			id: "00A1B1B15634C4AB"
+			tasks: [{
+				id: "22B676483E5857EF"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "664B52120C6786D9"
+				type: "item"
+				team_reward: true
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+				count: 3
+			}]
+		}
+		{
+			title: "4x Diamond"
+			icon: "minecraft:diamond"
+			x: -8.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["080C6B406DD3A752"]
+			id: "46F47332A0E4AC7B"
+			tasks: [{
+				id: "6BF2127AE48527E2"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F8811C875F45FD4"
+				type: "item"
+				team_reward: true
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			title: "1x Crystalline Alloy Ingot"
+			icon: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+			x: 2.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["0786C14473741661"]
+			id: "0FE1CAA4AFC8B7CD"
+			tasks: [{
+				id: "2C29E8AE020858BE"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3163D67A7118A794"
+				type: "item"
+				team_reward: true
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+			}]
+		}
+		{
+			title: "1x Stellar Alloy Ingot"
+			icon: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			x: 3.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["0786C14473741661"]
+			id: "443F9351199F7123"
+			tasks: [{
+				id: "366E0DEA8BD9B9F0"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "452C362F249E0231"
+				type: "item"
+				team_reward: true
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			}]
+		}
+		{
+			title: "3x Precision Mechanism"
+			icon: "create:precision_mechanism"
+			x: -5.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["35EB10F4C9A852AF"]
+			id: "21C22007AF9AC0D3"
+			tasks: [{
+				id: "5C281D5EF785EF79"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "46146DE865B144EA"
+				type: "item"
+				team_reward: true
+				item: "create:precision_mechanism"
+				count: 3
+			}]
+		}
+		{
+			title: "1x Demonic Slate"
+			icon: "bloodmagic:demonslate"
+			x: -0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["2A16772ED21FB338"]
+			id: "2CAE7E5E80B18FA9"
+			tasks: [{
+				id: "04FF3E8B6A99585A"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3429CA1BE0496973"
+				type: "item"
+				team_reward: true
+				item: "bloodmagic:demonslate"
+			}]
+		}
+		{
+			title: "4x Petcoke"
+			icon: "immersivepetroleum:petcoke"
+			x: -8.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["6A62267F6E3067D0"]
+			id: "37A862ACF3D4AC7C"
+			tasks: [{
+				id: "24EEB71D1F75E186"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "196BD83267BE1CC2"
+				type: "item"
+				team_reward: true
+				item: "immersivepetroleum:petcoke"
+				count: 4
+			}]
+		}
+		{
+			title: "2x Niotic Crystal"
+			icon: "powah:crystal_niotic"
+			x: 1.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["731B5DB0F8A693E6"]
+			id: "5A086ACDC038FC45"
+			tasks: [{
+				id: "28B62408D657F0E8"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "46F109379B67D435"
+				type: "item"
+				team_reward: true
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
+		}
+		{
+			title: "3x Spirited Crystal"
+			icon: "powah:crystal_spirited"
+			x: 2.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["79D7A7BC76EA68D0"]
+			id: "18DA8DE8F2B2D72B"
+			tasks: [{
+				id: "54F0CFC7D3B018C7"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09F7219D6DF2A9AC"
+				type: "item"
+				team_reward: true
+				item: "powah:crystal_spirited"
+				count: 3
+			}]
+		}
+		{
+			title: "12x Nitro Crystal"
+			icon: "powah:crystal_nitro"
+			x: 3.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["2BFB87D8E395F92B"]
+			id: "1C333652C95A9038"
+			tasks: [{
+				id: "10CA34206FFCCD92"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C10C4532ED48220"
+				type: "item"
+				team_reward: true
+				item: "powah:crystal_nitro"
+				count: 12
+			}]
+		}
+		{
+			title: "1x Manyullyn Ingot"
+			icon: "tconstruct:manyullyn_ingot"
+			x: -5.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3C9E297921A25476"]
+			id: "038C1314232969FE"
+			tasks: [{
+				id: "23018C9357E1623D"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60652F6C092C9887"
+				type: "item"
+				team_reward: true
+				item: "tconstruct:manyullyn_ingot"
+			}]
+		}
+		{
+			title: "64x Coal"
+			icon: "minecraft:coal"
+			x: -10.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["42A3302AE240F60F"]
+			id: "5BDCCB4E6285700A"
+			tasks: [{
+				id: "4B8B077EB101AB1C"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "227BD55BBF90E6F8"
+				type: "item"
+				team_reward: true
+				item: "minecraft:coal"
+				count: 64
+			}]
+		}
+		{
+			title: "128x Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: -9.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["7E371A293BA50F73"]
+			id: "42A3D11FF75ACB7A"
+			tasks: [{
+				id: "0E2F641F4846C45E"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "596656355D0BD83E"
+				type: "item"
+				team_reward: true
+				item: "minecraft:cobblestone"
+				count: 128
+			}]
+		}
+		{
+			title: "64x Oak Log"
+			icon: "minecraft:oak_log"
+			x: -10.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["09F80EA2F63C463D"]
+			id: "3BF01EB2DEC5A10C"
+			tasks: [{
+				id: "43E38DB15E2A6C37"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "39AAE6E44E7E4C75"
+				type: "item"
+				team_reward: true
+				item: "minecraft:oak_log"
+				count: 64
+			}]
+		}
+		{
+			title: "8x Steel Ingot"
+			icon: "silents_mechanisms:steel_ingot"
+			x: -6.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["69B77907AC1E584F"]
+			id: "067A32A9AFF45612"
+			tasks: [{
+				id: "6C9E96B50DA1EDB0"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62A31ADECA1F2938"
+				type: "item"
+				team_reward: true
+				item: "silents_mechanisms:steel_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "24x Coal Coke"
+			icon: "immersiveengineering:coal_coke"
+			x: -9.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["5D6A0D5041F5F83A"]
+			id: "2E14A021B4D73D1D"
+			tasks: [{
+				id: "448E456863E69925"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "76F2A2FEFF20EB46"
+				type: "item"
+				team_reward: true
+				item: "immersiveengineering:coal_coke"
+				count: 24
+			}]
+		}
+		{
+			title: "32x Redstone Dust"
+			icon: "minecraft:redstone"
+			x: -10.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["70CCE5AE5442C98D"]
+			id: "5E68D289DD155161"
+			tasks: [{
+				id: "2E49EAC2DB55C53D"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "602735AD99EEB742"
+				type: "item"
+				team_reward: true
+				item: "minecraft:redstone"
+				count: 32
+			}]
+		}
+		{
+			title: "8x Lapis Lazuli"
+			icon: "minecraft:lapis_lazuli"
+			x: -9.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["456F50BFC7926902"]
+			id: "0D8459D0E32EBA8D"
+			tasks: [{
+				id: "2388E2A3BD001DA7"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5ADC0065BF839857"
+				type: "item"
+				team_reward: true
+				item: "minecraft:lapis_lazuli"
+				count: 8
+			}]
+		}
+		{
+			title: "16x Nether Quartz"
+			icon: "minecraft:quartz"
+			x: -8.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["79AF2B1DD5ADD008"]
+			id: "201EFA0E089FE3D1"
+			tasks: [{
+				id: "20295388B91EF40C"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "64A8CA3587530CA1"
+				type: "item"
+				team_reward: true
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "6x Polished Rose Quartz"
+			icon: "create:polished_rose_quartz"
+			x: -6.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["2C5CB8C2E2C18160"]
+			id: "7AC27C3DA5B3A0EA"
+			tasks: [{
+				id: "3845D3BCDB9AA9FC"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3AC5AF43ECC76D47"
+				type: "item"
+				team_reward: true
+				item: "create:polished_rose_quartz"
+				count: 6
+			}]
+		}
+		{
+			title: "14x Buckets of Lava"
+			icon: "minecraft:lava_bucket"
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["799626B76C7E5509"]
+			id: "52C06E4AAB8E648F"
+			tasks: [{
+				id: "2C1416A5BEF3986B"
+				type: "item"
+				item: "decimal_coins:coin_5"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B1A67766DD85920"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-41430697
+								473122731
+								-2087426924
+								-567676753
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 14000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+						BlockEntityTag: {
+							currentRedstone: 15
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 14000
+								}
+							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							Security: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								name: "Security"
+								securityMode: 0
+								override: 0b
+								publicFreq: 1b
+							}
+							componentSecurity: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								securityMode: 0
+							}
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "14x Buckets of Polyethylene"
+			icon: "silents_mechanisms:polyethylene_bucket"
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["77B7D2B9F6EBAD36"]
+			id: "04963BD29AFD1773"
+			tasks: [{
+				id: "3838B0D57A1CFD3F"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F8E91F1FCB00166"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-41430697
+								473122731
+								-2087426924
+								-567676753
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "silents_mechanisms:polyethylene"
+									Amount: 14000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+						BlockEntityTag: {
+							currentRedstone: 15
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "silents_mechanisms:polyethylene"
+									Amount: 14000
+								}
+							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							Security: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								name: "Security"
+								securityMode: 0
+								override: 0b
+								publicFreq: 1b
+							}
+							componentSecurity: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								securityMode: 0
+							}
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "14x Buckets of Latex"
+			icon: "industrialforegoing:latex_bucket"
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["18ACA060D1AE2976"]
+			id: "00A786FB9E4A0A25"
+			tasks: [{
+				id: "00900CB8F1DFB31A"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44D03A93CE2817F5"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-41430697
+								473122731
+								-2087426924
+								-567676753
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:latex"
+									Amount: 14000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+						BlockEntityTag: {
+							currentRedstone: 15
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:latex"
+									Amount: 14000
+								}
+							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							Security: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								name: "Security"
+								securityMode: 0
+								override: 0b
+								publicFreq: 1b
+							}
+							componentSecurity: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								securityMode: 0
+							}
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "7x Buckets of Pink Slime"
+			icon: "industrialforegoing:pink_slime_bucket"
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["07FDB2ADF7A64D06"]
+			id: "043A7621DD1BCCC4"
+			tasks: [{
+				id: "0F9234D6BCCED11B"
+				type: "item"
+				item: "decimal_coins:coin_20"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4081DE86C58D5CB5"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-41430697
+								473122731
+								-2087426924
+								-567676753
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:pink_slime"
+									Amount: 7000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+						BlockEntityTag: {
+							currentRedstone: 8
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:pink_slime"
+									Amount: 7000
+								}
+							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							Security: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								name: "Security"
+								securityMode: 0
+								override: 0b
+								publicFreq: 1b
+							}
+							componentSecurity: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								securityMode: 0
+							}
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "1x Bucket of Ether Gas"
+			icon: "industrialforegoing:ether_gas_bucket"
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["5FA459D4205EC62B"]
+			id: "0C0EC4EE38AB7955"
+			tasks: [{
+				id: "40D610DA770E3C3C"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "17CB51DABE3D1A54"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-41430697
+								473122731
+								-2087426924
+								-567676753
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:ether_gas"
+									Amount: 1000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+						BlockEntityTag: {
+							currentRedstone: 2
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:ether_gas"
+									Amount: 1000
+								}
+							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							Security: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								name: "Security"
+								securityMode: 0
+								override: 0b
+								publicFreq: 1b
+							}
+							componentSecurity: {
+								owner: [I;
+									-41430697
+									473122731
+									-2087426924
+									-567676753
+								]
+								securityMode: 0
+							}
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -3.5d
+			y: -4.0d
+			description: [
+				"When you Click on this Checkmark you will reset the entire \"Shop\" Chapter, this is so you can Re-buy specific Items."
+				"But be aware you don't get back your Coins you have already put into Quests, also make sure to claim every Reward in this Chapter!"
+			]
+			dependencies: ["799626B76C7E5509"]
+			id: "04A1846D3FB9DC06"
+			tasks: [{
+				id: "0001C1B1CD98DD49"
+				type: "checkmark"
+				title: "Reset \"Shop\""
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "37FF63A224D52F15"
+				type: "command"
+				team_reward: true
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 0D6AEB2B4E28FBD6"
+				player_command: false
+			}]
+		}
+		{
+			title: "10x Fried Feast"
+			icon: "pamhc2foodextended:friedfeastitem"
+			x: -8.5d
+			y: -2.5d
+			dependencies: ["799626B76C7E5509"]
+			id: "58A3F78947D0D9BF"
+			tasks: [{
+				id: "30CD455D161950E2"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78098DA36A318477"
+				type: "item"
+				team_reward: true
+				item: "pamhc2foodextended:friedfeastitem"
+				count: 10
+			}]
+		}
+	]
+}

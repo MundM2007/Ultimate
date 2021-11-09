@@ -410,7 +410,7 @@ craftingTable.removeByName("immersiveengineering:crafting/heavy_engineering");
 <recipetype:immersiveengineering:metal_press>.addRecipe("emerald_gear_ie", <item:minecraft:emerald> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:thermal:emerald_gear>);
 <recipetype:immersiveengineering:metal_press>.addRecipe("quartz_gear_ie", <item:minecraft:quartz> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:thermal:quartz_gear>);
 
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("enderium_arc", <item:minecraft:ender_pearl> * 4, [<item:silents_mechanisms:platinum_ingot> * 1, <tag:items:forge:ingots/lead> * 3], 60, 10000, [<item:silents_mechanisms:enderium_ingot> * 4], <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("enderium_arc", <item:minecraft:ender_pearl> * 4, [<item:silents_mechanisms:platinum_ingot> * 1, <tag:items:forge:ingots/lead> * 3], 60, 10000, ['emendatusenigmatica:enderium_ingot' * 4], <item:immersiveengineering:slag>);
 
 
 //Create (Removes:5,Addiotions:5)

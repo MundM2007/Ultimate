@@ -1,0 +1,19 @@
+//   #    #     #  #####  ######  
+//  # #   #     # #     # #     # 
+// #   #  #     # #       #     # 
+//#     # #     #  #####  ######  
+//#######  #   #        # #       
+//#     #   # #   #     # #       
+//#     #    #     #####  #       
+//
+//AVSP FLUIDS.
+//BY NEEPNOOP & ANOKKA / 2021
+//
+onEvent('fluid.registry', event => {
+  //This will add a glowstone fluid. For the creation of lumium alloys in the smeltery.
+  event.create('AVSP:molten_glowstone').textureThick(0xffd700).bucketColor(0xffd700).displayName('Molten Glowstone')
+
+//
+//fin
+//
+})

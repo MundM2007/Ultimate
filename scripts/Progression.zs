@@ -2,7 +2,6 @@ import mods.botania.ManaInfusion;
 import crafttweaker.api.tag.MCTag;
 import mods.botania.TerraPlate;
 
-
 //neptunium
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("neptunium_ingot", <item:minecraft:iron_ingot>*32, [<item:aquaculture:bluegill>*64, <item:minecraft:lily_pad>*32,<item:aquaculture:smallmouth_bass>*16,<item:aquaculture:algae>*4], 200, 10000, [<item:aquaculture:neptunium_ingot>], <item:aquaculture:fish_bones>*8);
 
@@ -133,6 +132,9 @@ mods.extendedcrafting.TableCrafting.addShaped("steel_casing_custom", 0, <item:me
 	[<item:enderioalloys:item_alloy_ingot_crystalline_alloy>, <item:create:refined_radiance>, <item:industrialforegoing:latex_bucket>, <item:create:refined_radiance>, <item:enderioalloys:item_alloy_ingot_crystalline_alloy>], 
 	[<item:create:shadow_steel>, <item:refinedstorage:advanced_processor>, <item:immersivepetroleum:napalm_bucket>, <item:refinedstorage:advanced_processor>, <item:create:shadow_steel>]
 ]);
+
+
+
 craftingTable.removeRecipe(<item:mekanism:metallurgic_infuser>);
 craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_infuser>, [
 	[<item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>], 
@@ -309,18 +311,13 @@ craftingTable.removeByName("thermal:parts/enderium_gear");
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:tinkers_bronze_ingot>);
 <recipetype:thermal:bottler>.addRecipe("tinkers_bronze", <item:tconstruct:tinkers_bronze_ingot> * 3, <item:minecraft:glass> , <fluid:tconstruct:molten_copper> * 432, 4000);
 
-<recipetype:thermal:press>.addRecipe("lapis_lazuli_gear", [<item:thermal:lapis_gear> % 100], <fluid:minecraft:empty>, [<item:minecraft:lapis_lazuli> * 4, <item:thermal:press_gear_die>], 2400);
-<recipetype:thermal:press>.addRecipe("diamond_gear", [<item:thermal:diamond_gear> % 100], <fluid:minecraft:empty>, [<item:minecraft:diamond> * 4, <item:thermal:press_gear_die>], 2400);
-<recipetype:thermal:press>.addRecipe("emerald_gear", [<item:thermal:emerald_gear> % 100], <fluid:minecraft:empty>, [<item:minecraft:emerald> * 4, <item:thermal:press_gear_die>], 2400);
-<recipetype:thermal:press>.addRecipe("quartz_gear", [<item:thermal:quartz_gear> % 100], <fluid:minecraft:empty>, [<item:minecraft:quartz> * 4, <item:thermal:press_gear_die>], 2400);
-
 craftingTable.removeByName("thermal:machine_frame");
 <recipetype:create:mechanical_crafting>.addRecipe("machine_frame_custom", <item:thermal:machine_frame>, [
-	[<item:silents_mechanisms:compressed_iron_ingot>, <item:thermal:signalum_gear>, <tag:items:forge:plastic>, <item:thermal:lumium_gear>, <item:silents_mechanisms:compressed_iron_ingot>], 
-	[<item:thermal:signalum_gear>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <item:thermal:lumium_gear>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/signalum>, <tag:items:forge:plastic>, <tag:items:forge:gears/lumium>, <item:silents_mechanisms:compressed_iron_ingot>], 
+	[<tag:items:forge:gears/signalum>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <tag:items:forge:gears/lumium>], 
 	[<tag:items:forge:plastic>, <item:botania:manasteel_ingot>, <item:botania:rune_mana>, <item:botania:manasteel_ingot>, <tag:items:forge:plastic>], 
-	[<tag:items:forge:gears/diamond>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <item:thermal:enderium_gear>], 
-	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/diamond>, <tag:items:forge:plastic>, <item:thermal:enderium_gear>, <item:silents_mechanisms:compressed_iron_ingot>]
+	[<tag:items:forge:gears/diamond>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <item:emendatusenigmatica:enderium_gear>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/diamond>, <tag:items:forge:plastic>, <item:emendatusenigmatica:enderium_gear>, <item:silents_mechanisms:compressed_iron_ingot>]
 ]);
 
 
@@ -328,11 +325,11 @@ craftingTable.removeByName("thermal:machine_frame");
 
 craftingTable.removeByName("industrialforegoing:machine_frame_pity");
 <recipetype:create:mechanical_crafting>.addRecipe("machine_frame_pity_custom", <item:industrialforegoing:machine_frame_pity>, [
-	[<item:silents_mechanisms:compressed_iron_ingot>, <item:thermal:constantan_gear>, <tag:items:forge:plastic>, <item:thermal:bronze_gear>, <item:silents_mechanisms:compressed_iron_ingot>], 
-	[<item:thermal:constantan_gear>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <item:thermal:bronze_gear>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/constantan>, <tag:items:forge:plastic>, <tag:items:forge:gears/bronze>, <item:silents_mechanisms:compressed_iron_ingot>], 
+	[<tag:items:forge:gears/constantan>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/bronze>], 
 	[<tag:items:forge:plastic>, <item:bloodmagic:blankslate>, <item:bloodmagic:demonslate>, <item:bloodmagic:blankslate>, <tag:items:forge:plastic>], 
-	[<item:thermal:invar_gear>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <item:thermal:electrum_gear>], 
-	[<item:silents_mechanisms:compressed_iron_ingot>, <item:thermal:invar_gear>, <tag:items:forge:plastic>, <item:thermal:electrum_gear>, <item:silents_mechanisms:compressed_iron_ingot>]
+	[<tag:items:forge:gears/invar>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/electrum>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/invar>, <tag:items:forge:plastic>, <tag:items:forge:gears/electrum>, <item:silents_mechanisms:compressed_iron_ingot>]
 ]);
 
 
@@ -343,6 +340,7 @@ craftingTable.addShaped("alloybrick_costum", <item:immersiveengineering:alloybri
 	[<tag:items:forge:sandstone>, <tag:items:forge:ingots/brass>, <tag:items:forge:sandstone>], 
 	[<tag:items:forge:sandstone>, <tag:items:forge:sandstone>, <tag:items:forge:sandstone>]
 ]);
+
 craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_copper_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");
@@ -354,15 +352,6 @@ craftingTable.removeByName("immersiveengineering:crafting/plate_constantan_hamme
 craftingTable.removeByName("immersiveengineering:crafting/plate_electrum_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_steel_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.zinc");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.lumium");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.enderium");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.signalum");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.invar");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.bronze");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.brass");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.tin");
-
 craftingTable.removeByName("immersiveengineering:crafting/electrum_mix");
 craftingTable.removeByName("immersiveengineering:crafting/constantan_mix");
 
@@ -405,11 +394,6 @@ craftingTable.removeByName("immersiveengineering:crafting/heavy_engineering");
 ]);
 <recipetype:immersiveengineering:alloy>.removeRecipe(<item:tconstruct:manyullyn_ingot>);
 
-<recipetype:immersiveengineering:metal_press>.addRecipe("diamond_gear_ie", <item:minecraft:diamond> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:titanium:diamond_gear>);
-<recipetype:immersiveengineering:metal_press>.addRecipe("lapis_lazuli_gear_ie", <item:minecraft:lapis_lazuli> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:thermal:lapis_gear>);
-<recipetype:immersiveengineering:metal_press>.addRecipe("emerald_gear_ie", <item:minecraft:emerald> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:thermal:emerald_gear>);
-<recipetype:immersiveengineering:metal_press>.addRecipe("quartz_gear_ie", <item:minecraft:quartz> * 4, <item:immersiveengineering:mold_gear>, 1000, <item:thermal:quartz_gear>);
-
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("enderium_arc", <item:minecraft:ender_pearl> * 4, [<item:silents_mechanisms:platinum_ingot> * 1, <tag:items:forge:ingots/lead> * 3], 60, 10000, [<item:emendatusenigmatica:enderium_ingot> * 4], <item:immersiveengineering:slag>);
 
 
@@ -426,7 +410,7 @@ craftingTable.addShaped("crafting/materials/andesite_casing_custom", <item:creat
 ]);
 craftingTable.addShaped("crafting/materials/brass_casing_custom", <item:create:brass_casing> * 2, [
 	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
-	[<item:create:brass_sheet>, <item:create:andesite_casing>, <item:create:brass_sheet>], 
+	[<tag:items:forge:plates/brass>, <item:create:andesite_casing>, <tag:items:forge:plates/brass>], 
 	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
 ]);
 craftingTable.addShaped("crafting/materials/copper_casing_custom", <item:create:copper_casing> * 2, [

@@ -127,7 +127,7 @@ craftingTable.removeByName("rftoolsbase:dimensionalshard");
 craftingTable.removeRecipe(<item:mekanism:steel_casing>);
 mods.extendedcrafting.TableCrafting.addShaped("steel_casing_custom", 0, <item:mekanism:steel_casing>, [
 	[<item:immersivepetroleum:petcoke>, <item:tconstruct:slimesteel_ingot>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:tconstruct:queens_slime_ingot>, <item:immersivepetroleum:petcoke>], 
-	[<item:mekanism:block_osmium>, <item:powah:ender_core>, <item:industrialforegoing:pink_slime_ingot>, <item:silents_mechanisms:circuit_board>, <item:mekanism:block_osmium>], 
+	[<tag:items:forge:storage_blocks/osmium>, <item:powah:ender_core>, <item:industrialforegoing:pink_slime_ingot>, <item:silents_mechanisms:circuit_board>, <tag:items:forge:storage_blocks/osmium>], 
 	[<item:enderioalloys:item_alloy_ingot_vivid_alloy>, <item:envirocore:cpu>, <item:powah:capacitor_nitro>, <item:envirocore:cpu>, <item:enderioalloys:item_alloy_ingot_vivid_alloy>], 
 	[<item:enderioalloys:item_alloy_ingot_crystalline_alloy>, <item:create:refined_radiance>, <item:industrialforegoing:latex_bucket>, <item:create:refined_radiance>, <item:enderioalloys:item_alloy_ingot_crystalline_alloy>], 
 	[<item:create:shadow_steel>, <item:refinedstorage:advanced_processor>, <item:immersivepetroleum:napalm_bucket>, <item:refinedstorage:advanced_processor>, <item:create:shadow_steel>]

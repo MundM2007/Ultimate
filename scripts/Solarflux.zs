@@ -67,8 +67,8 @@ mods.extendedcrafting.TableCrafting.addShaped("sp_7", 0, <item:solarflux:sp_7> *
 	[<item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>], 
 	[<item:solarflux:sp_6>, <item:mekanismgenerators:solar_generator>, <item:mekanismgenerators:solar_generator>, <item:mekanismgenerators:solar_generator>, <item:mekanismgenerators:solar_generator>, <item:mekanismgenerators:solar_generator>, <item:solarflux:sp_6>], 
 	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <item:mekanism:elite_control_circuit>, <item:powah:solar_panel_spirited>, <item:mekanism:elite_control_circuit>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>], 
-	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <item:silents_mechanisms:steel_ingot>, <item:industrialforegoing:pink_slime_ingot>, <item:silents_mechanisms:steel_ingot>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>], 
-	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <item:silents_mechanisms:steel_ingot>, <item:industrialforegoing:pink_slime_ingot>, <item:silents_mechanisms:steel_ingot>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>], 
+	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:pink_slime_ingot>, <tag:items:forge:ingots/steel>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>], 
+	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:pink_slime_ingot>, <tag:items:forge:ingots/steel>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>], 
 	[<item:solarflux:sp_6>, <item:mekanism:elite_control_circuit>, <item:mekanism:elite_control_circuit>, <item:bloodmagic:reinforcedslate>, <item:mekanism:elite_control_circuit>, <item:mekanism:elite_control_circuit>, <item:solarflux:sp_6>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped("sp_8", 0, <item:solarflux:sp_8> * 6, [

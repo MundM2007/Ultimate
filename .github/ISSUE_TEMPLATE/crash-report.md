@@ -23,12 +23,12 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Crash Report / log**
-Please upload the Crash report or the latest.log file
-
 **Versions (please complete the following information):**
 - Modpack version:
 - OS:
 
 **Additional context**
 Add any other context about the problem here. [e.g. Own mods added?]
+
+**Crash Report / log**
+Please upload the Crash report or the latest.log file

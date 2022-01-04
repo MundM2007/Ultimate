@@ -2,7 +2,7 @@
 name: Crash report
 about: Report for a Modpack crash
 title: "[CRASH] ..."
-labels: ''
+labels: crash
 assignees: ''
 
 ---

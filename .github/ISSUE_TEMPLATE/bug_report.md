@@ -25,6 +25,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Versions (please complete the following information):**
 - Modpack version:
+- OS:
 - Server?:
 
 **Additional context**

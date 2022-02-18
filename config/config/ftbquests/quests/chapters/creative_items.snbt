@@ -1,0 +1,284 @@
+{
+	id: "0A614FEBCED30D24"
+	group: ""
+	order_index: 4
+	filename: "creative_items"
+	title: "Creative Items (Quests:15)"
+	icon: {
+		id: "mekanism:creative_energy_cube"
+		Count: 1b
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["438686D69BC5FBA1"]
+			id: "3F70E5A0E9A5EECF"
+			tasks: [{
+				id: "2458F591E0216A96"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["46E5BF2F8DF474DE"]
+			id: "430826B97EA029FE"
+			tasks: [{
+				id: "4A117F7A7A1E32F8"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "61B4595927D277E5"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["46E5BF2F8DF474DE"]
+			id: "4C028EEC48D172C3"
+			tasks: [{
+				id: "6FBCC299CEEAB7CA"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "177B047B5B8060F2"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "0906252D9884134E"
+			tasks: [{
+				id: "2B59544EBBB7053F"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "733F087B4A1DBC86"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "4C5D26B9BE23B0AA"
+			tasks: [{
+				id: "66375C8E486B011C"
+				type: "item"
+				item: "creativecrafter:creative_crafter"
+			}]
+			rewards: [{
+				id: "53219E6FE05F9DF2"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["46E5BF2F8DF474DE"]
+			id: "1DE35995C5D93761"
+			tasks: [{
+				id: "2B4C11C906E0B625"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "6664A28CF83EC551"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "46E5BF2F8DF474DE"
+			tasks: [{
+				id: "3C9CB4602CF30E09"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "759E901DB6BF7C37"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["46E5BF2F8DF474DE"]
+			id: "054DB59820C780DA"
+			tasks: [{
+				id: "652E62CD3B9C575F"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [{
+				id: "398A43761862057E"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "5EA7B6F62AC7475B"
+			tasks: [{
+				id: "4612BFB62ACF83CD"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "7545686436589584"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "47D9EC6EC120C964"
+			tasks: [{
+				id: "1F009168969D609E"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "06E17426388BEEC4"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "489123FCCC7F206E"
+			tasks: [{
+				id: "43EC78583C35BD27"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [{
+				id: "4724E1901FA06AE3"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "4FA657C7A94F1ED5"
+			tasks: [{
+				id: "158FA0D498E7FD82"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "67969028FBE419EB"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["3F70E5A0E9A5EECF"]
+			id: "795C4B1196585E29"
+			tasks: [{
+				id: "4009BC9CB6C3C18F"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "57F74B84C3315398"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["795C4B1196585E29"]
+			id: "1E72651DDFAA669C"
+			tasks: [{
+				id: "155A776749B2F7ED"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "5D7C9E60A3B8BB1A"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"489123FCCC7F206E"
+				"0906252D9884134E"
+				"430826B97EA029FE"
+				"4C5D26B9BE23B0AA"
+				"4C028EEC48D172C3"
+				"47D9EC6EC120C964"
+				"4FA657C7A94F1ED5"
+				"46E5BF2F8DF474DE"
+				"1E72651DDFAA669C"
+				"795C4B1196585E29"
+				"1DE35995C5D93761"
+				"054DB59820C780DA"
+				"5EA7B6F62AC7475B"
+			]
+			id: "240D4644C2A406A5"
+			tasks: [{
+				id: "035D684C5D0D1E52"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+			rewards: [{
+				id: "035392FEEDCB19F7"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+	]
+}

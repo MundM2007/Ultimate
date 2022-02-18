@@ -2,12 +2,7 @@
 
 [![Curseforge](http://cf.way2muchnoise.eu/full_ultimate-progression_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/ultimate-progression)
 
-
-This is my 1.16.5 Progression Modpack it has more than 2000 Quests, over 300 mods and lots of custom recipes. Ultimate Progression is about Automation and Overpoweredness, aswell about Hard Recipes. Can you reach the end of the Pack by making two creative crates?
-
-This Modpack is one of the hardest Progression Modpacks out there.
-
-Info: I do not recommended playing this as your first Progression Modpack
+Ultimate Porgression is a 1.16.5 Modpack that focuses on progression and automation. Ultimate Progression is mixed with Tech and Magic. Many of the recipes have been changed to make it very challenging. Also, the modpack cotains over 300 mods and 2000 quests. Can you reach the end of the modpack and obatin the creative crate?
 
 Requirements: at least 8 GB of  Alocated Ram, a decent CPU
 

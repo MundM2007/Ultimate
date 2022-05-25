@@ -1,0 +1,273 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = identifier_af5a4a3186d74c12
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 991
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=400322%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_mult_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_multi.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=400382%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_option_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=502382%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_exit_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_exit.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -99
+}
+
+customization {
+  identifier = %id=400298%
+  width = 200
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_single_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_single.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400346%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_mods_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_mods.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_bisect_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 64
+  width = 53
+  actionid = 8dddf763-4402-4bae-bae7-d96dfd9286281637277977597
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_bisect.png
+  value = https://www.bisecthosting.com/
+  height = 67
+}
+
+customization {
+  path = config/fancymenu/assets/bh_up_logo.png
+  orientation = mid-centered
+  x = -266
+  width = 168
+  action = addtexture
+  actionid = 239d782b-8d1d-447d-97f4-33ca11f38dbc1637278521121
+  y = -142
+  height = 221
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_github_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 208
+  width = 55
+  actionid = d72f649a-1010-477b-b407-d7768e19a1001637804025578
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_github.png
+  value = https://github.com/MundM2007/Ultimate-Progression/
+  height = 67
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_discord_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 135
+  width = 57
+  actionid = 63128f54-fc7a-4480-8418-948c494399cf1637804186457
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_discord.png
+  value = https://discord.gg/g8vzcVSdMe
+  height = 67
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+

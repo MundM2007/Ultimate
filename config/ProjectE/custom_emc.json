@@ -1,0 +1,1928 @@
+{
+  "entries": [
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:aluminum\"}",
+      "emc": 262144
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:bronze\"}",
+      "emc": 327680
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:coal\"}",
+      "emc": 262144
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:copper\"}",
+      "emc": 262144
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:diamond\"}",
+      "emc": 16777216
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:emerald\"}",
+      "emc": 33554432
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:glowstone\"}",
+      "emc": 786432
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:iron\"}",
+      "emc": 524288
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lapis_lazuli\"}",
+      "emc": 1769472
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lead\"}",
+      "emc": 1048576
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:nickel\"}",
+      "emc": 2097152
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:platinum\"}",
+      "emc": 8388608
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:quartz\"}",
+      "emc": 524288
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:redstone\"}",
+      "emc": 131072
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:silver\"}",
+      "emc": 1048576
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:tin\"}",
+      "emc": 524288
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:uranium\"}",
+      "emc": 8388608
+    },
+    {
+      "item": "emendatusenigmatica:electrum_ingot",
+      "emc": 1280
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:electrum\"}",
+      "emc": 2621440
+    },
+    {
+      "item": "emendatusenigmatica:invar_ingot",
+      "emc": 512
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:invar\"}",
+      "emc": 1048576
+    },
+    {
+      "item": "emendatusenigmatica:steel_ingot",
+      "emc": 384
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:steel\"}",
+      "emc": 786432
+    },
+    {
+      "item": "botania:mana_string",
+      "emc": 12
+    },
+    {
+      "item": "botania:mana_diamond",
+      "emc": 8192
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot",
+      "emc": 4608
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_pulsating_iron",
+      "emc": 1280
+    },
+    {
+      "item": "enderioalloys:item_material_pulsating_crystal",
+      "emc": 9330
+    },
+    {
+      "item": "enderioalloys:item_material_pulsating_powder",
+      "emc": 9330
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_crystalline_alloy",
+      "emc": 11378
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_crystalline_pink_slime",
+      "emc": 15986
+    },
+    {
+      "item": "naturesaura:infused_iron",
+      "emc": 256
+    },
+    {
+      "item": "naturesaura:tainted_gold",
+      "emc": 2048
+    },
+    {
+      "item": "naturesaura:sky_ingot",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:inferium_essence",
+      "emc": 8
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence",
+      "emc": 32
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence",
+      "emc": 2048
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence",
+      "emc": 8192
+    },
+    {
+      "item": "mysticalagradditions:creative_essence",
+      "emc": 3162112
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_dark_steel",
+      "emc": 448
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_end_steel",
+      "emc": 513
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_melodic_alloy",
+      "emc": 705
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_stellar_alloy",
+      "emc": 140033
+    },
+    {
+      "item": "emendatusenigmatica:bitumen_gem",
+      "emc": 1024
+    },
+    {
+      "item": "immersivepetroleum:petcoke",
+      "emc": 2048
+    },
+    {
+      "item": "industrialforegoing:plastic",
+      "emc": 512
+    },
+    {
+      "item": "silents_mechanisms:plastic_sheet",
+      "emc": 512
+    },
+    {
+      "item": "envirocore:erodium_crystal",
+      "emc": 5376
+    },
+    {
+      "item": "envirocore:kyronite_crystal",
+      "emc": 10752
+    },
+    {
+      "item": "envirocore:ionite_crystal",
+      "emc": 43008
+    },
+    {
+      "item": "envirocore:aethium_crystal",
+      "emc": 86016
+    },
+    {
+      "item": "envirocore:nanorite_crystal",
+      "emc": 172032
+    },
+    {
+      "item": "envirocore:xerothium_crystal",
+      "emc": 344064
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 256
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 1024
+    },
+    {
+      "item": "botania:mana_powder",
+      "emc": 1
+    },
+    {
+      "item": "powah:crystal_spirited",
+      "emc": 16384
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 9472
+    },
+    {
+      "item": "envirocore:pladium_crystal",
+      "emc": 21504
+    },
+    {
+      "item": "botania:rune_water",
+      "emc": 373
+    },
+    {
+      "item": "botania:rune_fire",
+      "emc": 474
+    },
+    {
+      "item": "botania:rune_earth",
+      "emc": 1442
+    },
+    {
+      "item": "botania:rune_air",
+      "emc": 2304
+    },
+    {
+      "item": "botania:rune_spring",
+      "emc": 967
+    },
+    {
+      "item": "botania:rune_summer",
+      "emc": 3796
+    },
+    {
+      "item": "botania:rune_autumn",
+      "emc": 2909
+    },
+    {
+      "item": "botania:rune_winter",
+      "emc": 2008
+    },
+    {
+      "item": "botania:rune_mana",
+      "emc": 2304
+    },
+    {
+      "item": "botania:rune_lust",
+      "emc": 22484
+    },
+    {
+      "item": "botania:rune_gluttony",
+      "emc": 18866
+    },
+    {
+      "item": "botania:rune_greed",
+      "emc": 17724
+    },
+    {
+      "item": "botania:rune_sloth",
+      "emc": 21597
+    },
+    {
+      "item": "botania:rune_wrath",
+      "emc": 19834
+    },
+    {
+      "item": "botania:rune_envy",
+      "emc": 18765
+    },
+    {
+      "item": "botania:rune_pride",
+      "emc": 20654
+    },
+    {
+      "item": "botania:life_essence",
+      "emc": 162371
+    },
+    {
+      "item": "extendedcrafting:ender_star",
+      "emc": 146432
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot",
+      "emc": 151544
+    },
+    {
+      "item": "bloodmagic:blankslate",
+      "emc": 100
+    },
+    {
+      "item": "bloodmagic:reinforcedslate",
+      "emc": 300
+    },
+    {
+      "item": "bloodmagic:infusedslate",
+      "emc": 800
+    },
+    {
+      "item": "bloodmagic:demonslate",
+      "emc": 2300
+    },
+    {
+      "item": "immersiveengineering:treated_wood_horizontal",
+      "emc": 64
+    },
+    {
+      "item": "emendatusenigmatica:nickel_plate",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:copper_plate",
+      "emc": 128
+    },
+    {
+      "item": "immersiveengineering:circuit_board",
+      "emc": 386
+    },
+    {
+      "item": "createaddition:copper_wire",
+      "emc": 64
+    },
+    {
+      "item": "immersiveengineering:wire_copper",
+      "emc": 64
+    },
+    {
+      "item": "immersiveengineering:electron_tube",
+      "emc": 384
+    },
+    {
+      "item": "immersiveengineering:logic_unit",
+      "emc": 2178
+    },
+    {
+      "item": "emendatusenigmatica:dimensional_gem",
+      "emc": 512
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard",
+      "emc": 512
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl",
+      "emc": 5120
+    },
+    {
+      "item": "rftoolsbase:infused_diamond",
+      "emc": 12292
+    },
+    {
+      "item": "powah:steel_energized",
+      "emc": 1152
+    },
+    {
+      "item": "create:shadow_steel",
+      "emc": 1490
+    },
+    {
+      "item": "create:refined_radiance",
+      "emc": 1490
+    },
+    {
+      "item": "create:shadow_steel_casing",
+      "emc": 3156
+    },
+    {
+      "item": "create:refined_radiance_casing",
+      "emc": 3156
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot",
+      "emc": 90480
+    },
+    {
+      "item": "silents_mechanisms:compressed_iron_ingot",
+      "emc": 256
+    },
+    {
+      "item": "silents_mechanisms:invar_ingot",
+      "emc": 512
+    },
+    {
+      "item": "thermal:invar_ingot",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:zinc_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:brass_ingot",
+      "emc": 576
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 576
+    },
+    {
+      "item": "silents_mechanisms:brass_ingot",
+      "emc": 576
+    },
+    {
+      "item": "silents_mechanisms:bismuth_ingot",
+      "emc": 512
+    },
+    {
+      "item": "silents_mechanisms:bismuth_brass_ingot",
+      "emc": 448
+    },
+    {
+      "item": "silents_mechanisms:bismuth_steel_ingot",
+      "emc": 352
+    },
+    {
+      "item": "silents_mechanisms:aluminum_steel_ingot",
+      "emc": 256
+    },
+    {
+      "item": "emendatusenigmatica:signalum_ingot",
+      "emc": 384
+    },
+    {
+      "item": "emendatusenigmatica:lumium_ingot",
+      "emc": 704
+    },
+    {
+      "item": "silentgear:crimson_iron_ingot",
+      "emc": 512
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot",
+      "emc": 3872
+    },
+    {
+      "item": "silentgear:blaze_gold_ingot",
+      "emc": 4352
+    },
+    {
+      "item": "silentgear:azure_silver_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "silentgear:azure_electrum_ingot",
+      "emc": 6144
+    },
+    {
+      "item": "silentgear:crushed_shulker_shell",
+      "emc": 2048
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "emc": 512
+    },
+    {
+      "item": "silentgear:tyrian_steel_ingot",
+      "emc": 24352
+    },
+    {
+      "item": "emendatusenigmatica:cobalt_ingot",
+      "emc": 512
+    },
+    {
+      "item": "tconstruct:slimesteel_ingot",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:tinkers_bronze_ingot",
+      "emc": 128
+    },
+    {
+      "item": "tconstruct:rose_gold_ingot",
+      "emc": 608
+    },
+    {
+      "item": "tconstruct:pig_iron_ingot",
+      "emc": 272
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot",
+      "emc": 1680
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot",
+      "emc": 3456
+    },
+    {
+      "item": "tconstruct:hepatizon_ingot",
+      "emc": 416
+    },
+    {
+      "item": "emendatusenigmatica:constantan_ingot",
+      "emc": 576
+    },
+    {
+      "item": "thermal:constantan_ingot",
+      "emc": 576
+    },
+    {
+      "item": "mysticalworld:quicksilver_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "projectred-core:electrotine_dust",
+      "emc": 256
+    },
+    {
+      "item": "projectred-core:electrotine_iron_comp",
+      "emc": 2304
+    },
+    {
+      "item": "projectred-core:electrotine_ingot",
+      "emc": 2304
+    },
+    {
+      "item": "emendatusenigmatica:coke_dust",
+      "emc": 128
+    },
+    {
+      "item": "emendatusenigmatica:coke_gem",
+      "emc": 128
+    },
+    {
+      "item": "immersiveengineering:ingot_hop_graphite",
+      "emc": 1024
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_conductive_iron",
+      "emc": 320
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_redstone_alloy",
+      "emc": 192
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_electrical_steel",
+      "emc": 512
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_energetic_alloy",
+      "emc": 2496
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_vibrant_alloy",
+      "emc": 3520
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_soularium",
+      "emc": 2097
+    },
+    {
+      "item": "enderioalloys:item_material_glazed_nether_brick",
+      "emc": 193
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_crude_steel",
+      "emc": 21
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_energetic_silver",
+      "emc": 3008
+    },
+    {
+      "item": "enderioalloys:item_alloy_ingot_vivid_alloy",
+      "emc": 4032
+    },
+    {
+      "item": "draconicevolution:draconium_ingot",
+      "emc": 512
+    },
+    {
+      "item": "draconicevolution:dragon_heart",
+      "emc": 3500000
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot",
+      "emc": 100000
+    },
+    {
+      "item": "draconicevolution:awakened_core",
+      "emc": 1300000
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "draconicevolution:medium_chaos_frag",
+      "emc": 2292640
+    },
+    {
+      "item": "draconicevolution:chaotic_core",
+      "emc": 108768800
+    },
+    {
+      "item": "extendedcrafting:the_ultimate_ingot",
+      "emc": 582309
+    },
+    {
+      "item": "emendatusenigmatica:gold_plate",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:gold_plate",
+      "emc": 2048
+    },
+    {
+      "item": "immersiveengineering:plate_gold",
+      "emc": 2048
+    },
+    {
+      "item": "create:golden_sheet",
+      "emc": 2048
+    },
+    {
+      "item": "create:precision_mechanism",
+      "emc": 3328
+    },
+    {
+      "item": "create:brass_casing",
+      "emc": 1328
+    },
+    {
+      "item": "botania:dragonstone",
+      "emc": 8192
+    },
+    {
+      "item": "botania:pixie_dust",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartz_elven",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    },
+    {
+      "item": "powah:crystal_blazing",
+      "emc": 1536
+    },
+    {
+      "item": "powah:crystal_niotic",
+      "emc": 8192
+    },
+    {
+      "item": "powah:crystal_nitro",
+      "emc": 9640
+    },
+    {
+      "item": "powah:ender_core",
+      "emc": 3173
+    },
+    {
+      "item": "minecraft:comparator",
+      "emc": 463
+    },
+    {
+      "item": "envirocore:cpu",
+      "emc": 12732
+    },
+    {
+      "item": "powah:uraninite",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:glass",
+      "emc": 1
+    },
+    {
+      "item": "emendatusenigmatica:diamond_gear",
+      "emc": 32768
+    },
+    {
+      "item": "industrialforegoing:processing_addon_2{TitaniumAugment:{Processing:3.0f}}",
+      "emc": 65704
+    },
+    {
+      "item": "mekanism:steel_casing",
+      "emc": 345719
+    },
+    {
+      "item": "emendatusenigmatica:enderium_ingot",
+      "emc": 2432
+    },
+    {
+      "item": "emendatusenigmatica:gold_gear",
+      "emc": 8192
+    },
+    {
+      "item": "emendatusenigmatica:signalum_gear",
+      "emc": 1536
+    },
+    {
+      "item": "emendatusenigmatica:lumium_gear",
+      "emc": 2816
+    },
+    {
+      "item": "emendatusenigmatica:lead_gear",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:electrum_plate",
+      "emc": 1280
+    },
+    {
+      "item": "emendatusenigmatica:nickel_gear",
+      "emc": 4096
+    },
+    {
+      "item": "emendatusenigmatica:lumium_plate",
+      "emc": 704
+    },
+    {
+      "item": "minecraft:piston",
+      "emc": 348
+    },
+    {
+      "item": "solarflux:photovoltaic_cell_2",
+      "emc": 4965
+    },
+    {
+      "item": "solarflux:photovoltaic_cell_3",
+      "emc": 8421
+    },
+    {
+      "item": "solarflux:photovoltaic_cell_4",
+      "emc": 18917
+    },
+    {
+      "item": "solarflux:photovoltaic_cell_5",
+      "emc": 18917
+    },
+    {
+      "item": "solarflux:photovoltaic_cell_6",
+      "emc": 18917
+    },
+    {
+      "item": "draconicevolution:wyvern_capacitor",
+      "emc": 258688
+    },
+    {
+      "item": "draconicevolution:draconic_capacitor",
+      "emc": 3928608
+    },
+    {
+      "item": "solarflux:sp_de.wyvern",
+      "emc": 7874707
+    },
+    {
+      "item": "solarflux:sp_de.draconic",
+      "emc": 21626998
+    },
+    {
+      "item": "fluxnetworks:flux_dust",
+      "emc": 64
+    },
+    {
+      "item": "extendedcrafting:luminessence",
+      "emc": 6552
+    },
+    {
+      "item": "bloodmagic:blankrune",
+      "emc": 101
+    },
+    {
+      "item": "emendatusenigmatica:invar_gear",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:bronze_gear",
+      "emc": 640
+    },
+    {
+      "item": "emendatusenigmatica:constantan_gear",
+      "emc": 2304
+    },
+    {
+      "item": "emendatusenigmatica:electrum_gear",
+      "emc": 5120
+    },
+    {
+      "item": "industrialforegoing:machine_frame_pity",
+      "emc": 26400
+    },
+    {
+      "item": "industrialforegoing:machine_frame_simple",
+      "emc": 36130
+    },
+    {
+      "item": "industrialforegoing:machine_frame_advanced",
+      "emc": 98594
+    },
+    {
+      "item": "industrialforegoing:machine_frame_supreme",
+      "emc": 249066
+    },
+    {
+      "item": "minecraft:stone_pickaxe{Damage:0}",
+      "emc": 11
+    },
+    {
+      "item": "emendatusenigmatica:iron_plate",
+      "emc": 256
+    },
+    {
+      "item": "create:blaze_burner",
+      "emc": 704
+    },
+    {
+      "item": "immersiveengineering:rs_engineering",
+      "emc": 1056
+    },
+    {
+      "item": "emendatusenigmatica:steel_plate",
+      "emc": 384
+    },
+    {
+      "item": "emendatusenigmatica:diamond_plate",
+      "emc": 8192
+    },
+    {
+      "item": "emendatusenigmatica:emerald_plate",
+      "emc": 16384
+    },
+    {
+      "item": "emendatusenigmatica:lapis_plate",
+      "emc": 864
+    },
+    {
+      "item": "emendatusenigmatica:aluminum_plate",
+      "emc": 128
+    },
+    {
+      "item": "emendatusenigmatica:silver_plate",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:lead_plate",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:uranium_plate",
+      "emc": 4096
+    },
+    {
+      "item": "emendatusenigmatica:osmium_plate",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:tin_plate",
+      "emc": 256
+    },
+    {
+      "item": "emendatusenigmatica:zinc_plate",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:cobalt_plate",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:ruby_plate",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:sapphire_plate",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:peridot_plate",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:bronze_plate",
+      "emc": 160
+    },
+    {
+      "item": "emendatusenigmatica:brass_plate",
+      "emc": 576
+    },
+    {
+      "item": "emendatusenigmatica:constantan_plate",
+      "emc": 576
+    },
+    {
+      "item": "emendatusenigmatica:invar_plate",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:signalum_plate",
+      "emc": 384
+    },
+    {
+      "item": "emendatusenigmatica:enderium_plate",
+      "emc": 2432
+    },
+    {
+      "item": "extendedcrafting:basic_table",
+      "emc": 65621
+    },
+    {
+      "item": "extendedcrafting:advanced_table",
+      "emc": 257727
+    },
+    {
+      "item": "extendedcrafting:elite_table",
+      "emc": 850835
+    },
+    {
+      "item": "extendedcrafting:ultimate_table",
+      "emc": 2315597
+    },
+    {
+      "item": "naturesaura:gold_leaf",
+      "emc": 1
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:overworld\"}",
+      "emc": 9
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:nether\"}",
+      "emc": 9
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:end\"}",
+      "emc": 9
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:other\"}",
+      "emc": 9
+    },
+    {
+      "item": "naturesaura:token_joy",
+      "emc": 205
+    },
+    {
+      "item": "naturesaura:token_fear",
+      "emc": 141
+    },
+    {
+      "item": "naturesaura:token_anger",
+      "emc": 1061
+    },
+    {
+      "item": "naturesaura:token_sorrow",
+      "emc": 2117
+    },
+    {
+      "item": "naturesaura:nature_altar",
+      "emc": 2257
+    },
+    {
+      "item": "silents_mechanisms:stone_machine_frame",
+      "emc": 20928
+    },
+    {
+      "item": "silents_mechanisms:alloy_machine_frame",
+      "emc": 81272
+    },
+    {
+      "item": "emendatusenigmatica:enderium_gear",
+      "emc": 9728
+    },
+    {
+      "item": "immersiveengineering:mold_gear",
+      "emc": 1152
+    },
+    {
+      "item": "thermal:machine_frame",
+      "emc": 102144
+    },
+    {
+      "item": "envirocore:redstone_imbued_obsidian_plate",
+      "emc": 284
+    },
+    {
+      "item": "envirocore:litherite_interconnect",
+      "emc": 2972
+    },
+    {
+      "item": "envirocore:erodium_interconnect",
+      "emc": 11036
+    },
+    {
+      "item": "envirocore:kyronite_interconnect",
+      "emc": 43292
+    },
+    {
+      "item": "envirocore:pladium_interconnect",
+      "emc": 86300
+    },
+    {
+      "item": "envirocore:ionite_interconnect",
+      "emc": 172316
+    },
+    {
+      "item": "envirocore:aethium_interconnect",
+      "emc": 344348
+    },
+    {
+      "item": "envirocore:nanorite_interconnect",
+      "emc": 688412
+    },
+    {
+      "item": "envirocore:xerothium_interconnect",
+      "emc": 1376540
+    },
+    {
+      "item": "cyclic:peat_baked",
+      "emc": 1
+    },
+    {
+      "item": "cyclic:peat_unbaked",
+      "emc": 1
+    },
+    {
+      "item": "cyclic:peat_fuel",
+      "emc": 1
+    },
+    {
+      "item": "emendatusenigmatica:iron_gear",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:tin_gear",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:silver_gear",
+      "emc": 2048
+    },
+    {
+      "item": "emendatusenigmatica:copper_gear",
+      "emc": 512
+    },
+    {
+      "item": "industrialforegoing:mycelial_reactor",
+      "emc": 555186
+    },
+    {
+      "item": "silents_mechanisms:coal_generator",
+      "emc": 1282
+    },
+    {
+      "item": "thermal:dynamo_stirling",
+      "emc": 5082
+    },
+    {
+      "item": "immersiveengineering:wire_steel",
+      "emc": 384
+    },
+    {
+      "item": "immersiveengineering:wire_lead",
+      "emc": 512
+    },
+    {
+      "item": "immersiveengineering:wire_electrum",
+      "emc": 1280
+    },
+    {
+      "item": "immersiveengineering:wire_aluminum",
+      "emc": 128
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 9544489
+    },
+    {
+      "item": "pedestals:upgraderoundrobin",
+      "emc": 1
+    },
+    {
+      "item": "pedestals:upgradesoundmuffler",
+      "emc": 1
+    },
+    {
+      "item": "pedestals:upgradeparticlediffuser",
+      "emc": 1
+    },
+    {
+      "item": "mekanism:basic_bin",
+      "emc": 661
+    },
+    {
+      "item": "mekanism:advanced_bin",
+      "emc": 2250
+    },
+    {
+      "item": "mekanism:elite_bin",
+      "emc": 12527
+    },
+    {
+      "item": "mekanism:ultimate_bin",
+      "emc": 29332
+    },
+    {
+      "item": "dankstorage:dank_7",
+      "emc": 1931130820
+    },
+    {
+      "item": "cyclic:battery{energyttmax:6400000,energytt:0}",
+      "emc": 31240
+    },
+    {
+      "item": "minecraft:dropper",
+      "emc": 71
+    },
+    {
+      "item": "immersiveengineering:hemp_fiber",
+      "emc": 4
+    },
+    {
+      "item": "industrialforegoing:infinity_backpack{CanCharge:1b,Energy:0L,Special:0b,Selected:\"POOR\"}",
+      "emc": 176768
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "emc": 4
+    },
+    {
+      "item": "create:blaze_cake",
+      "emc": 16
+    },
+    {
+      "item": "create:windmill_bearing",
+      "emc": 49
+    },
+    {
+      "item": "create:millstone",
+      "emc": 204
+    },
+    {
+      "item": "tconstruct:smeltery_controller",
+      "emc": 528
+    },
+    {
+      "item": "tconstruct:blank_cast",
+      "emc": 2048
+    },
+    {
+      "item": "tconstruct:foundry_controller",
+      "emc": 1768
+    },
+    {
+      "item": "woot:shard_die",
+      "emc": 64
+    },
+    {
+      "item": "woot:dye_die",
+      "emc": 64
+    },
+    {
+      "item": "woot:plate_die",
+      "emc": 64
+    },
+    {
+      "item": "woot:si_plate",
+      "emc": 102
+    },
+    {
+      "item": "woot:ench_plate_1",
+      "emc": 358
+    },
+    {
+      "item": "woot:ench_plate_2",
+      "emc": 2150
+    },
+    {
+      "item": "woot:ench_plate_3",
+      "emc": 8294
+    },
+    {
+      "item": "woot:prism",
+      "emc": 1
+    },
+    {
+      "item": "woot:controller",
+      "emc": 1127
+    },
+    {
+      "item": "woot:factory_a",
+      "emc": 1
+    },
+    {
+      "item": "industrialforegoing:laser_lens2",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens1",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens0",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens3",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens4",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens5",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens6",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens7",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens15",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens14",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens13",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens12",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens11",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens10",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens9",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:laser_lens8",
+      "emc": 8
+    },
+    {
+      "item": "bloodmagic:weakbloodorb",
+      "emc": 8392
+    },
+    {
+      "item": "bloodmagic:apprenticebloodorb",
+      "emc": 1076
+    },
+    {
+      "item": "bloodmagic:magicianbloodorb",
+      "emc": 20932
+    },
+    {
+      "item": "bloodmagic:masterbloodorb",
+      "emc": 5000
+    },
+    {
+      "item": "woot:t1shard",
+      "emc": 64
+    },
+    {
+      "item": "woot:t2shard",
+      "emc": 64
+    },
+    {
+      "item": "woot:t3shard",
+      "emc": 64
+    },
+    {
+      "item": "bloodmagic:sacrificerune",
+      "emc": 5577
+    },
+    {
+      "item": "woot:factory_d",
+      "emc": 68
+    },
+    {
+      "item": "woot:factory_c",
+      "emc": 18
+    },
+    {
+      "item": "woot:factory_e",
+      "emc": 134
+    },
+    {
+      "item": "industrialforegoing:fluid_extractor",
+      "emc": 5470
+    },
+    {
+      "item": "minecraft:brewing_stand",
+      "emc": 1539
+    },
+    {
+      "item": "industrialforegoing:pink_slime",
+      "emc": 8
+    },
+    {
+      "item": "industrialforegoing:ore_laser_base",
+      "emc": 190329
+    },
+    {
+      "item": "minecraft:observer",
+      "emc": 390
+    },
+    {
+      "item": "industrialforegoing:fertilizer",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 16000
+    },
+    {
+      "item": "industrialforegoing:mycelial_meatallurgic",
+      "emc": 249268
+    },
+    {
+      "item": "industrialforegoing:speed_addon_1{TitaniumAugment:{Speed:2.0f}}",
+      "emc": 16542
+    },
+    {
+      "item": "industrialforegoing:speed_addon_2{TitaniumAugment:{Speed:3.0f}}",
+      "emc": 65694
+    },
+    {
+      "item": "industrialforegoing:processing_addon_1{TitaniumAugment:{Processing:2.0f}}",
+      "emc": 16552
+    },
+    {
+      "item": "industrialforegoing:efficiency_addon_1{TitaniumAugment:{Efficiency:0.9f}}",
+      "emc": 19584
+    },
+    {
+      "item": "industrialforegoing:efficiency_addon_2{TitaniumAugment:{Efficiency:0.8f}}",
+      "emc": 68736
+    },
+    {
+      "item": "industrialforegoing:range_addon0{TitaniumAugment:{Range:0.0f}}",
+      "emc": 132
+    },
+    {
+      "item": "industrialforegoing:range_addon1{TitaniumAugment:{Range:1.0f}}",
+      "emc": 3584
+    },
+    {
+      "item": "industrialforegoing:range_addon2{TitaniumAugment:{Range:2.0f}}",
+      "emc": 320
+    },
+    {
+      "item": "industrialforegoing:range_addon3{TitaniumAugment:{Range:3.0f}}",
+      "emc": 240
+    },
+    {
+      "item": "industrialforegoing:range_addon4{TitaniumAugment:{Range:4.0f}}",
+      "emc": 3200
+    },
+    {
+      "item": "industrialforegoing:range_addon5{TitaniumAugment:{Range:5.0f}}",
+      "emc": 1036
+    },
+    {
+      "item": "industrialforegoing:range_addon6{TitaniumAugment:{Range:6.0f}}",
+      "emc": 1152
+    },
+    {
+      "item": "industrialforegoing:range_addon7{TitaniumAugment:{Range:7.0f}}",
+      "emc": 8320
+    },
+    {
+      "item": "industrialforegoing:range_addon8{TitaniumAugment:{Range:8.0f}}",
+      "emc": 1152
+    },
+    {
+      "item": "industrialforegoing:range_addon9{TitaniumAugment:{Range:9.0f}}",
+      "emc": 32896
+    },
+    {
+      "item": "industrialforegoing:range_addon10{TitaniumAugment:{Range:10.0f}}",
+      "emc": 896
+    },
+    {
+      "item": "industrialforegoing:range_addon11{TitaniumAugment:{Range:11.0f}}",
+      "emc": 65664
+    },
+    {
+      "item": "industrialforegoing:infinity_trident{CanCharge:1b,Riptide:0,Channeling:0b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\",Loyalty:0}",
+      "emc": 270561
+    },
+    {
+      "item": "industrialforegoing:infinity_drill{CanCharge:1b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\"}",
+      "emc": 319629
+    },
+    {
+      "item": "industrialforegoing:infinity_launcher{CanCharge:1b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\",Plunger:0}",
+      "emc": 243888
+    },
+    {
+      "item": "industrialforegoing:infinity_nuke{CanCharge:1b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\"}",
+      "emc": 421776
+    },
+    {
+      "item": "industrialforegoing:infinity_saw{CanCharge:1b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\"}",
+      "emc": 237765
+    },
+    {
+      "item": "industrialforegoing:infinity_hammer{CanCharge:1b,Energy:0L,Fluid:{FluidName:\"biofuel\",Amount:0},Special:0b,Selected:\"POOR\",Beheading:0}",
+      "emc": 278693
+    },
+    {
+      "item": "thermal:blizz_rod",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:blitz_rod",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:basalz_rod",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:phytogro",
+      "emc": 128
+    },
+    {
+      "item": "thermal:machine_sawmill",
+      "emc": 107010
+    },
+    {
+      "item": "botania:livingwood",
+      "emc": 32
+    },
+    {
+      "item": "botania:livingrock",
+      "emc": 1
+    },
+    {
+      "item": "aquaculture:neptunium_ingot",
+      "emc": 15872
+    },
+    {
+      "item": "bloodmagic:soulpickaxe{Damage:0}",
+      "emc": 3756
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "emc": 32
+    },
+    {
+      "item": "cyclic:gem_amber",
+      "emc": 304
+    },
+    {
+      "item": "cyclic:gem_obsidian",
+      "emc": 448
+    },
+    {
+      "item": "betterendforge:terminite_ingot",
+      "emc": 1280
+    },
+    {
+      "item": "betterendforge:aeternium_ingot",
+      "emc": 51428
+    },
+    {
+      "item": "byg:pendorite_scraps",
+      "emc": 98304
+    },
+    {
+      "item": "byg:emeraldite_shards",
+      "emc": 98304
+    },
+    {
+      "item": "betterendforge:aeternium_pickaxe_head",
+      "emc": 51428
+    },
+    {
+      "item": "rftoolsbuilder:shape_card_def",
+      "emc": 1057937
+    },
+    {
+      "item": "powah:charged_snowball",
+      "emc": 1
+    },
+    {
+      "item": "powah:player_aerial_pearl",
+      "emc": 1424
+    },
+    {
+      "item": "mekanism:pellet_polonium",
+      "emc": 44456
+    },
+    {
+      "item": "mekanism:pellet_antimatter",
+      "emc": 4388000
+    },
+    {
+      "item": "mekanism:combiner",
+      "emc": 366265
+    },
+    {
+      "item": "envirocore:lonsdaleite_crystal",
+      "emc": 256
+    },
+    {
+      "item": "envirocore:amplification_modifier",
+      "emc": 152081
+    },
+    {
+      "item": "envirocore:bandwidth_modifier",
+      "emc": 189521
+    },
+    {
+      "item": "envirocore:frequency_modifier",
+      "emc": 5777
+    },
+    {
+      "item": "envirocore:radiant_modifier",
+      "emc": 8209
+    },
+    {
+      "item": "envirocore:piezo_modifier",
+      "emc": 6673
+    },
+    {
+      "item": "envirocore:electrostatic_modifier",
+      "emc": 174065
+    },
+    {
+      "item": "envirocore:dimensional_modifier",
+      "emc": 1320913
+    },
+    {
+      "item": "envirocore:interdimensional_modifier",
+      "emc": 12238049
+    },
+    {
+      "item": "betterendforge:terminite_pickaxe_head",
+      "emc": 3840
+    },
+    {
+      "item": "betterendforge:terminite_pickaxe{Damage:0}",
+      "emc": 3844
+    },
+    {
+      "item": "cyclic:miner",
+      "emc": 110088
+    },
+    {
+      "item": "naturesaura:infused_stone",
+      "emc": 1
+    },
+    {
+      "item": "naturesaura:crushing_catalyst",
+      "emc": 1675
+    },
+    {
+      "item": "naturesaura:conversion_catalyst",
+      "emc": 3594
+    },
+    {
+      "item": "naturesaura:token_euphoria",
+      "emc": 205
+    },
+    {
+      "item": "naturesaura:token_terror",
+      "emc": 141
+    },
+    {
+      "item": "naturesaura:token_rage",
+      "emc": 1061
+    },
+    {
+      "item": "naturesaura:token_grief",
+      "emc": 2117
+    },
+    {
+      "item": "botania:apothecary_default",
+      "emc": 13
+    },
+    {
+      "item": "botania:ender_air_bottle",
+      "emc": 1
+    },
+    {
+      "item": "botania:mana_glass",
+      "emc": 1
+    },
+    {
+      "item": "botania:elf_glass",
+      "emc": 1
+    },
+    {
+      "item": "botania:dreamwood",
+      "emc": 32
+    },
+    {
+      "item": "bloodmagic:strong_tau",
+      "emc": 128
+    },
+    {
+      "item": "bloodmagic:soulsnare",
+      "emc": 62
+    },
+    {
+      "item": "bloodmagic:basemonstersoul{souls:5.0d}",
+      "emc": 32
+    },
+    {
+      "item": "bloodmagic:soulforge",
+      "emc": 2920
+    },
+    {
+      "item": "bloodmagic:soulgempetty{souls:64.0d}",
+      "emc": 2977
+    },
+    {
+      "item": "bloodmagic:soulgempetty",
+      "emc": 2977
+    },
+    {
+      "item": "bloodmagic:soulgemlesser",
+      "emc": 19521
+    },
+    {
+      "item": "bloodmagic:soulgemlesser{souls:256.0d}",
+      "emc": 19521
+    },
+    {
+      "item": "bloodmagic:soulgemcommon",
+      "emc": 46945
+    },
+    {
+      "item": "bloodmagic:soulgemcommon{souls:1024.0d}",
+      "emc": 46945
+    },
+    {
+      "item": "bloodmagic:weakbloodshard",
+      "emc": 128
+    },
+    {
+      "item": "bloodmagic:duskscribetool{Damage:0}",
+      "emc": 1352
+    },
+    {
+      "item": "bloodmagic:airscribetool{Damage:0}",
+      "emc": 4196
+    },
+    {
+      "item": "bloodmagic:firescribetool{Damage:0}",
+      "emc": 876
+    },
+    {
+      "item": "bloodmagic:waterscribetool{Damage:0}",
+      "emc": 7876
+    },
+    {
+      "item": "bloodmagic:earthscribetool{Damage:0}",
+      "emc": 157
+    },
+    {
+      "item": "bloodmagic:simplekey",
+      "emc": 1888
+    },
+    {
+      "item": "bloodmagic:activationcrystalweak",
+      "emc": 9500
+    },
+    {
+      "item": "bloodmagic:sanguinereverter{Damage:0}",
+      "emc": 1571
+    },
+    {
+      "item": "bloodmagic:largebloodstonebrick",
+      "emc": 16
+    },
+    {
+      "item": "bloodmagic:soulsword{Damage:0}",
+      "emc": 3495
+    },
+    {
+      "item": "bloodmagic:defaultcrystal",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:corrosivecrystal",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:vengefulcrystal",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:destructivecrystal",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:steadfastcrystal",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:soulgemgreater{souls:0.0d}",
+      "emc": 49885
+    },
+    {
+      "item": "bloodmagic:soulgemgreater{souls:4096.0d}",
+      "emc": 49885
+    },
+    {
+      "item": "bloodmagic:speedrune",
+      "emc": 335
+    },
+    {
+      "item": "bloodmagic:selfsacrificerune",
+      "emc": 2249
+    },
+    {
+      "item": "bloodmagic:altarcapacityrune",
+      "emc": 3209
+    },
+    {
+      "item": "bloodmagic:bettercapacityrune",
+      "emc": 12273
+    },
+    {
+      "item": "bloodmagic:dislocationrune",
+      "emc": 3209
+    },
+    {
+      "item": "bloodmagic:orbcapacityrune",
+      "emc": 7358
+    },
+    {
+      "item": "bloodmagic:alchemytable",
+      "emc": 4471
+    },
+    {
+      "item": "bloodmagic:arcaneashes{Damage:0}",
+      "emc": 392
+    },
+    {
+      "item": "bloodmagic:divinationsigil",
+      "emc": 356
+    },
+    {
+      "item": "bloodmagic:reagentwater",
+      "emc": 1551
+    },
+    {
+      "item": "bloodmagic:reagentlava",
+      "emc": 2049
+    },
+    {
+      "item": "bloodmagic:reagentvoid",
+      "emc": 984
+    },
+    {
+      "item": "bloodmagic:reagentgrowth",
+      "emc": 111
+    },
+    {
+      "item": "bloodmagic:reagentfastminer",
+      "emc": 2015
+    },
+    {
+      "item": "bloodmagic:reagentmagnetism",
+      "emc": 6412
+    },
+    {
+      "item": "bloodmagic:reagentair",
+      "emc": 4192
+    },
+    {
+      "item": "bloodmagic:reagentbloodlight",
+      "emc": 513
+    },
+    {
+      "item": "bloodmagic:reagentholding",
+      "emc": 151
+    },
+    {
+      "item": "bloodmagic:reagentsight",
+      "emc": 942
+    },
+    {
+      "item": "bloodmagic:reagentbinding",
+      "emc": 867
+    },
+    {
+      "item": "bloodmagic:growthsigil",
+      "emc": 603
+    },
+    {
+      "item": "bloodmagic:miningsigil",
+      "emc": 2507
+    },
+    {
+      "item": "bloodmagic:sigilofmagnetism",
+      "emc": 7404
+    },
+    {
+      "item": "bloodmagic:watersigil",
+      "emc": 1843
+    },
+    {
+      "item": "bloodmagic:voidsigil",
+      "emc": 1476
+    },
+    {
+      "item": "bloodmagic:lavasigil",
+      "emc": 2341
+    },
+    {
+      "item": "bloodmagic:airsigil",
+      "emc": 4684
+    },
+    {
+      "item": "bloodmagic:sigilofholding{currentSigil:5,binding:{name:\"MundM2007\",id:[I;-41430697,473122731,-2087426924,-567676753]}}",
+      "emc": 1143
+    },
+    {
+      "item": "bloodmagic:bloodlightsigil",
+      "emc": 1505
+    },
+    {
+      "item": "bloodmagic:livinghelmet{Damage:0}",
+      "emc": 2346
+    },
+    {
+      "item": "bloodmagic:livingplate{Damage:0,livingStats:{maxPoints:100,upgrades:[]}}",
+      "emc": 3115
+    },
+    {
+      "item": "bloodmagic:livingleggings{Damage:0}",
+      "emc": 2858
+    },
+    {
+      "item": "bloodmagic:livingboots{Damage:0}",
+      "emc": 2088
+    },
+    {
+      "item": "bloodmagic:seersigil",
+      "emc": 1434
+    },
+    {
+      "item": "draconicevolution:chaotic_capacitor",
+      "emc": 152388768
+    },
+    {
+      "item": "solarflux:sp_de.chaotic",
+      "emc": 363180220
+    },
+    {
+      "item": "draconicevolution:draconium_chest",
+      "emc": 468845
+    },
+    {
+      "item": "solarflux:blank_upgrade",
+      "emc": 90
+    },
+    {
+      "item": "ironfurnaces:rainbow_core",
+      "emc": 13950004
+    },
+    {
+      "item": "ironfurnaces:rainbow_plating",
+      "emc": 73676
+    }
+  ]
+}

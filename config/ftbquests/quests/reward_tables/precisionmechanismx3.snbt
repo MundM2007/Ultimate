@@ -1,0 +1,7 @@
+{
+	id: "58E0EB38351D7E07"
+	order_index: 32
+	title: "PrecisionMechanismx3"
+	loot_size: 1
+	rewards: [{ item: "create:precision_mechanism", count: 3 }]
+}

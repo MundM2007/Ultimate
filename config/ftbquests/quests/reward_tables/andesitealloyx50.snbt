@@ -1,0 +1,7 @@
+{
+	id: "761F18922DCE27A3"
+	order_index: 26
+	title: "AndesiteAlloyx50"
+	loot_size: 1
+	rewards: [{ item: "create:andesite_alloy", count: 50 }]
+}

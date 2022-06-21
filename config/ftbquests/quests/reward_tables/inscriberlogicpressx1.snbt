@@ -1,0 +1,7 @@
+{
+	id: "3819F08AEBA59889"
+	order_index: 79
+	title: "InscriberLogicPressx1"
+	loot_size: 1
+	rewards: [{ item: "appliedenergistics2:logic_processor_press" }]
+}

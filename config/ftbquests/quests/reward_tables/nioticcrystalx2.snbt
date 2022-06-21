@@ -1,0 +1,7 @@
+{
+	id: "6828F794FC86A11D"
+	order_index: 60
+	title: "NioticCrystalx2"
+	loot_size: 1
+	rewards: [{ item: "powah:crystal_niotic", count: 2 }]
+}

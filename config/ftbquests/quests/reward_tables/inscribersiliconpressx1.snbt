@@ -1,0 +1,7 @@
+{
+	id: "1129BE71B961D8A6"
+	order_index: 76
+	title: "InscriberSiliconPressx1"
+	loot_size: 1
+	rewards: [{ item: "appliedenergistics2:silicon_press" }]
+}

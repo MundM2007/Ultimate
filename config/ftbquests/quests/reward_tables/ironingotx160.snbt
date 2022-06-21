@@ -1,0 +1,7 @@
+{
+	id: "0048DE6C4535E49E"
+	order_index: 13
+	title: "IronIngotx160"
+	loot_size: 1
+	rewards: [{ item: "minecraft:iron_ingot", count: 160 }]
+}

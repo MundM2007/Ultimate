@@ -1,0 +1,7 @@
+{
+	id: "61C7826FAA8A67BE"
+	order_index: 59
+	title: "StellarAlloyIngotx10"
+	loot_size: 1
+	rewards: [{ item: "enderioalloys:item_alloy_ingot_stellar_alloy", count: 10 }]
+}

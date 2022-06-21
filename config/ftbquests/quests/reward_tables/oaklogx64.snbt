@@ -1,0 +1,7 @@
+{
+	id: "2EDAE77D9421B1D6"
+	order_index: 2
+	title: "OakLogx64"
+	loot_size: 1
+	rewards: [{ item: "minecraft:oak_log", count: 64 }]
+}

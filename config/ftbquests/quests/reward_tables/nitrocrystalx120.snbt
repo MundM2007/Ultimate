@@ -1,0 +1,7 @@
+{
+	id: "0155DCB9961473D5"
+	order_index: 65
+	title: "NitroCrystalx120"
+	loot_size: 1
+	rewards: [{ item: "powah:crystal_nitro", count: 120 }]
+}

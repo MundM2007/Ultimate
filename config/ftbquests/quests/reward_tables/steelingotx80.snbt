@@ -1,0 +1,7 @@
+{
+	id: "397A6A9E5BA4B865"
+	order_index: 35
+	title: "SteelIngotx80"
+	loot_size: 1
+	rewards: [{ item: "emendatusenigmatica:steel_ingot", count: 80 }]
+}

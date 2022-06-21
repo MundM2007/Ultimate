@@ -1,0 +1,7 @@
+{
+	id: "38B9DEA1BCA1EE50"
+	order_index: 53
+	title: "SlimesteelIngotx80"
+	loot_size: 1
+	rewards: [{ item: "tconstruct:slimesteel_ingot", count: 80 }]
+}

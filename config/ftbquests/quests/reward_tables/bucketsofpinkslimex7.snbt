@@ -1,0 +1,71 @@
+{
+	id: "7D4189B04E69C1E0"
+	order_index: 70
+	title: "BucketsOfPinkSlimex7"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "mekanism:basic_fluid_tank"
+			Count: 1b
+			tag: {
+				mekData: {
+					owner: [I;
+						-41430697
+						473122731
+						-2087426924
+						-567676753
+					]
+					FluidTanks: [{
+						Tank: 0b
+						stored: {
+							FluidName: "industrialforegoing:pink_slime"
+							Amount: 7000
+						}
+					}]
+					securityMode: 0
+					Items: [ ]
+				}
+				BlockEntityTag: {
+					currentRedstone: 8
+					FluidTanks: [{
+						Tank: 0b
+						stored: {
+							FluidName: "industrialforegoing:pink_slime"
+							Amount: 7000
+						}
+					}]
+					updateDelay: 0
+					activeState: 0b
+					editMode: 0
+					Items: [ ]
+					id: "mekanism:basic_fluid_tank"
+					Security: {
+						owner: [I;
+							-41430697
+							473122731
+							-2087426924
+							-567676753
+						]
+						name: "Security"
+						securityMode: 0
+						override: 0b
+						publicFreq: 1b
+					}
+					componentSecurity: {
+						owner: [I;
+							-41430697
+							473122731
+							-2087426924
+							-567676753
+						]
+						securityMode: 0
+					}
+					redstone: 0b
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

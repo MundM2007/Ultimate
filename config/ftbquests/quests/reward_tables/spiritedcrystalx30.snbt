@@ -1,0 +1,7 @@
+{
+	id: "39199F29EF4E3BB8"
+	order_index: 63
+	title: "SpiritedCrystalx30"
+	loot_size: 1
+	rewards: [{ item: "powah:crystal_spirited", count: 30 }]
+}

@@ -1,0 +1,7 @@
+{
+	id: "019405A786CE16EF"
+	order_index: 81
+	title: "CrystallineAlloyIngotx20"
+	loot_size: 1
+	rewards: [{ item: "enderioalloys:item_alloy_ingot_crystalline_alloy", count: 20 }]
+}

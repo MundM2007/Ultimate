@@ -1,0 +1,7 @@
+{
+	id: "0CFBF4157F5E9911"
+	order_index: 77
+	title: "InscriberCalculationPressx1"
+	loot_size: 1
+	rewards: [{ item: "appliedenergistics2:calculation_processor_press" }]
+}

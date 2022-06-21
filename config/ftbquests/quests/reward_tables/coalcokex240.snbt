@@ -1,0 +1,7 @@
+{
+	id: "328D1263592B8065"
+	order_index: 9
+	title: "CoalCokex240"
+	loot_size: 1
+	rewards: [{ item: "emendatusenigmatica:coke_gem", count: 240 }]
+}

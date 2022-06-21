@@ -1,0 +1,7 @@
+{
+	id: "64B9ED056E36CF1D"
+	order_index: 18
+	title: "Emeraldx8"
+	loot_size: 1
+	rewards: [{ item: "minecraft:emerald", count: 8 }]
+}

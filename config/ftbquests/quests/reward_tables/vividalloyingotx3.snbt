@@ -1,0 +1,7 @@
+{
+	id: "4B7E87D33C5BE701"
+	order_index: 56
+	title: "VividAlloyIngotx3"
+	loot_size: 1
+	rewards: [{ item: "enderioalloys:item_alloy_ingot_vivid_alloy", count: 3 }]
+}

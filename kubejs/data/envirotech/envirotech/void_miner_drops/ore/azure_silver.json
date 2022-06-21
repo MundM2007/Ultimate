@@ -1,0 +1,18 @@
+{
+    "programs": ["envirotech:ore", "envirotech:metallic_ore"],
+    "item": {
+        "raw:item_tag": "forge:ores/azure_silver", "count":1,
+        "selector": {
+            "type": "first"
+        }
+    },
+    "config": [
+        {
+            "weight": 100
+        },
+        {
+            "focus": "envirotech:purple",
+            "weight": 800
+        }
+    ]
+}

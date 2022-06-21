@@ -1,0 +1,18 @@
+{
+    "programs": ["envirotech:ore", "envirotech:metallic_ore"],
+    "item": {
+        "raw:item_tag": "forge:ores/thallasium", "count":1,
+        "selector": {
+            "type": "first"
+        }
+    },
+    "config": [
+        {
+            "weight": 50
+        },
+        {
+            "focus": "envirotech:light_blue",
+            "weight": 400
+        }
+    ]
+}

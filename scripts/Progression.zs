@@ -4,6 +4,11 @@ import mods.botania.TerraPlate;
 import crafttweaker.api.FurnaceManager;
 import crafttweaker.api.BlastFurnaceManager;
 
+
+//Ae2
+<recipetype:appliedenergistics2:grinder>.addRecipe("ae2.grinder/silentgear/crushed_shulker_shell", <item:silentgear:crushed_shulker_shell>, <item:minecraft:shulker_shell>, 7);
+
+
 //neptunium
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("neptunium_ingot", <item:minecraft:iron_ingot>*64, [<item:minecraft:lily_pad>*32, <item:aquaculture:bluegill>*8, <item:aquaculture:smallmouth_bass>*2, <item:aquaculture:algae>*1], 200, 10000, [<item:aquaculture:neptunium_ingot>], <item:aquaculture:fish_bones>*4);
 
@@ -159,6 +164,7 @@ craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_
 	[<item:minecraft:redstone>, <item:mekanism:steel_casing>, <item:minecraft:redstone>], 
 	[<item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>]
 ]);
+<recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/silentgear/crushed_shulker_shell", <item:minecraft:shulker_shell>, <item:silentgear:crushed_shulker_shell>);
 
 
 //Tinkers Construct (Removes:26,Addiotions:0)
@@ -300,6 +306,10 @@ craftingTable.removeByName("thermal:parts/signalum_gear");
 craftingTable.removeByName("thermal:parts/lumium_gear");
 craftingTable.removeByName("thermal:parts/enderium_gear");
 
+<recipetype:thermal:pulverizer_catalyst>.removeCatalyst(<item:minecraft:flint>);
+<recipetype:thermal:pulverizer_catalyst>.removeCatalyst(<item:emendatusenigmatica:diamond_dust>);
+<recipetype:thermal:pulverizer_catalyst>.removeCatalyst(<item:thermal:basalz_powder>);
+
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:slimesteel_ingot>);
 <recipetype:thermal:bottler>.addRecipe("slimesteel", <item:tconstruct:slimesteel_ingot> * 2, <item:tconstruct:seared_brick>, <fluid:tconstruct:molten_iron> * 144, 5000);
 
@@ -317,9 +327,11 @@ craftingTable.removeByName("thermal:machine_frame");
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:hepatizon_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:queens_slime_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:manyullyn_ingot>);
-<recipetype:thermal:smelter>.addRecipe("hepatizon_ingot", [<item:tconstruct:hepatizon_ingot> % 200], [<tag:items:forge:ingots/copper> * 2, <tag:items:forge:ingots/cobalt>, <tag:items:forge:obsidian>], 20, 4000);
-<recipetype:thermal:smelter>.addRecipe("manyullyn_ingot", [<item:tconstruct:manyullyn_ingot> % 400], [<item:minecraft:netherite_scrap>, <tag:items:forge:ingots/cobalt> * 3], 20, 4000);
-<recipetype:thermal:smelter>.addRecipe("queens_slime_ingot", [<item:tconstruct:queens_slime_ingot> % 100], [<item:minecraft:gold_ingot>, <tag:items:forge:ingots/cobalt>, <item:minecraft:magma_cream>], 20, 4000);
+<recipetype:thermal:smelter>.addRecipe("hepatizon_ingot", [<item:tconstruct:hepatizon_ingot> % 200], [<tag:items:forge:ingots/copper> * 2, <tag:items:forge:ingots/cobalt>, <tag:items:forge:obsidian>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("manyullyn_ingot", [<item:tconstruct:manyullyn_ingot> % 400], [<item:minecraft:netherite_scrap>, <tag:items:forge:ingots/cobalt> * 3], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("queens_slime_ingot", [<item:tconstruct:queens_slime_ingot> % 100], [<item:minecraft:gold_ingot>, <tag:items:forge:ingots/cobalt>, <item:minecraft:magma_cream>], 0, 4000);
+
+<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100] , <item:minecraft:shulker_shell>, 0, 1000);
 
 
 //Industrial Foregoing (Removes:4,Addiotions:1)
@@ -409,6 +421,9 @@ craftingTable.addShaped("immersiveengineering.circuit_board", <item:immersiveeng
 	[<item:immersiveengineering:insulating_glass>]
 ]);
 
+<recipetype:immersiveengineering:crusher>.addRecipe("immersiveengineering.crusher/silentgear/crushed_shulker_shell", <item:minecraft:shulker_shell>, 1000, <item:silentgear:crushed_shulker_shell> * 1);
+
+
 //extreme reactors
 furnace.removeByName("bigreactors:smelting/yellorium_from_ore");
 blastFurnace.removeByName("bigreactors:blasting/yellorium_from_ore");
@@ -470,6 +485,9 @@ craftingTable.addShaped("crafting/materials/refined_radiance_casing_custom", <it
 <recipetype:create:mixing>.removeRecipe(<item:tconstruct:hepatizon_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:tconstruct:queens_slime_ingot>);
 
+<recipetype:create:crushing>.addRecipe("create.crushing/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100], <item:minecraft:shulker_shell>);
+<recipetype:create:milling>.addRecipe("create.milling/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100], <item:minecraft:shulker_shell>);
+
 
 //silent's Mechanisms (Removes:5,Addiotions:2)
 craftingTable.removeByName("silentgear:azure_electrum_ingot");
@@ -492,7 +510,6 @@ mods.extendedcrafting.TableCrafting.addShaped("alloy_machine_frame", <item:silen
 	[<tag:items:forge:storage_blocks/steel>, <item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>, <tag:items:forge:storage_blocks/steel>]
 ]);
 craftingTable.removeByName("morered:red_alloy_ingot_without_jumbo_furnace");
-
 
 
 //EnderIO Alloys  (Removes:1,Addiotions:91)

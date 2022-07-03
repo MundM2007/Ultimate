@@ -108,12 +108,14 @@ const Recipe_Remove = [
 	'createaddition:rolling/copper_ingot',
 	'createaddition:rolling/gold_ingot',
 	'createaddition:rolling/iron_ingot',
-	'createaddition:rolling/brass_ingot',
+	'createaddition:rolling/brass_ingot'
     ];
     Recipe_Remove.forEach((id) => {
-    event.remove({ id: id });
+        event.remove({ id: id });
 	})
 })
+
+
 onEvent('block.loot_tables', event => {
   event.addBlock('minecraft:oak_leaves', table => {
     table.addPool(pool => {

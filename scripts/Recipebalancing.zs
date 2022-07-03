@@ -2,6 +2,15 @@ import crafttweaker.api.SmithingManager;
 import crafttweaker.api.tag.MCTag;
 
 
+//More Vanilla Lib
+craftingTable.addShapeless("morevanillalib.obsidian_dust", <item:emendatusenigmatica:obsidian_dust> * 4, [<tag:items:forge:obsidian>]);
+craftingTable.addShaped("morevanillalib.obsidian", <item:minecraft:obsidian>,[
+	[<item:emendatusenigmatica:obsidian_dust>, <item:emendatusenigmatica:obsidian_dust>], 
+	[<item:emendatusenigmatica:obsidian_dust>, <item:emendatusenigmatica:obsidian_dust>]
+]);
+craftingTable.removeByName("morevanillalib:obsidian");
+craftingTable.removeByName("morevanillalib:obsidian_shard");
+
 
 //Simple Shop
 craftingTable.removeByName("simpleshops:simple_shop");

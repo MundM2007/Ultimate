@@ -1923,6 +1923,10 @@
     {
       "item": "ironfurnaces:rainbow_plating",
       "emc": 73676
+    },
+    {
+      "item": "silents_mechanisms:redstone_alloy_ingot",
+      "emc": 512
     }
   ]
 }

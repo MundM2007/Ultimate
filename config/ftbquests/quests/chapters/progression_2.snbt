@@ -3037,5 +3037,31 @@
 				item: "appliedenergistics2:inscriber"
 			}]
 		}
+		{
+			x: 21.5d
+			y: -9.0d
+			dependencies: ["4E28FED57D330323"]
+			id: "327FF83BCD4C2BBF"
+			tasks: [{
+				id: "5DE3B21DFA129BEE"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: -7.0d
+			dependencies: ["48C34E82227EBA6B"]
+			id: "325530E81D0FD67F"
+			tasks: [{
+				id: "6E56C6E6F0B4B4E2"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
 	]
 }

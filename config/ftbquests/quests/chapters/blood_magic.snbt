@@ -320,7 +320,7 @@
 		}
 		{
 			x: -4.5d
-			y: 2.0d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: ["7427F452DE6E633B"]
 			id: "63B4DCC1797D4820"
@@ -332,7 +332,7 @@
 		}
 		{
 			x: -6.0d
-			y: 0.5d
+			y: 2.5d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "0296B08723213957"
 			tasks: [{
@@ -349,7 +349,7 @@
 		}
 		{
 			x: -6.0d
-			y: 2.5d
+			y: 4.5d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "33A0CC1C56D615DD"
 			tasks: [{
@@ -366,7 +366,7 @@
 		}
 		{
 			x: -6.0d
-			y: 3.5d
+			y: 5.5d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "222BF2E1D88A41AD"
 			tasks: [{
@@ -383,7 +383,7 @@
 		}
 		{
 			x: -3.0d
-			y: 3.0d
+			y: 5.0d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "642FB68DFFA07B3F"
 			tasks: [{
@@ -400,7 +400,7 @@
 		}
 		{
 			x: -3.0d
-			y: 1.0d
+			y: 3.0d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "78FD94520475486A"
 			tasks: [{
@@ -417,7 +417,7 @@
 		}
 		{
 			x: -3.0d
-			y: 0.0d
+			y: 2.0d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "300E83B8D32D6541"
 			tasks: [{
@@ -434,7 +434,7 @@
 		}
 		{
 			x: -3.0d
-			y: 4.0d
+			y: 6.0d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "5CD7D6865E728451"
 			tasks: [{
@@ -451,7 +451,7 @@
 		}
 		{
 			x: -6.0d
-			y: 1.5d
+			y: 3.5d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "56C426EE1F1D5895"
 			tasks: [{
@@ -468,7 +468,7 @@
 		}
 		{
 			x: -3.0d
-			y: 2.0d
+			y: 4.0d
 			dependencies: ["63B4DCC1797D4820"]
 			id: "2819D8B6003B9DDA"
 			tasks: [{
@@ -1168,6 +1168,42 @@
 					item: "bloodmagic:masterritualstone"
 				}
 			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["7427F452DE6E633B"]
+			id: "1E8A575CF2668FB2"
+			tasks: [{
+				id: "5C2E0993CCAEC69B"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "48752E19C7BB9BB8"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["7ECFDD9CB9FD0A3C"]
+			id: "459FBC90859D7874"
+			tasks: [{
+				id: "7DEE0DACC4369BF9"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "69885DB51EA6B3DA"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
 		}
 	]
 }

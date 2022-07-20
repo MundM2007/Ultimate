@@ -1,7 +1,0 @@
-{
-	id: "4E3C2725739B4415"
-	order_index: 41
-	title: "TaintedGoldIngotx50"
-	loot_size: 1
-	rewards: [{ item: "naturesaura:tainted_gold", count: 50 }]
-}

@@ -1,7 +1,0 @@
-{
-	id: "52A089C724CB4BE1"
-	order_index: 58
-	title: "StellarAlloyIngotx1"
-	loot_size: 1
-	rewards: [{ item: "enderioalloys:item_alloy_ingot_stellar_alloy" }]
-}

@@ -1,7 +1,0 @@
-{
-	id: "2D4889A58311D6F7"
-	order_index: 20
-	title: "RedstoneDustx32"
-	loot_size: 1
-	rewards: [{ item: "minecraft:redstone", count: 32 }]
-}

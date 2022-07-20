@@ -1,7 +1,0 @@
-{
-	id: "5A890CACEEA8C5C2"
-	order_index: 10
-	title: "Petcokex4"
-	loot_size: 1
-	rewards: [{ item: "immersivepetroleum:petcoke", count: 4 }]
-}

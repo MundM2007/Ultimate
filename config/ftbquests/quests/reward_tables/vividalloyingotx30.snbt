@@ -1,7 +1,0 @@
-{
-	id: "6CE9F1117982BA63"
-	order_index: 57
-	title: "VividAlloyIngotx30"
-	loot_size: 1
-	rewards: [{ item: "enderioalloys:item_alloy_ingot_vivid_alloy", count: 30 }]
-}

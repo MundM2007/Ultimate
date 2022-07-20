@@ -1,7 +1,0 @@
-{
-	id: "37B88DCEE115E8BB"
-	order_index: 16
-	title: "Diamondx4"
-	loot_size: 1
-	rewards: [{ item: "minecraft:diamond", count: 4 }]
-}

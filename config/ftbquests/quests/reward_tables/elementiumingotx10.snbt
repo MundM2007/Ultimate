@@ -1,7 +1,0 @@
-{
-	id: "011A636DF85B2F28"
-	order_index: 48
-	title: "ElementiumIngotx10"
-	loot_size: 1
-	rewards: [{ item: "botania:elementium_ingot", count: 10 }]
-}

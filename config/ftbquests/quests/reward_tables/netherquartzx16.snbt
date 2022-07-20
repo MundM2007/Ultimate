@@ -1,7 +1,0 @@
-{
-	id: "3F9C17CB1589B247"
-	order_index: 24
-	title: "NetherQuartzx16"
-	loot_size: 1
-	rewards: [{ item: "minecraft:quartz", count: 16 }]
-}

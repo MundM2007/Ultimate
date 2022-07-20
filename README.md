@@ -4,7 +4,7 @@
 
 Ultimate Porgression is a 1.16.5 Modpack that focuses on progression and automation. Ultimate Progression is mixed with Tech and Magic. Many of the recipes have been changed to make it very challenging. Also, the modpack cotains over 300 mods and 2000 quests. Can you reach the end of the modpack and obatin the creative crate?
 
-Requirements: at least 8 GB of  Alocated Ram, a decent CPU
+Requirements: at least 6 GB of Alocated Ram (recommended are 8-10 GB), a decent CPU
 
 ## Join our Discord
 

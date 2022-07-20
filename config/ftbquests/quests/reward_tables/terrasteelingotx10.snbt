@@ -1,0 +1,7 @@
+{
+	id: "7A5A53DAC7EEA20D"
+	order_index: 47
+	title: "TerrasteelIngotx10"
+	loot_size: 1
+	rewards: [{ item: "botania:terrasteel_ingot", count: 10 }]
+}

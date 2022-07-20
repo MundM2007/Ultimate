@@ -1,0 +1,7 @@
+{
+	id: "0ABC8EAD4D920D0F"
+	order_index: 0
+	title: "FriedFeastx10"
+	loot_size: 1
+	rewards: [{ item: "pamhc2foodextended:friedfeastitem", count: 10 }]
+}

@@ -1,0 +1,7 @@
+{
+	id: "21D7A9EC67ABC7C3"
+	order_index: 45
+	title: "DemonicSlatex10"
+	loot_size: 1
+	rewards: [{ item: "bloodmagic:demonslate", count: 10 }]
+}

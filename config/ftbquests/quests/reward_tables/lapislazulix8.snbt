@@ -1,0 +1,7 @@
+{
+	id: "0C66B4F1E6DA4741"
+	order_index: 22
+	title: "LapisLazulix8"
+	loot_size: 1
+	rewards: [{ item: "minecraft:lapis_lazuli", count: 8 }]
+}

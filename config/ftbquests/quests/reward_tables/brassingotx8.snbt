@@ -1,0 +1,7 @@
+{
+	id: "23A7AFAAFFEEEDE0"
+	order_index: 28
+	title: "BrassIngotx8"
+	loot_size: 1
+	rewards: [{ item: "emendatusenigmatica:brass_ingot", count: 8 }]
+}

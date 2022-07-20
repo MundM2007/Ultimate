@@ -1,0 +1,7 @@
+{
+	id: "51C35A93A87FD28C"
+	order_index: 38
+	title: "InfusedIronIngotx5"
+	loot_size: 1
+	rewards: [{ item: "naturesaura:infused_iron", count: 5 }]
+}

@@ -1,0 +1,7 @@
+{
+	id: "1615635B658FB0D6"
+	order_index: 55
+	title: "Queen'sSlimeIngotx30"
+	loot_size: 1
+	rewards: [{ item: "tconstruct:queens_slime_ingot", count: 30 }]
+}

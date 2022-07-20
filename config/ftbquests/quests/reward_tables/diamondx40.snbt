@@ -1,0 +1,7 @@
+{
+	id: "0EFD49B47345E8BD"
+	order_index: 17
+	title: "Diamondx40"
+	loot_size: 1
+	rewards: [{ item: "minecraft:diamond", count: 40 }]
+}

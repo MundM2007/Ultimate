@@ -1,0 +1,7 @@
+{
+	id: "56548A4B39DEDD0C"
+	order_index: 6
+	title: "Coalx50"
+	loot_size: 1
+	rewards: [{ item: "minecraft:coal", count: 50 }]
+}

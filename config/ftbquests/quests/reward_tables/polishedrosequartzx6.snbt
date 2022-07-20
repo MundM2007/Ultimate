@@ -1,0 +1,7 @@
+{
+	id: "67869BB28E3F92D2"
+	order_index: 30
+	title: "PolishedRoseQuartzx6"
+	loot_size: 1
+	rewards: [{ item: "create:polished_rose_quartz", count: 6 }]
+}

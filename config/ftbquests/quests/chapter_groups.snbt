@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "45C817C19D66AB64", title: "Logistic" }
+		{ id: "6C2F3374A4B40AD0", title: "Technology" }
+		{ id: "3A7668D803CF0E6F", title: "Automation" }
+		{ id: "600CF46DF65CCC4F", title: "Magic" }
+	]
+}

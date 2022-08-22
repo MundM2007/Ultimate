@@ -1927,6 +1927,14 @@
     {
       "item": "silents_mechanisms:redstone_alloy_ingot",
       "emc": 512
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 229175556
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 741460172
     }
   ]
 }

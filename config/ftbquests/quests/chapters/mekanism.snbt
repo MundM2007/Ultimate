@@ -3964,6 +3964,16 @@
 					type: "item"
 					item: "mekanism:chemical_dissolution_chamber"
 				}
+				{
+					id: "2928F225E836D8CF"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+				{
+					id: "2926D65CD8B3F3F3"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
 			]
 			rewards: [{
 				id: "235319A1ADC136AB"
@@ -4015,7 +4025,7 @@
 			title: "Fusion Reactor"
 			x: 9.5d
 			y: -8.5d
-			description: ["Visit the Mekanism Wiki by Clicking on the Image over this Quest to see how to build the Fusion Reactor"]
+			description: ["Visit the Mekanism Wiki by Clicking on the Image under this Quest to see how to build the Fusion Reactor"]
 			hide_dependency_lines: true
 			dependencies: ["18944784B8BDCA6C"]
 			id: "291837B73163B454"

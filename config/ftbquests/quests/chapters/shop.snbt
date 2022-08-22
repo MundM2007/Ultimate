@@ -30,7 +30,7 @@
 			}]
 		}
 		{
-			title: "100x Elementium Ingot"
+			title: "160x Elementium Ingot"
 			icon: "botania:elementium_ingot"
 			x: 2.5d
 			y: 1.5d
@@ -131,7 +131,7 @@
 			}]
 		}
 		{
-			title: "80x Brass Ingot"
+			title: "120x Brass Ingot"
 			icon: "emendatusenigmatica:brass_ingot"
 			x: -9.5d
 			y: 1.5d
@@ -567,7 +567,7 @@
 			tasks: [{
 				id: "448E456863E69925"
 				type: "item"
-				item: "decimal_coins:coin_20"
+				item: "decimal_coins:coin_10"
 				consume_items: true
 			}]
 			rewards: [{
@@ -816,7 +816,7 @@
 			}]
 		}
 		{
-			title: "10x Elementium Ingot"
+			title: "16x Elementium Ingot"
 			icon: "botania:elementium_ingot"
 			x: 2.5d
 			y: 0.5d
@@ -919,7 +919,7 @@
 			}]
 		}
 		{
-			title: "8x Brass Ingot"
+			title: "12x Brass Ingot"
 			icon: "emendatusenigmatica:brass_ingot"
 			x: -9.5d
 			y: 0.5d
@@ -1360,7 +1360,6 @@
 				id: "6FB8B29ECE1D52A3"
 				type: "item"
 				item: "decimal_coins:coin_1"
-				count: 2L
 				consume_items: true
 			}]
 			rewards: [{

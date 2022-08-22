@@ -113,18 +113,21 @@ const Recipe_Remove = [
     Recipe_Remove.forEach((id) => {
         event.remove({ id: id });
 	})
+
+//Silent's Mechanism refining using immersive oil
+event.custom({
+  type: "silents_mechanisms:refining",
+  process_time: 600,
+  ingredient: {fluid: "immersivepetroleum:oil"},
+  results: [
+  {fluid: "silents_mechanisms:diesel",amount: 1000},
+  {fluid: "silents_mechanisms:ethane",amount: 1000}
+  ]
 })
 
-
-onEvent('block.loot_tables', event => {
-  event.addBlock('minecraft:oak_leaves', table => {
-    table.addPool(pool => {
-      pool.rolls = 1
-      pool.addItem('minecraft:stick').randomChance(0.02)
-      pool.addItem('minecraft:apple').randomChance(0.005)
-      pool.addItem('mysticalworld:silkworm_egg').randomChance(0.01)
-      pool.addItem('fruittrees:apple_sapling').randomChance(0.03)
-      pool.addItem('minecraft:oak_sapling').randomChance(0.05)
-    })
-  })
+//Thermal bitumen in centrifuge using immersive oil
+event.remove({id: "thermal:machine/centrifuge/centrifuge_oil_sand"})
+event.remove({id: "thermal:machine/centrifuge/centrifuge_oil_red_sand"})
+event.recipes.thermal.centrifuge([Item.of("minecraft:sand").withChance(0.75), Item.of("emendatusenigmatica:bitumen_gem").withChance(0.5), Item.of("thermal:tar"), Fluid.of("immersivepetroleum:oil", 100)], "thermal:oil_sand")
+event.recipes.thermal.centrifuge([Item.of("minecraft:red_sand").withChance(0.75), Item.of("emendatusenigmatica:bitumen_gem").withChance(0.5), Item.of("thermal:tar"), Fluid.of("immersivepetroleum:oil", 100)], "thermal:oil_red_sand")
 })

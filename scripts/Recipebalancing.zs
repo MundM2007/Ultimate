@@ -1,5 +1,19 @@
 import crafttweaker.api.SmithingManager;
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.loot.conditions.vanilla.LootTableId;
+import crafttweaker.api.loot.conditions.LootConditionBuilder;
+import crafttweaker.api.loot.modifiers.CommonLootModifiers;
+
+
+//Silent's Mechanisms
+craftingTable.removeByName("silents_mechanisms:metals/redstone_alloy_nugget");
+craftingTable.removeByName("silents_mechanisms:metals/redstone_alloy_block");
+craftingTable.addShapeless("silents_mechanisms.redstone_alloy_nugget", <item:silents_mechanisms:redstone_alloy_nugget> * 9, [<item:silents_mechanisms:redstone_alloy_ingot>]);
+craftingTable.addShaped("silents_mechanisms.redstone_alloy_block", <item:silents_mechanisms:redstone_alloy_block>, [
+	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>], 
+	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>], 
+	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:redstone_alloy_ingot>]
+]);
 
 
 //More Vanilla Lib
@@ -242,16 +256,58 @@ craftingTable.addShaped("inventorypets.pet_cloud", <item:inventorypets:pet_cloud
 ]);
 craftingTable.removeByName("inventorypets:illuminati_pet");
 mods.extendedcrafting.TableCrafting.addShaped("inventorypets.pet_illuminati", <item:inventorypets:pet_illuminati>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:extendedcrafting:nether_star_block>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:extendedcrafting:nether_star_block>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:ultimate_singularity>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_1>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:emerald_1>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:compressium:emerald_1>, <item:compressium:diamond_1>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:diamond_1>, <item:compressium:emerald_1>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:compressium:emerald_1>, <item:compressium:diamond_1>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:diamond_1>, <item:compressium:emerald_1>, <item:minecraft:air>], 
-	[<item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>, <item:compressium:emerald_1>]
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:extendedcrafting:nether_star_block>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:extendedcrafting:nether_star_block>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:ultimate_singularity>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:emerald_2>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:emerald_2>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:compressium:emerald_2>, <item:compressium:diamond_2>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:diamond_2>, <item:compressium:emerald_2>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:compressium:emerald_2>, <item:compressium:diamond_2>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, <item:compressium:diamond_2>, <item:compressium:emerald_2>, <item:minecraft:air>], 
+	[<item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>, <item:compressium:emerald_2>]
 ]);
+loot.modifiers.register(
+    "no_illuminati_pet_space",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/space_dungeon>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
+loot.modifiers.register(
+    "no_illuminati_pet_sky",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/sky_dungeon>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
+loot.modifiers.register(
+    "no_illuminati_pet_netheer",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/nether_dungeon>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
+loot.modifiers.register(
+    "no_illuminati_pet_underground",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/underground_dungeon>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
+loot.modifiers.register(
+    "no_illuminati_pet_sea_cave",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/sea_cave>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
+loot.modifiers.register(
+    "no_illuminati_pet_tree_top",
+    LootConditionBuilder.createForSingle<LootTableId>((condition) => {
+        condition.withTableId(<resource:inventorypets:chests/tree_top>);
+    }),
+    CommonLootModifiers.remove(<item:inventorypets:pet_illuminati>)
+);
 
 
 //Easy Viilagers

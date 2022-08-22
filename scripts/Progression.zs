@@ -78,7 +78,7 @@ craftingTable.addShaped("collector_mk1", <item:projecte:collector_mk1>, [
 ]);
 craftingTable.addShaped("transmutation_tablet", <item:projecte:transmutation_tablet>, [ 
 	[<item:simplyjetpacks:jetpack_mek4>, <item:projecte:transmutation_table>, <item:simplyjetpacks:jetpack_te4>], 
-	[<item:simplyjetpacks:jetpack_vanilla4>, <item:mekanism:jetpack_armored>, <item:simplyjetpacks:jetpack_ie3>]
+	[<item:simplyjetpacks:jetpack_vanilla4>, <item:mekanism:jetpack>, <item:simplyjetpacks:jetpack_ie3>]
 ]);
 craftingTable.addShaped("alchemical_chest", <item:projecte:alchemical_chest>, [
 	[<item:projecte:low_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:low_covalence_dust>], 
@@ -116,7 +116,13 @@ mods.extendedcrafting.TableCrafting.addShaped("transmutation_table", <item:proje
 	[<item:projecte:red_matter_block>, <item:immersivepetroleum:petcoke_block>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:botania:elementium_block>, <item:projecte:aeternalis_fuel_block>, <item:envirocore:xerothium>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:immersivepetroleum:petcoke_block>, <item:projecte:red_matter_block>], 
 	[<item:powah:nitro_crystal_block>, <item:projecte:red_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:red_matter_block>, <item:powah:nitro_crystal_block>]
 ]);
-
+mods.extendedcrafting.TableCrafting.addShaped("tome_of_knowledge", <item:projecte:tome>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:book>, <item:minecraft:book>, <item:minecraft:book>], 
+	[<item:minecraft:air>, <item:minecraft:book>, <item:minecraft:book>, <item:projectexpansion:magnum_star_omega>, <item:minecraft:book>], 
+	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:book>], 
+	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:air>], 
+	[<item:minecraft:book>, <item:minecraft:book>, <item:minecraft:book>, <item:minecraft:air>, <item:minecraft:air>]
+]);
 
 //Refined Storage (Removes:1,Addiotions:1)
 craftingTable.removeByName("refinedstorage:machine_casing");
@@ -151,13 +157,14 @@ craftingTable.addShapeless("ee_dimensional_shard", <item:emendatusenigmatica:dim
 
 //Mekanism (Removes:8,Addiotions:8)
 craftingTable.removeRecipe(<item:mekanism:steel_casing>);
-mods.extendedcrafting.TableCrafting.addShaped("steel_casing_custom", 0, <item:mekanism:steel_casing>, [
+mods.extendedcrafting.TableCrafting.addShaped("steel_casing", 0, <item:mekanism:steel_casing>, [
 	[<tag:items:forge:storage_blocks/steel>, <item:tconstruct:slimesteel_ingot>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:tconstruct:queens_slime_ingot>, <tag:items:forge:storage_blocks/steel>], 
 	[<tag:items:forge:storage_blocks/osmium>, <item:powah:ender_core>, <item:industrialforegoing:pink_slime_ingot>, <item:silents_mechanisms:circuit_board>, <tag:items:forge:storage_blocks/osmium>], 
 	[<item:enderioalloys:item_alloy_ingot_vivid_alloy>, <item:envirocore:cpu>, <item:powah:capacitor_nitro>, <item:envirocore:cpu>, <item:enderioalloys:item_alloy_ingot_crystalline_alloy>], 
 	[<item:immersivepetroleum:petcoke>, <item:create:refined_radiance>, <item:industrialforegoing:processing_addon_2>.withTag({TitaniumAugment: {Processing: 3.0 as float}}), <item:create:shadow_steel>, <item:immersivepetroleum:petcoke>], 
 	[<tag:items:forge:storage_blocks/steel>, <item:refinedstorage:advanced_processor>, <item:immersiveengineering:logic_unit>, <item:refinedstorage:advanced_processor>, <tag:items:forge:storage_blocks/steel>]
 ]);
+
 craftingTable.removeRecipe(<item:mekanism:metallurgic_infuser>);
 craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_infuser>, [
 	[<item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>], 
@@ -166,6 +173,8 @@ craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_
 ]);
 <recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/silentgear/crushed_shulker_shell", <item:minecraft:shulker_shell>, <item:silentgear:crushed_shulker_shell>);
 <recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/ae2/fluix_dust", <item:appliedenergistics2:fluix_crystal>, <item:appliedenergistics2:fluix_dust>);
+<recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/enderioalloys/item_material_pulsating_powder/fluix_dust", <item:enderioalloys:item_material_pulsating_crystal>, <item:enderioalloys:item_material_pulsating_powder>);
+
 
 //Tinkers Construct (Removes:26,Addiotions:0)
 <recipetype:tconstruct:alloying>.removeRecipe(<fluid:tconstruct:molten_manyullyn>);
@@ -269,6 +278,13 @@ craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_
 	<item:botania:rune_mana>, <item:botania:rune_lust>, <item:botania:rune_gluttony>, <item:botania:rune_greed>, <item:botania:rune_sloth>, <item:botania:rune_wrath>, <item:botania:rune_envy>, <item:botania:rune_autumn>, <item:powah:crystal_spirited>, <item:envirocore:pladium_crystal>
 );
 
+craftingTable.addShaped("fel_pumpkin", <item:botania:fel_pumpkin>, [
+	[<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>], 
+	[<item:minecraft:bone>, <item:minecraft:pumpkin>, <item:minecraft:rotten_flesh>], 
+	[<item:minecraft:gunpowder>, <item:minecraft:blaze_rod>, <item:minecraft:gunpowder>]
+]);
+craftingTable.removeByName("botania:fel_pumpkin");
+
 
 //Thermal (Removes:34,Addiotions:5)
 craftingTable.removeByName("thermal:bronze_dust_4");
@@ -317,13 +333,21 @@ craftingTable.removeByName("thermal:parts/enderium_gear");
 <recipetype:thermal:bottler>.addRecipe("tinkers_bronze", <item:tconstruct:tinkers_bronze_ingot> * 3, <item:minecraft:glass> , <fluid:tconstruct:molten_copper> * 432, 4000);
 
 craftingTable.removeByName("thermal:machine_frame");
-<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_custom", <item:thermal:machine_frame>, [
+<recipetype:create:mechanical_crafting>.addRecipe("machine_frame", <item:thermal:machine_frame>, [
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/signalum>, <tag:items:forge:plastic>, <tag:items:forge:gears/lumium>, <item:silents_mechanisms:compressed_iron_ingot>], 
 	[<tag:items:forge:gears/signalum>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <tag:items:forge:gears/lumium>], 
 	[<tag:items:forge:plastic>, <item:botania:manasteel_ingot>, <item:botania:rune_mana>, <item:botania:manasteel_ingot>, <tag:items:forge:plastic>], 
 	[<tag:items:forge:gears/diamond>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <item:emendatusenigmatica:enderium_gear>], 
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/diamond>, <tag:items:forge:plastic>, <item:emendatusenigmatica:enderium_gear>, <item:silents_mechanisms:compressed_iron_ingot>]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped("machine_frame_table", 0, <item:thermal:machine_frame>, [
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/signalum>, <tag:items:forge:plastic>, <tag:items:forge:gears/lumium>, <item:silents_mechanisms:compressed_iron_ingot>], 
+	[<tag:items:forge:gears/signalum>, <item:botania:elementium_ingot>, <item:tconstruct:queens_slime_ingot>, <item:botania:elementium_ingot>, <tag:items:forge:gears/lumium>], 
+	[<tag:items:forge:plastic>, <item:botania:manasteel_ingot>, <item:botania:rune_mana>, <item:botania:manasteel_ingot>, <tag:items:forge:plastic>], 
+	[<tag:items:forge:gears/diamond>, <item:botania:elementium_ingot>, <item:tconstruct:slimesteel_ingot>, <item:botania:elementium_ingot>, <item:emendatusenigmatica:enderium_gear>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/diamond>, <tag:items:forge:plastic>, <item:emendatusenigmatica:enderium_gear>, <item:silents_mechanisms:compressed_iron_ingot>]
+]);
+
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:hepatizon_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:queens_slime_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:manyullyn_ingot>);
@@ -337,11 +361,18 @@ craftingTable.removeByName("thermal:machine_frame");
 //Industrial Foregoing (Removes:4,Addiotions:1)
 
 craftingTable.removeByName("industrialforegoing:machine_frame_pity");
-<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_pity_custom", <item:industrialforegoing:machine_frame_pity>, [
+<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/constantan>, <tag:items:forge:plastic>, <tag:items:forge:gears/bronze>, <item:silents_mechanisms:compressed_iron_ingot>], 
 	[<tag:items:forge:gears/constantan>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/bronze>], 
 	[<tag:items:forge:plastic>, <item:bloodmagic:blankslate>, <item:bloodmagic:demonslate>, <item:bloodmagic:blankslate>, <tag:items:forge:plastic>], 
 	[<tag:items:forge:gears/invar>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/electrum>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/invar>, <tag:items:forge:plastic>, <tag:items:forge:gears/electrum>, <item:silents_mechanisms:compressed_iron_ingot>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped("machine_frame_pity_table", 0, <item:industrialforegoing:machine_frame_pity>, [
+	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/constantan>, <tag:items:forge:plastic>, <tag:items:forge:gears/bronze>, <item:silents_mechanisms:compressed_iron_ingot>], 
+	[<tag:items:forge:gears/constantan>, <item:bloodmagic:blankrune>, <item:industrialforegoing:dark_glass>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/bronze>], 
+	[<tag:items:forge:plastic>, <item:bloodmagic:blankslate>, <item:bloodmagic:demonslate>, <item:bloodmagic:blankslate>, <tag:items:forge:plastic>], 
+	[<tag:items:forge:gears/invar>, <item:bloodmagic:blankrune>, <item:industrialforegoing:pink_slime>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/electrum>], 
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/invar>, <tag:items:forge:plastic>, <tag:items:forge:gears/electrum>, <item:silents_mechanisms:compressed_iron_ingot>]
 ]);
 
@@ -391,12 +422,26 @@ craftingTable.removeByName("immersiveengineering:crafting/heavy_engineering");
  [<tag:items:forge:ingots/copper>, <item:minecraft:redstone_block>, <tag:items:forge:ingots/copper>], 
  [<item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/copper>, <item:immersiveengineering:sheetmetal_iron>]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped("rs_egineering_block_table", 0, <item:immersiveengineering:rs_engineering> * 2, [
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/copper>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>], 
+	[<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:glass>, <item:minecraft:redstone>, <item:minecraft:glass>, <item:immersiveengineering:sheetmetal_iron>], 
+	[<tag:items:forge:ingots/copper>, <item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:minecraft:redstone>, <tag:items:forge:ingots/copper>], 
+	[<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:glass>, <item:minecraft:redstone>, <item:minecraft:glass>, <item:immersiveengineering:sheetmetal_iron>], 
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/copper>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>]
+]);
 <recipetype:create:mechanical_crafting>.addRecipe("light_egineering_block", <item:immersiveengineering:light_engineering> * 2, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:immersiveengineering:component_iron>, <tag:items:forge:ingots/constantan>, <item:immersiveengineering:component_iron>, <item:minecraft:air>], 
 	[<item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/constantan>, <item:minecraft:redstone>, <tag:items:forge:ingots/constantan>, <item:immersiveengineering:sheetmetal_iron>], 
 	[<item:minecraft:air>, <item:immersiveengineering:component_iron>, <tag:items:forge:ingots/constantan>, <item:immersiveengineering:component_iron>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped("light_egineering_block_table", 0, <item:immersiveengineering:light_engineering> * 2, [
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>], 
+	[<item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/constantan>, <item:minecraft:redstone>, <tag:items:forge:ingots/constantan>, <item:immersiveengineering:sheetmetal_iron>], 
+	[<item:immersiveengineering:component_iron>, <item:minecraft:redstone>, <item:emendatusenigmatica:coke_dust>, <item:minecraft:redstone>, <item:immersiveengineering:component_iron>], 
+	[<item:immersiveengineering:sheetmetal_iron>, <tag:items:forge:ingots/constantan>, <item:minecraft:redstone>, <tag:items:forge:ingots/constantan>, <item:immersiveengineering:sheetmetal_iron>], 
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>]
 ]);
 <recipetype:create:mechanical_crafting>.addRecipe("heavy_egineering_block", <item:immersiveengineering:heavy_engineering> * 2, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:sheetmetal_steel>, <item:minecraft:air>, <item:minecraft:air>], 
@@ -405,6 +450,14 @@ craftingTable.removeByName("immersiveengineering:crafting/heavy_engineering");
 	[<item:minecraft:air>, <item:immersiveengineering:component_steel>, <tag:items:forge:ingots/electrum>, <item:immersiveengineering:component_steel>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:sheetmetal_steel>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped("heavy_egineering_block_table", 0, <item:immersiveengineering:heavy_engineering> * 2, [
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>, <item:minecraft:air>], 
+	[<item:immersiveengineering:sheetmetal_steel>, <tag:items:forge:ingots/electrum>, <item:minecraft:redstone>, <tag:items:forge:ingots/electrum>, <item:immersiveengineering:sheetmetal_steel>], 
+	[<item:immersiveengineering:component_steel>, <item:minecraft:redstone>, <item:emendatusenigmatica:coke_dust>, <item:minecraft:redstone>, <item:immersiveengineering:component_steel>], 
+	[<item:immersiveengineering:sheetmetal_steel>, <tag:items:forge:ingots/electrum>, <item:minecraft:redstone>, <tag:items:forge:ingots/electrum>, <item:immersiveengineering:sheetmetal_steel>], 
+	[<item:minecraft:air>, <item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>, <item:minecraft:air>]
+]);
+
 <recipetype:immersiveengineering:alloy>.removeRecipe(<item:tconstruct:manyullyn_ingot>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("enderium_arc", <item:minecraft:ender_pearl> * 4, [<item:silents_mechanisms:platinum_ingot> * 1, <tag:items:forge:ingots/lead> * 3], 60, 10000, [<item:emendatusenigmatica:enderium_ingot> * 4], <item:immersiveengineering:slag>);
@@ -424,7 +477,7 @@ craftingTable.addShaped("immersiveengineering.circuit_board", <item:immersiveeng
 <recipetype:immersiveengineering:crusher>.addRecipe("immersiveengineering.crusher/silentgear/crushed_shulker_shell", <item:minecraft:shulker_shell>, 1000, <item:silentgear:crushed_shulker_shell> * 1);
 <recipetype:immersiveengineering:crusher>.addRecipe("immersiveengineering.crusher/ae2/fluix_dust", <item:appliedenergistics2:fluix_crystal>, 1000, <item:appliedenergistics2:fluix_dust> * 1);
 <recipetype:immersiveengineering:crusher>.addRecipe("immersiveengineering.crusher/ae2/sky_dust", <item:appliedenergistics2:sky_stone_block>, 1000, <item:appliedenergistics2:sky_dust> * 1);
-
+<recipetype:immersiveengineering:crusher>.addRecipe("immersiveengineering.crusher/enderioalloys/item_material_pulsating_powder", <item:enderioalloys:item_material_pulsating_crystal>, 1000, <item:enderioalloys:item_material_pulsating_powder> * 1);
 
 //extreme reactors
 furnace.removeByName("bigreactors:smelting/yellorium_from_ore");

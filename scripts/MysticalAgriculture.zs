@@ -338,11 +338,6 @@ compressedironCrop.addDrop(<item:mysticalagriculture:compressed_iron_essence>, 0
 compressedironCrop.addDrop(<item:mysticalagriculture:compressed_iron_seeds>, 0.05);
 compressedironCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-crops.removeByName("mysticalagriculture:crops/nether_star");
-crops.removeByName("mysticalagriculture:crops/dragon_egg");
-crops.removeByName("draconic_evolution:crops/awakened_draconium");
-crops.removeByName("powah:nitro_crystal");
-
 
 //PhytogenicInsolator
 <recipetype:thermal:insolator_catalyst>.removeCatalyst(<item:minecraft:bone_meal>);

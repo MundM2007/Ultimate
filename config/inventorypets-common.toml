@@ -92,13 +92,13 @@
 	spongeAbsorbBlockRadius = 8
 	#Illuminati cooldown duration in minutes (default: 1)
 	#Range: 1 ~ 10
-	illuminatiCooldown = 3
+	illuminatiCooldown = 10
 	#Illuminati invisibility duration in minutes (default: 1)
 	#Range: 1 ~ 3
 	illuminatiInvisibleDuration = 1
 	#Item cap for all loaded items, including mods (default: 5000)
 	#Range: 1 ~ 50000
-	illuminatiItemCapLimit = 5000
+	illuminatiItemCapLimit = 50000
 	#Juggernaut cooldown duration in minutes (default: 1)
 	#Range: 1 ~ 10
 	juggernautCooldown = 1

@@ -113,7 +113,7 @@ const Recipe_Remove = [
     Recipe_Remove.forEach((id) => {
         event.remove({ id: id });
 	})
-
+    
 //Silent's Mechanism refining using immersive oil
 event.custom({
   type: "silents_mechanisms:refining",
@@ -130,4 +130,22 @@ event.remove({id: "thermal:machine/centrifuge/centrifuge_oil_sand"})
 event.remove({id: "thermal:machine/centrifuge/centrifuge_oil_red_sand"})
 event.recipes.thermal.centrifuge([Item.of("minecraft:sand").withChance(0.75), Item.of("emendatusenigmatica:bitumen_gem").withChance(0.5), Item.of("thermal:tar"), Fluid.of("immersivepetroleum:oil", 100)], "thermal:oil_sand")
 event.recipes.thermal.centrifuge([Item.of("minecraft:red_sand").withChance(0.75), Item.of("emendatusenigmatica:bitumen_gem").withChance(0.5), Item.of("thermal:tar"), Fluid.of("immersivepetroleum:oil", 100)], "thermal:oil_red_sand")
+
+//changing pulse centrifuge ender dust recipe to ender dust from emendatusenigmatica
+event.remove({id: "appliedenergistics2:centrifuge/ender_dust"})
+event.custom({
+  type: "lazierae2:centrifuge",
+  process_time: 80,
+  energy_cost: 800,
+  output: {item: "emendatusenigmatica:ender_dust"},
+  input: [{tag: "forge:ender_pearls"}]
+})
+
+//changing Silent's mechanisms enderium crushing recipe to give emendatusenigmatica dust
+event.custom({
+  type: "silents_mechanisms:crushing",
+  process_time: 200,
+  ingredient: {tag: "forge:ingots/enderium"},
+  results: [{item: "emendatusenigmatica:enderium_dust"}]
+})
 })

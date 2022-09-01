@@ -312,7 +312,7 @@ craftingTable.addShapeless("dimension_card_ae2", <item:rsinfinitybooster:dimensi
 craftingTable.removeByName("appliedenergistics2:network/wireless_booster");
 craftingTable.addShaped("wireless_booster", <item:appliedenergistics2:wireless_booster>, [
 	[<item:emendatusenigmatica:ender_dust>, <item:emendatusenigmatica:ender_dust>, <item:emendatusenigmatica:ender_dust>], 
-	[<item:emendatusenigmatica:fluix_dust>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:emendatusenigmatica:fluix_dust>], 
+	[<tag:items:forge:dusts/fluix>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <tag:items:forge:dusts/fluix>], 
 	[<item:minecraft:iron_ingot>, <item:appliedenergistics2:basic_card>, <item:minecraft:iron_ingot>]
 ]);
 

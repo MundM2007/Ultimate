@@ -1862,9 +1862,9 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 1.5d
 			y: 16.0d
-			dependencies: ["50EDE6E191A23529"]
+			dependencies: ["2746F67AB19DB90E"]
 			id: "693E1CB9340B439D"
 			tasks: [{
 				id: "40D0C7A352C23506"
@@ -1878,8 +1878,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 17.0d
+			x: 0.5d
+			y: 16.5d
 			dependencies: ["693E1CB9340B439D"]
 			id: "50BBEAC6AF1804ED"
 			tasks: [{
@@ -1890,80 +1890,13 @@
 			rewards: [{
 				id: "00DF3BF113FD64DD"
 				type: "item"
-				item: "decimal_coins:coin_5"
+				item: "decimal_coins:coin_1"
+				count: 2
 			}]
 		}
 		{
 			x: 0.5d
-			y: 15.0d
-			dependencies: ["354D8E424511B5F7"]
-			id: "3BD769D3D04E52C4"
-			tasks: [{
-				id: "1D3E859BC829CC29"
-				type: "item"
-				item: "projecte:collector_mk1"
-			}]
-			rewards: [{
-				id: "4477DF605A7BAFC2"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: 1.5d
-			y: 16.0d
-			dependencies: ["3BD769D3D04E52C4"]
-			id: "245FC0FCED1FFBBC"
-			tasks: [{
-				id: "7A9352B954A4D2A6"
-				type: "item"
-				item: "projecte:collector_mk2"
-			}]
-			rewards: [{
-				id: "47544EFC8540AF9A"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: 2.5d
-			y: 17.0d
-			dependencies: ["245FC0FCED1FFBBC"]
-			id: "0AEDA728898C54CA"
-			tasks: [{
-				id: "5DDBEEDFFC89E55F"
-				type: "item"
-				item: "projecte:collector_mk3"
-			}]
-			rewards: [{
-				id: "3AE17856C696BDCD"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: -0.5d
-			y: 15.0d
-			dependencies: ["354D8E424511B5F7"]
-			id: "50EDE6E191A23529"
-			tasks: [{
-				id: "1B399A91F273E77C"
-				type: "item"
-				item: "projecte:red_matter"
-			}]
-			rewards: [{
-				id: "783F33238D989C6B"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: -1.5d
-			y: 15.0d
+			y: 14.5d
 			dependencies: ["354D8E424511B5F7"]
 			id: "3E4934CF1B7952AD"
 			tasks: [{
@@ -1979,8 +1912,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 16.0d
+			x: 1.5d
+			y: 15.0d
 			dependencies: ["3E4934CF1B7952AD"]
 			id: "19959F725B721B47"
 			tasks: [{
@@ -1991,13 +1924,12 @@
 			rewards: [{
 				id: "52EC402C5FA76E60"
 				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 3
+				item: "decimal_coins:coin_5"
 			}]
 		}
 		{
-			x: -3.5d
-			y: 17.0d
+			x: 2.5d
+			y: 15.5d
 			dependencies: ["19959F725B721B47"]
 			id: "2746F67AB19DB90E"
 			tasks: [{
@@ -2056,6 +1988,195 @@
 				type: "item"
 				item: "decimal_coins:coin_1"
 				count: 4
+			}]
+		}
+		{
+			title: "Basics"
+			x: -1.5d
+			y: 14.5d
+			dependencies: ["354D8E424511B5F7"]
+			id: "3507E4D473B2DE94"
+			tasks: [
+				{
+					id: "475C66E25E2F8B03"
+					type: "item"
+					item: "projectexpansion:basic_collector"
+				}
+				{
+					id: "38A66C3D6B4B423E"
+					type: "item"
+					item: "projectexpansion:basic_relay"
+				}
+				{
+					id: "55B56B6BB9794259"
+					type: "item"
+					item: "projectexpansion:basic_emc_link"
+				}
+				{
+					id: "2FDF6C86B6AAA347"
+					type: "item"
+					item: "projectexpansion:basic_power_flower"
+				}
+			]
+			rewards: [{
+				id: "3203AC48FF3EA857"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			title: "Getting Better"
+			x: -2.5d
+			y: 15.0d
+			dependencies: ["3507E4D473B2DE94"]
+			id: "6035C94692020CB4"
+			tasks: [
+				{
+					id: "0FEBFD554BC701D9"
+					type: "item"
+					item: "projectexpansion:magenta_collector"
+				}
+				{
+					id: "1C2559C63832E2E2"
+					type: "item"
+					item: "projectexpansion:magenta_relay"
+				}
+				{
+					id: "64493C5BA64D0BCB"
+					type: "item"
+					item: "projectexpansion:magenta_emc_link"
+				}
+				{
+					id: "63BAF9F29D5630A9"
+					type: "item"
+					item: "projectexpansion:magenta_power_flower"
+				}
+			]
+			rewards: [{
+				id: "6EB0978C49A923B3"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 2
+			}]
+		}
+		{
+			title: "Advancing..."
+			x: -3.5d
+			y: 15.5d
+			dependencies: ["6035C94692020CB4"]
+			id: "1272D63D10DD1887"
+			tasks: [
+				{
+					id: "028F87724DDBD6B1"
+					type: "item"
+					item: "projectexpansion:blue_collector"
+				}
+				{
+					id: "1BB866E437A4DCF6"
+					type: "item"
+					item: "projectexpansion:blue_relay"
+				}
+				{
+					id: "7F0C530FAC3A45FC"
+					type: "item"
+					item: "projectexpansion:blue_emc_link"
+				}
+				{
+					id: "6A932FCAC231F6C9"
+					type: "item"
+					item: "projectexpansion:blue_power_flower"
+				}
+			]
+			rewards: [{
+				id: "5B50DEBE015B1DC2"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 3
+			}]
+		}
+		{
+			title: "Insane!"
+			x: -2.5d
+			y: 16.0d
+			dependencies: ["1272D63D10DD1887"]
+			id: "7D8F839801F49088"
+			tasks: [
+				{
+					id: "356685B3D8AECFFF"
+					type: "item"
+					item: "projectexpansion:yellow_collector"
+				}
+				{
+					id: "586E4DD08D16316D"
+					type: "item"
+					item: "projectexpansion:yellow_relay"
+				}
+				{
+					id: "5C47D89F9B11CEF9"
+					type: "item"
+					item: "projectexpansion:yellow_emc_link"
+				}
+				{
+					id: "4A0640278CA109F1"
+					type: "item"
+					item: "projectexpansion:yellow_power_flower"
+				}
+			]
+			rewards: [{
+				id: "3B4C38E1E75BF98D"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 4
+			}]
+		}
+		{
+			title: "What?!"
+			x: -1.5d
+			y: 16.5d
+			dependencies: ["7D8F839801F49088"]
+			id: "4CFB9D63A8420847"
+			tasks: [
+				{
+					id: "51D8092E63E7035F"
+					type: "item"
+					item: "projectexpansion:final_collector"
+				}
+				{
+					id: "6E123F2F954FE166"
+					type: "item"
+					item: "projectexpansion:final_relay"
+				}
+				{
+					id: "1167880075AB6073"
+					type: "item"
+					item: "projectexpansion:final_emc_link"
+				}
+				{
+					id: "49E2B4E000671B3B"
+					type: "item"
+					item: "projectexpansion:final_power_flower"
+				}
+			]
+			rewards: [{
+				id: "5E3C44271EDB811D"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 17.0d
+			dependencies: ["4CFB9D63A8420847"]
+			id: "6E32DACB2B397C8C"
+			tasks: [{
+				id: "423D744459500897"
+				type: "item"
+				item: "projectexpansion:final_star"
+			}]
+			rewards: [{
+				id: "375F3803E3716B30"
+				type: "item"
+				item: "decimal_coins:coin_10"
 			}]
 		}
 	]

@@ -5,6 +5,32 @@ import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
 
 
+//Cobble for Days
+craftingTable.removeByName("cobblefordays:tier_2");
+craftingTable.removeByName("cobblefordays:tier_3");
+craftingTable.removeByName("cobblefordays:tier_4");
+craftingTable.removeByName("cobblefordays:tier_5");
+craftingTable.addShaped("cobblefordays.tier_2", <item:cobblefordays:tier_2>, [
+	[<item:compressium:cobblestone_1>, <item:compressium:cobblestone_1>, <item:compressium:cobblestone_1>], 
+	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_1>, <item:minecraft:lava_bucket>], 
+	[<item:compressium:cobblestone_1>, <item:compressium:cobblestone_1>, <item:compressium:cobblestone_1>]
+]);
+craftingTable.addShaped("cobblefordays.tier_3", <item:cobblefordays:tier_3>, [
+	[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_2>, <item:minecraft:lava_bucket>], 
+	[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
+]);
+craftingTable.addShaped("cobblefordays.tier_4", <item:cobblefordays:tier_4>, [
+	[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], 
+	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_3>, <item:minecraft:lava_bucket>], 
+	[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]
+]);
+craftingTable.addShaped("cobblefordays.tier_5", <item:cobblefordays:tier_5>, [
+	[<item:minecraft:diamond>, <item:minecraft:diamond>, <item:minecraft:diamond>], 
+	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_4>, <item:minecraft:lava_bucket>], 
+	[<item:minecraft:diamond>, <item:minecraft:diamond>, <item:minecraft:diamond>]
+]);
+
 //baubley heart canisters
 craftingTable.removeByName("bhc:god_apple");
 

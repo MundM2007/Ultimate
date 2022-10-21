@@ -1114,7 +1114,7 @@
     },
     {
       "item": "projecte:condenser_mk1",
-      "emc": 9544489
+      "emc": 1891718591
     },
     {
       "item": "pedestals:upgraderoundrobin",
@@ -1930,11 +1930,23 @@
     },
     {
       "item": "projecte:philosophers_stone",
-      "emc": 229175556
+      "emc": 230470830
     },
     {
       "item": "projecte:transmutation_table",
-      "emc": 741460172
+      "emc": 3330498359
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 2818213815
+    },
+    {
+      "item": "cobblefordays:tier_2",
+      "emc": 375
     }
   ]
 }

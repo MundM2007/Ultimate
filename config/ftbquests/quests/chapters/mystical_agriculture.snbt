@@ -5132,92 +5132,6 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
-			dependencies: [
-				"0AC3DE75EB17331E"
-				"191E8857AD0CA867"
-				"69B77907AC1E584F"
-			]
-			id: "2AC5DF7950975F39"
-			tasks: [{
-				id: "1245CDD0009C5FA7"
-				type: "item"
-				title: "Any \"Elite Botany Pot\""
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "botanypotstiers:elite_botany_pots"
-					}
-				}
-			}]
-			rewards: [{
-				id: "4675E6E2ACAA09F0"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -5.5d
-			dependencies: [
-				"2AC5DF7950975F39"
-				"2708FC05077E48EB"
-				"48C34E82227EBA6B"
-				"58397B4AB65326AB"
-			]
-			id: "45EFE6700EAA6CB1"
-			tasks: [{
-				id: "04AF5B9087B2750E"
-				type: "item"
-				title: "Any \"Ultra Botany Pot\""
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "botanypotstiers:ultra_botany_pots"
-					}
-				}
-			}]
-			rewards: [{
-				id: "245006AABC57BC61"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -6.5d
-			dependencies: [
-				"45EFE6700EAA6CB1"
-				"6E6982645856F89A"
-				"0AB166CC5A56FBBC"
-				"259D680891A34C39"
-			]
-			id: "2A99556C60ABBD9C"
-			tasks: [{
-				id: "6F3C3AE68DC0DC89"
-				type: "item"
-				title: "Any \"Creative Botany Pot\""
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "botanypotstiers:creative_botany_pots"
-					}
-				}
-			}]
-			rewards: [{
-				id: "5FEF45171FBB4144"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 3
-			}]
-		}
-		{
 			x: 26.0d
 			y: 3.5d
 			shape: "circle"
@@ -5240,6 +5154,73 @@
 				type: "item"
 				item: "decimal_coins:coin_1"
 				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["0AC3DE75EB17331E"]
+			id: "72F2B6F92CA6F01F"
+			tasks: [{
+				id: "7E922C9C5DD5D46B"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk1"
+			}]
+			rewards: [{
+				id: "5D80D4D9A2ADF2DF"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["72F2B6F92CA6F01F"]
+			id: "27E1E0457316896B"
+			tasks: [{
+				id: "492C76A8BDED6277"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk2"
+			}]
+			rewards: [{
+				id: "17677192345DA88E"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["27E1E0457316896B"]
+			id: "4702E2850658ACA8"
+			tasks: [{
+				id: "6CBEBE1BEB9EA714"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk3"
+			}]
+			rewards: [{
+				id: "03AF0B930DAC95B2"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["4702E2850658ACA8"]
+			id: "084DBF7EDFAD6041"
+			tasks: [{
+				id: "1934EB8B0541B7FA"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk4"
+			}]
+			rewards: [{
+				id: "7383C09503F512A4"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				count: 4
 			}]
 		}
 	]

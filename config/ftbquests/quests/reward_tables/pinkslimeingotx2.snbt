@@ -1,7 +1,0 @@
-{
-	id: "588A195503C40E5A"
-	order_index: 50
-	title: "PinkSlimeIngotx2"
-	loot_size: 1
-	rewards: [{ item: "industrialforegoing:pink_slime_ingot", count: 2 }]
-}

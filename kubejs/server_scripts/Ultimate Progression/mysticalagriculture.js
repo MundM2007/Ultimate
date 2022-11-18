@@ -149,6 +149,10 @@ onEvent('recipes', (event) => {
         'mysticalagriculture:essence/mekanism/refined_glowstone_ingot',
         'mysticalagriculture:essence/thermal/enderium_ingot',
         'mysticalagriculture:essence/botania/terrasteel_ingot',
+        'mysticalagriculture:nether_star_crux',
+        'mysticalagriculture:awakened_draconium_crux',
+        'mysticalagriculture:dragon_egg_crux',
+        'mysticalagriculture:nitro_crystal_crux',
         ];
 
         EssenceRemove.forEach((id) => {
@@ -252,7 +256,7 @@ onEvent('recipes', (event) => {
         type:"botanypots:crop",
         seed:{item:"mysticalagriculture:nether_star_seeds"},
         categories:["netherstarCrux"],
-        growthTicks:12000,
+        growthTicks:6000,
         display:{
             block:"mysticalagriculture:nether_star_crop",
             properties:{age:7}
@@ -267,7 +271,7 @@ onEvent('recipes', (event) => {
         type:"botanypots:crop",
         seed:{item:"mysticalagriculture:dragon_egg_seeds"},
         categories:["dragoneggCrux"],
-        growthTicks:12000,
+        growthTicks:6000,
         display:{
             block:"mysticalagriculture:dragon_egg_crop",
             properties:{age:7}
@@ -282,7 +286,7 @@ onEvent('recipes', (event) => {
         type:"botanypots:crop",
         seed:{item:"mysticalagriculture:awakened_draconium_seeds"},
         categories:["awakeneddraconiumCrux"],
-        growthTicks:12000,
+        growthTicks:6000,
         display:{
             block:"mysticalagriculture:awakened_draconium_crop",
             properties:{age:7}
@@ -297,7 +301,7 @@ onEvent('recipes', (event) => {
         type:"botanypots:crop",
         seed:{item:"mysticalagriculture:nitro_crystal_seeds"},
         categories:["nitrocrystalCrux"],
-        growthTicks:12000,
+        growthTicks:6000,
         display:{
             block:"mysticalagriculture:nitro_crystal_crop",
             properties:{age:7}

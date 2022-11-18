@@ -1,7 +1,0 @@
-{
-	id: "443C200A2401BCE3"
-	order_index: 37
-	title: "ManyullynIngotx10"
-	loot_size: 1
-	rewards: [{ item: "tconstruct:manyullyn_ingot", count: 10 }]
-}

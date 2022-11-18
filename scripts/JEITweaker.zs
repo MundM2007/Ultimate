@@ -1,11 +1,12 @@
-//mods.jei.JEI.addInfo(<item:projectred-integration:timer_gate>, ["Currently disabled because of a Crash"]);
 mods.jei.JEI.addInfo(<item:rftoolsbase:dimensionalshard>, ["Can only be found in the Nether or in the End"]);
 mods.jei.JEI.addInfo(<item:emendatusenigmatica:dimensional_gem>, ["Can only be found in the Nether or in the End"]);
-//mods.jei.JEI.addInfo(<item:immersiveengineering:dust_hop_graphite>, ["Is made in the Industrial", "Squeezer out of 8 Coke Dust"]);
 mods.jei.JEI.addInfo(<item:minecraft:andesite>, ["Can be found much more often in the Mining Dimension"]);
 mods.jei.JEI.addInfo(<item:minecraft:granite>, ["Can be found much more often in the Mining Dimension"]);
 mods.jei.JEI.addInfo(<item:minecraft:diorite>, ["Can be found much more often in the Mining Dimension"]);
-//mods.jei.JEI.addInfo(<item:inventorypets:pet_illuminati>, ["Is disabled becouse of being to op"]);
 mods.jei.JEI.addInfo(<item:inventorypets:pet_loot>, ["Is disabled becouse of a bug with the Mining Gadgets Mod"]);
 mods.jei.JEI.addInfo(<item:botania:life_essence>, ["Apart from the recipe you can also fight the Guardian of Gaia to get 8 Gaia Spirits"]);
 mods.jei.JEI.addInfo(<item:cyclic:miner>, ["Don't use this Machine with Tinker's Construct Pickaxes, because it will void the Miner"]);
+mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk1>, ["Values for this Power Pot can be seen below:", "Item Output: x2", "Speed Multiplyer: x1.3", "Energy Cost: 50 FE/t", "Energy Capacity: 50k FE"]);
+mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk2>, ["Values for this Power Pot can be seen below:", "Item Output: x5", "Speed Multiplyer: x2.0", "Energy Cost: 230 FE/t", "Energy Capacity: 230k FE"]);
+mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk3>, ["Values for this Power Pot can be seen below:", "Item Output: x16", "Speed Multiplyer: x3.7", "Energy Cost: 1.6k FE/t", "Energy Capacity: 1.6m FE"]);
+mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk4>, ["Values for this Power Pot can be seen below:", "Item Output: x64", "Speed Multiplyer: x8.0", "Energy Cost: 16k FE/t", "Energy Capacity: 16m FE"]);

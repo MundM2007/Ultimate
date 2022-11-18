@@ -1,7 +1,0 @@
-{
-	id: "23EBA8BD24D2E771"
-	order_index: 78
-	title: "InscriberEngineeringPressx1"
-	loot_size: 1
-	rewards: [{ item: "appliedenergistics2:engineering_processor_press" }]
-}

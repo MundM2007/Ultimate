@@ -1,7 +1,0 @@
-{
-	id: "67A6543FAC1EEAE6"
-	order_index: 80
-	title: "CrystallineAlloyIngotx2"
-	loot_size: 1
-	rewards: [{ item: "enderioalloys:item_alloy_ingot_crystalline_alloy", count: 2 }]
-}

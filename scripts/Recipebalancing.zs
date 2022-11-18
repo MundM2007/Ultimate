@@ -669,81 +669,38 @@ mods.extendedcrafting.TableCrafting.addShaped("rftoolsdim.dimension_builder", <i
 <recipetype:thermal:smelter>.addRecipe("uranium_dust_to_ingot_thermal_smelter_jaopca", [<item:silents_mechanisms:uranium_ingot> % 100, <item:thermal:rich_slag> %20], [<tag:items:forge:dusts/uranium>], 10, 1600);
 
 
-//Botany Pots tiers
-<tag:items:botanypots:botany_pots>.remove(<tag:items:botanypots:hopper_botany_pots>);
-<tag:items:botanypotstiers:elite_botany_pots>.add(<item:botanypotstiers:elite_botany_pot>, <item:botanypotstiers:elite_black_botany_pot>, <item:botanypotstiers:elite_blue_botany_pot>, <item:botanypotstiers:elite_brown_botany_pot>, <item:botanypotstiers:elite_cyan_botany_pot>, <item:botanypotstiers:elite_gray_botany_pot>, <item:botanypotstiers:elite_green_botany_pot>, <item:botanypotstiers:elite_light_blue_botany_pot>,  <item:botanypotstiers:elite_light_gray_botany_pot>, <item:botanypotstiers:elite_lime_botany_pot>, <item:botanypotstiers:elite_magenta_botany_pot>, <item:botanypotstiers:elite_orange_botany_pot>, <item:botanypotstiers:elite_pink_botany_pot>, <item:botanypotstiers:elite_purple_botany_pot>, <item:botanypotstiers:elite_red_botany_pot>, <item:botanypotstiers:elite_white_botany_pot>, <item:botanypotstiers:elite_yellow_botany_pot>);
-<tag:items:botanypotstiers:elite_hopper_botany_pots>.add(<item:botanypotstiers:elite_hopper_botany_pot>, <item:botanypotstiers:elite_hopper_black_botany_pot>, <item:botanypotstiers:elite_hopper_blue_botany_pot>, <item:botanypotstiers:elite_hopper_brown_botany_pot>, <item:botanypotstiers:elite_hopper_cyan_botany_pot>, <item:botanypotstiers:elite_hopper_gray_botany_pot>, <item:botanypotstiers:elite_hopper_green_botany_pot>, <item:botanypotstiers:elite_hopper_light_blue_botany_pot>,  <item:botanypotstiers:elite_hopper_light_gray_botany_pot>, <item:botanypotstiers:elite_hopper_lime_botany_pot>, <item:botanypotstiers:elite_hopper_magenta_botany_pot>, <item:botanypotstiers:elite_hopper_orange_botany_pot>, <item:botanypotstiers:elite_hopper_pink_botany_pot>, <item:botanypotstiers:elite_hopper_purple_botany_pot>, <item:botanypotstiers:elite_hopper_red_botany_pot>, <item:botanypotstiers:elite_hopper_white_botany_pot>, <item:botanypotstiers:elite_hopper_yellow_botany_pot>);
-<tag:items:botanypotstiers:ultra_botany_pots>.add(<item:botanypotstiers:ultra_botany_pot>, <item:botanypotstiers:ultra_black_botany_pot>, <item:botanypotstiers:ultra_blue_botany_pot>, <item:botanypotstiers:ultra_brown_botany_pot>, <item:botanypotstiers:ultra_cyan_botany_pot>, <item:botanypotstiers:ultra_gray_botany_pot>, <item:botanypotstiers:ultra_green_botany_pot>, <item:botanypotstiers:ultra_light_blue_botany_pot>,  <item:botanypotstiers:ultra_light_gray_botany_pot>, <item:botanypotstiers:ultra_lime_botany_pot>, <item:botanypotstiers:ultra_magenta_botany_pot>, <item:botanypotstiers:ultra_orange_botany_pot>, <item:botanypotstiers:ultra_pink_botany_pot>, <item:botanypotstiers:ultra_purple_botany_pot>, <item:botanypotstiers:ultra_red_botany_pot>, <item:botanypotstiers:ultra_white_botany_pot>, <item:botanypotstiers:ultra_yellow_botany_pot>);
-<tag:items:botanypotstiers:ultra_hopper_botany_pots>.add(<item:botanypotstiers:ultra_hopper_botany_pot>, <item:botanypotstiers:ultra_hopper_black_botany_pot>, <item:botanypotstiers:ultra_hopper_blue_botany_pot>, <item:botanypotstiers:ultra_hopper_brown_botany_pot>, <item:botanypotstiers:ultra_hopper_cyan_botany_pot>, <item:botanypotstiers:ultra_hopper_gray_botany_pot>, <item:botanypotstiers:ultra_hopper_green_botany_pot>, <item:botanypotstiers:ultra_hopper_light_blue_botany_pot>,  <item:botanypotstiers:ultra_hopper_light_gray_botany_pot>, <item:botanypotstiers:ultra_hopper_lime_botany_pot>, <item:botanypotstiers:ultra_hopper_magenta_botany_pot>, <item:botanypotstiers:ultra_hopper_orange_botany_pot>, <item:botanypotstiers:ultra_hopper_pink_botany_pot>, <item:botanypotstiers:ultra_hopper_purple_botany_pot>, <item:botanypotstiers:ultra_hopper_red_botany_pot>, <item:botanypotstiers:ultra_hopper_white_botany_pot>, <item:botanypotstiers:ultra_hopper_yellow_botany_pot>);
-<tag:items:botanypotstiers:creative_botany_pots>.add(<item:botanypotstiers:creative_botany_pot>, <item:botanypotstiers:creative_black_botany_pot>, <item:botanypotstiers:creative_blue_botany_pot>, <item:botanypotstiers:creative_brown_botany_pot>, <item:botanypotstiers:creative_cyan_botany_pot>, <item:botanypotstiers:creative_gray_botany_pot>, <item:botanypotstiers:creative_green_botany_pot>, <item:botanypotstiers:creative_light_blue_botany_pot>,  <item:botanypotstiers:creative_light_gray_botany_pot>, <item:botanypotstiers:creative_lime_botany_pot>, <item:botanypotstiers:creative_magenta_botany_pot>, <item:botanypotstiers:creative_orange_botany_pot>, <item:botanypotstiers:creative_pink_botany_pot>, <item:botanypotstiers:creative_purple_botany_pot>, <item:botanypotstiers:creative_red_botany_pot>, <item:botanypotstiers:creative_white_botany_pot>, <item:botanypotstiers:creative_yellow_botany_pot>);
-<tag:items:botanypotstiers:creative_hopper_botany_pots>.add(<item:botanypotstiers:creative_hopper_botany_pot>, <item:botanypotstiers:creative_hopper_black_botany_pot>, <item:botanypotstiers:creative_hopper_blue_botany_pot>, <item:botanypotstiers:creative_hopper_brown_botany_pot>, <item:botanypotstiers:creative_hopper_cyan_botany_pot>, <item:botanypotstiers:creative_hopper_gray_botany_pot>, <item:botanypotstiers:creative_hopper_green_botany_pot>, <item:botanypotstiers:creative_hopper_light_blue_botany_pot>,  <item:botanypotstiers:creative_hopper_light_gray_botany_pot>, <item:botanypotstiers:creative_hopper_lime_botany_pot>, <item:botanypotstiers:creative_hopper_magenta_botany_pot>, <item:botanypotstiers:creative_hopper_orange_botany_pot>, <item:botanypotstiers:creative_hopper_pink_botany_pot>, <item:botanypotstiers:creative_hopper_purple_botany_pot>, <item:botanypotstiers:creative_hopper_red_botany_pot>, <item:botanypotstiers:creative_hopper_white_botany_pot>, <item:botanypotstiers:creative_hopper_yellow_botany_pot>);
-
-craftingTable.removeByName("botanypotstiers:elite_botany_pot");
-craftingTable.removeByName("botanypotstiers:ultra_botany_pot");
-craftingTable.removeByName("botanypotstiers:creative_botany_pot");
-craftingTable.removeByRegex("botanypotstiers:elite_hopper_.*botany_pot_2");
-craftingTable.removeByRegex("botanypotstiers:ultra_hopper_.*botany_pot_2");
-craftingTable.removeByRegex("botanypotstiers:creative_hopper_.*botany_pot_2");
-
-craftingTable.addShaped("elite_botany_pot", <item:botanypotstiers:elite_botany_pot>, [
-	[<item:createaddition:capacitor>, <item:solarflux:efficiency_upgrade>, <item:createaddition:capacitor>], 
-	[<tag:items:botanypots:botany_pots>, <item:solarflux:capacity_upgrade>, <tag:items:botanypots:botany_pots>], 
-	[<item:emendatusenigmatica:steel_block>, <item:solarflux:transfer_rate_upgrade>, <item:emendatusenigmatica:steel_block>]
+//FTB Power Pots
+craftingTable.addShaped("power_pot_mk1", <item:ftb-power-pots:power_pot_mk1>, [
+	[<item:emendatusenigmatica:brass_plate>, <item:createaddition:copper_wire>, <item:emendatusenigmatica:brass_plate>], 
+	[<item:create:electron_tube>, <tag:items:botanypots:hopper_botany_pots>, <item:create:electron_tube>], 
+	[<item:minecraft:diamond>, <item:minecraft:chest>, <item:minecraft:diamond>]
 ]);
-craftingTable.addShaped("ultra_botany_pot", <item:botanypotstiers:ultra_botany_pot>, [
+craftingTable.addShaped("power_pot_mk2", <item:ftb-power-pots:power_pot_mk2>, [
+	[<item:createaddition:capacitor>, <item:extendedcrafting:luminessence>, <item:createaddition:capacitor>], 
+	[<item:ftb-power-pots:power_pot_mk1>, <item:solarflux:efficiency_upgrade>, <item:ftb-power-pots:power_pot_mk1>], 
+	[<tag:items:forge:gears/steel>, <tag:items:forge:ingots/enderium>, <tag:items:forge:gears/steel>]
+]);
+craftingTable.addShaped("power_pot_mk3", <item:ftb-power-pots:power_pot_mk3>, [
 	[<item:silentgear:azure_electrum_ingot>, <item:mininggadgets:upgrade_fortune_3>, <item:silentgear:azure_electrum_ingot>], 
-	[<tag:items:botanypotstiers:elite_botany_pots>, <item:storagedrawers:emerald_storage_upgrade>, <tag:items:botanypotstiers:elite_botany_pots>], 
-	[<item:botania:manasteel_block>, <item:bloodmagic:reinforcedslate>, <item:botania:manasteel_block>]
+	[<item:ftb-power-pots:power_pot_mk2>, <item:ftb-power-pots:power_pot_mk2>, <item:ftb-power-pots:power_pot_mk2>], 
+	[<item:botania:manasteel_block>, <item:bloodmagic:infusedslate>, <item:botania:manasteel_block>]
 ]);
-craftingTable.addShaped("creative_botany_pot", <item:botanypotstiers:creative_botany_pot>, [
-	[<item:envirocore:kyronite_crystal>, <item:mekanism:upgrade_speed>, <item:envirocore:kyronite_crystal>], 
-	[<tag:items:botanypotstiers:ultra_botany_pots>, <item:extendedcrafting:the_ultimate_ingot>, <tag:items:botanypotstiers:ultra_botany_pots>], 
-	[<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:draconicevolution:draconic_speed_module>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>]
+craftingTable.addShaped("power_pot_mk4", <item:ftb-power-pots:power_pot_mk4>, [
+	[<item:ftb-power-pots:power_pot_mk3>, <item:mekanism:upgrade_speed>, <item:ftb-power-pots:power_pot_mk3>], 
+	[<item:envirocore:kyronite_crystal>, <item:extendedcrafting:the_ultimate_ingot>, <item:envirocore:kyronite_crystal>], 
+	[<item:ftb-power-pots:power_pot_mk3>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:ftb-power-pots:power_pot_mk3>]
 ]);
-
-craftingTable.addShaped("elite_hopper_botany_pot", <item:botanypotstiers:elite_hopper_botany_pot>, [
-	[<item:createaddition:capacitor>, <item:solarflux:efficiency_upgrade>, <item:createaddition:capacitor>], 
-	[<tag:items:botanypots:hopper_botany_pots>, <item:solarflux:capacity_upgrade>, <tag:items:botanypots:hopper_botany_pots>], 
-	[<item:emendatusenigmatica:steel_block>, <item:solarflux:transfer_rate_upgrade>, <item:emendatusenigmatica:steel_block>]
+craftingTable.addShapeless("power_pot_mk4_to_mk3", <item:ftb-power-pots:power_pot_mk3> *4, [
+	<item:ftb-power-pots:power_pot_mk4>
 ]);
-craftingTable.addShaped("ultra_hopper_botany_pot", <item:botanypotstiers:ultra_hopper_botany_pot>, [
-	[<item:silentgear:azure_electrum_ingot>, <item:mininggadgets:upgrade_fortune_3>, <item:silentgear:azure_electrum_ingot>], 
-	[<tag:items:botanypotstiers:elite_hopper_botany_pots>, <item:storagedrawers:emerald_storage_upgrade>, <tag:items:botanypotstiers:elite_hopper_botany_pots>], 
-	[<item:botania:manasteel_block>, <item:bloodmagic:reinforcedslate>, <item:botania:manasteel_block>]
+craftingTable.addShapeless("power_pot_mk3_to_mk2", <item:ftb-power-pots:power_pot_mk2> *3, [
+	<item:ftb-power-pots:power_pot_mk3>
 ]);
-craftingTable.addShaped("creative_hopper_botany_pot", <item:botanypotstiers:creative_hopper_botany_pot>, [
-	[<item:envirocore:kyronite_crystal>, <item:mekanism:upgrade_speed>, <item:envirocore:kyronite_crystal>], 
-	[<tag:items:botanypotstiers:ultra_hopper_botany_pots>, <item:extendedcrafting:the_ultimate_ingot>, <tag:items:botanypotstiers:ultra_hopper_botany_pots>], 
-	[<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:draconicevolution:draconic_speed_module>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>]
+craftingTable.addShapeless("power_pot_mk2_to_mk1", <item:ftb-power-pots:power_pot_mk1> *2, [
+	<item:ftb-power-pots:power_pot_mk2>
 ]);
-
-craftingTable.addShapeless("elite_botany_pot_from_culor", <item:botanypotstiers:elite_botany_pot>, [
-    <tag:items:botanypotstiers:elite_botany_pots>
-]);
-craftingTable.addShapeless("elite_hopper_botany_pot_from_culor", <item:botanypotstiers:elite_hopper_botany_pot>, [
-    <tag:items:botanypotstiers:elite_hopper_botany_pots>
-]);
-craftingTable.addShapeless("ultra_botany_pot_from_culor", <item:botanypotstiers:ultra_botany_pot>, [
-    <tag:items:botanypotstiers:ultra_botany_pots>
-]);
-craftingTable.addShapeless("ultra_hopper_botany_pot_from_culor", <item:botanypotstiers:ultra_hopper_botany_pot>, [
-    <tag:items:botanypotstiers:ultra_hopper_botany_pots>
-]);
-craftingTable.addShapeless("creative_botany_pot_from_culor", <item:botanypotstiers:creative_botany_pot>, [
-    <tag:items:botanypotstiers:creative_botany_pots>
-]);
-craftingTable.addShapeless("creative_hopper_botany_pot_from_culor", <item:botanypotstiers:creative_hopper_botany_pot>, [
-    <tag:items:botanypotstiers:creative_hopper_botany_pots>
-]);
-
-craftingTable.addShapeless("elite_botany_pot_from_hopper", <item:botanypotstiers:elite_botany_pot>, [
-    <item:botanypotstiers:elite_hopper_botany_pot>
-]);
-craftingTable.addShapeless("ultra_botany_pot_from_hopper", <item:botanypotstiers:ultra_botany_pot>, [
-    <item:botanypotstiers:ultra_hopper_botany_pot>
-]);
-craftingTable.addShapeless("creative_botany_pot_from_hopper", <item:botanypotstiers:creative_botany_pot>, [
-    <item:botanypotstiers:creative_hopper_botany_pot>
+craftingTable.addShapeless("power_pot_mk1_to_normal", <item:botanypots:hopper_botany_pot>, [
+	<item:ftb-power-pots:power_pot_mk1>
 ]);
 
 

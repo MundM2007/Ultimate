@@ -1,7 +1,0 @@
-{
-	id: "4D4E9173A36D388D"
-	order_index: 46
-	title: "TerrasteelIgontx1"
-	loot_size: 1
-	rewards: [{ item: "botania:terrasteel_ingot" }]
-}

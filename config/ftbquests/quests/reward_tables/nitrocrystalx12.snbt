@@ -1,7 +1,0 @@
-{
-	id: "1EFCC30A440186CD"
-	order_index: 64
-	title: "NitroCrystalx12"
-	loot_size: 1
-	rewards: [{ item: "powah:crystal_nitro", count: 12 }]
-}

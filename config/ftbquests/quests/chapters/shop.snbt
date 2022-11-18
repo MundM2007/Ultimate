@@ -15,6 +15,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["60977FB1A20D739C"]
+			repeatable: true
 			id: "2F44C4CA936DF79E"
 			tasks: [{
 				id: "3A39698F440A6B01"
@@ -24,9 +25,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "038A7845F5D260A0"
-				type: "questsadditions:repeat"
-				table_id: 8816451419653448205L
+				id: "118BD42E3A88976A"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 10
 			}]
 		}
 		{
@@ -36,6 +38,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["05FCAB98D60C4188"]
+			repeatable: true
 			id: "761D04FC22F2F627"
 			tasks: [{
 				id: "5CBCF3B8C659EF14"
@@ -45,9 +48,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7E8B9B4BF5561DBA"
-				type: "questsadditions:repeat"
-				table_id: 4992700235642909591L
+				id: "7ED76587750951D4"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 160
 			}]
 		}
 		{
@@ -57,6 +61,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["209E8E5C4C4FDE65"]
+			repeatable: true
 			id: "34ED2DA6DC8E19BC"
 			tasks: [{
 				id: "0991790438B2A4E0"
@@ -65,9 +70,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "1478E1BFD5672F91"
-				type: "questsadditions:repeat"
-				table_id: 4408614542511652357L
+				id: "67B108F6D8BD9ABA"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				count: 50
 			}]
 		}
 		{
@@ -75,8 +81,10 @@
 			icon: "minecraft:iron_ingot"
 			x: -3.5d
 			y: -1.5d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: ["4BD5F8A095C15E61"]
+			repeatable: true
 			id: "03953D62FDAA060E"
 			tasks: [{
 				id: "4DB4A0D5AADBEA6E"
@@ -85,9 +93,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "14D0E9E9FB88E651"
-				type: "questsadditions:repeat"
-				table_id: 20510754922161310L
+				id: "2032B914E53E1B94"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 160
 			}]
 		}
 		{
@@ -97,6 +106,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["7F47A2B80FA8122A"]
+			repeatable: true
 			id: "2CAB8799D43680F5"
 			tasks: [{
 				id: "288C695DA5239449"
@@ -105,9 +115,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "626363CC4EE6331E"
-				type: "questsadditions:repeat"
-				table_id: 5637423875367846933L
+				id: "592EE92B7BE1E875"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+				count: 50
 			}]
 		}
 		{
@@ -117,6 +128,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["3FFB427BE9055990"]
+			repeatable: true
 			id: "1F162CD296418BD8"
 			tasks: [{
 				id: "533F1920DC01891F"
@@ -125,9 +137,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3D702FB4CFAAB589"
-				type: "questsadditions:repeat"
-				table_id: 2855972192345975513L
+				id: "389575D06F1283E3"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				count: 60
 			}]
 		}
 		{
@@ -137,6 +150,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["07E75EB414953E31"]
+			repeatable: true
 			id: "2A2F9819DE3656B5"
 			tasks: [{
 				id: "4BEB7C1A280E89DC"
@@ -145,9 +159,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7A78913A80E7EA96"
-				type: "questsadditions:repeat"
-				table_id: 1470840663918234517L
+				id: "6529194262AFF824"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 120
 			}]
 		}
 		{
@@ -157,6 +172,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["775CD8607FB6618A"]
+			repeatable: true
 			id: "2BA0649ABA4C904B"
 			tasks: [{
 				id: "7D39F81A946A9153"
@@ -165,9 +181,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "5B694DC9F121C053"
-				type: "questsadditions:repeat"
-				table_id: 8637826436038732399L
+				id: "6A6905A00032B571"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 500
 			}]
 		}
 		{
@@ -180,6 +197,7 @@
 				"799626B76C7E5509"
 				"2EADF779D02067AA"
 			]
+			repeatable: true
 			id: "66EC008C0DD18DE5"
 			tasks: [{
 				id: "5E8EA3FFE6D5A325"
@@ -188,9 +206,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3689DF310F72BA25"
-				type: "questsadditions:repeat"
-				table_id: 7803238158566676859L
+				id: "1AFB6507A132A6EA"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 100
 			}]
 		}
 		{
@@ -200,6 +219,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["07FDB2ADF7A64D06"]
+			repeatable: true
 			id: "54070CB0F87D5900"
 			tasks: [{
 				id: "3B96651CFD8FBDEC"
@@ -208,9 +228,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "26DE0D9B2DFD13EA"
-				type: "questsadditions:repeat"
-				table_id: 3900931067241462036L
+				id: "5F00C2D36888758B"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+				count: 20
 			}]
 		}
 		{
@@ -220,6 +241,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["32CAD5043CC64B02"]
+			repeatable: true
 			id: "7666E802683E7777"
 			tasks: [{
 				id: "34A7AA9C0B45F309"
@@ -228,9 +250,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6A3055EF5CC458EE"
-				type: "questsadditions:repeat"
-				table_id: 4087542923051265616L
+				id: "29591FB287395160"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+				count: 80
 			}]
 		}
 		{
@@ -240,6 +263,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["32CAD5043CC64B02"]
+			repeatable: true
 			id: "776780A04E26D6B4"
 			tasks: [{
 				id: "4D5C667E56B8599B"
@@ -248,9 +272,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7141A729B75105EF"
-				type: "questsadditions:repeat"
-				table_id: 1591287287542427862L
+				id: "54821E2AE5E2190E"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+				count: 30
 			}]
 		}
 		{
@@ -260,6 +285,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "00A1B1B15634C4AB"
 			tasks: [{
 				id: "22B676483E5857EF"
@@ -268,9 +294,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4E1DD11803608479"
-				type: "questsadditions:repeat"
-				table_id: 7848068883025148515L
+				id: "26078E610F154242"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+				count: 30
 			}]
 		}
 		{
@@ -280,6 +307,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["080C6B406DD3A752"]
+			repeatable: true
 			id: "46F47332A0E4AC7B"
 			tasks: [{
 				id: "6BF2127AE48527E2"
@@ -288,9 +316,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "30FA341E38BC907F"
-				type: "questsadditions:repeat"
-				table_id: 1080100525015689405L
+				id: "583FCF32C7B177DB"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 40
 			}]
 		}
 		{
@@ -300,6 +329,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "0FE1CAA4AFC8B7CD"
 			tasks: [{
 				id: "2C29E8AE020858BE"
@@ -308,9 +338,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2EADD510AACA415A"
-				type: "questsadditions:repeat"
-				table_id: 113722107670435567L
+				id: "63094CB4C729835C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+				count: 20
 			}]
 		}
 		{
@@ -320,6 +351,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "443F9351199F7123"
 			tasks: [{
 				id: "366E0DEA8BD9B9F0"
@@ -329,9 +361,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4A9E57B78D791EC6"
-				type: "questsadditions:repeat"
-				table_id: 7045743558158608318L
+				id: "3354020467E6476F"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				count: 10
 			}]
 		}
 		{
@@ -341,6 +374,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["35EB10F4C9A852AF"]
+			repeatable: true
 			id: "21C22007AF9AC0D3"
 			tasks: [{
 				id: "5C281D5EF785EF79"
@@ -350,9 +384,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6D4A38D375A5F602"
-				type: "questsadditions:repeat"
-				table_id: 8906249084555271086L
+				id: "66975275DA2202AF"
+				type: "item"
+				item: "create:precision_mechanism"
+				count: 30
 			}]
 		}
 		{
@@ -362,6 +397,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["2A16772ED21FB338"]
+			repeatable: true
 			id: "2CAE7E5E80B18FA9"
 			tasks: [{
 				id: "04FF3E8B6A99585A"
@@ -370,9 +406,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7F4B06CAB875F765"
-				type: "questsadditions:repeat"
-				table_id: 2438604556061099971L
+				id: "58CB5FDB85CDD6BB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+				count: 10
 			}]
 		}
 		{
@@ -382,6 +419,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["6A62267F6E3067D0"]
+			repeatable: true
 			id: "37A862ACF3D4AC7C"
 			tasks: [{
 				id: "24EEB71D1F75E186"
@@ -390,9 +428,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6FE71F91202FFEC6"
-				type: "questsadditions:repeat"
-				table_id: 7791902513325192028L
+				id: "7DA754E1560E71F2"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 40
 			}]
 		}
 		{
@@ -402,6 +441,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["731B5DB0F8A693E6"]
+			repeatable: true
 			id: "5A086ACDC038FC45"
 			tasks: [{
 				id: "28B62408D657F0E8"
@@ -410,9 +450,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2276432E7AFB8B63"
-				type: "questsadditions:repeat"
-				table_id: 1194129034976973538L
+				id: "610767CDBECB7945"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 20
 			}]
 		}
 		{
@@ -422,6 +463,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["79D7A7BC76EA68D0"]
+			repeatable: true
 			id: "18DA8DE8F2B2D72B"
 			tasks: [{
 				id: "54F0CFC7D3B018C7"
@@ -430,9 +472,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4931784BFABBB356"
-				type: "questsadditions:repeat"
-				table_id: 4114494737037015992L
+				id: "092310DBAF90F79E"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 30
 			}]
 		}
 		{
@@ -442,6 +485,7 @@
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["2BFB87D8E395F92B"]
+			repeatable: true
 			id: "1C333652C95A9038"
 			tasks: [{
 				id: "10CA34206FFCCD92"
@@ -451,9 +495,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "42C2CC935D60EC90"
-				type: "questsadditions:repeat"
-				table_id: 96225656703316949L
+				id: "05B5B71752279D1A"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 120
 			}]
 		}
 		{
@@ -463,6 +508,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["3C9E297921A25476"]
+			repeatable: true
 			id: "038C1314232969FE"
 			tasks: [{
 				id: "23018C9357E1623D"
@@ -471,9 +517,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "07A60283FE257AD7"
-				type: "questsadditions:repeat"
-				table_id: 4916840121107594467L
+				id: "461CF7570CADD996"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+				count: 10
 			}]
 		}
 		{
@@ -483,6 +530,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["42A3302AE240F60F"]
+			repeatable: true
 			id: "5BDCCB4E6285700A"
 			tasks: [{
 				id: "4B8B077EB101AB1C"
@@ -491,9 +539,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "708EBE07C4340BE3"
-				type: "questsadditions:repeat"
-				table_id: 8027425578814333619L
+				id: "25AB66C2DF9A1FBA"
+				type: "item"
+				item: "minecraft:coal"
+				count: 500
 			}]
 		}
 		{
@@ -503,6 +552,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["7E371A293BA50F73"]
+			repeatable: true
 			id: "42A3D11FF75ACB7A"
 			tasks: [{
 				id: "0E2F641F4846C45E"
@@ -511,9 +561,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "14D096C472FE9609"
-				type: "questsadditions:repeat"
-				table_id: 8544815232183813008L
+				id: "0A235A0F6C25A53C"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 1280
 			}]
 		}
 		{
@@ -523,6 +574,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["09F80EA2F63C463D"]
+			repeatable: true
 			id: "3BF01EB2DEC5A10C"
 			tasks: [{
 				id: "43E38DB15E2A6C37"
@@ -531,9 +583,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "18A2692CEDF258DB"
-				type: "questsadditions:repeat"
-				table_id: 4886636062355377127L
+				id: "231C52CB1C9D7814"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 640
 			}]
 		}
 		{
@@ -543,6 +596,7 @@
 			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["69B77907AC1E584F"]
+			repeatable: true
 			id: "067A32A9AFF45612"
 			tasks: [{
 				id: "6C9E96B50DA1EDB0"
@@ -551,9 +605,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "593D67B69CF7D296"
-				type: "questsadditions:repeat"
-				table_id: 4141740035695491173L
+				id: "137A024F64CB481D"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 80
 			}]
 		}
 		{
@@ -563,6 +618,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["5D6A0D5041F5F83A"]
+			repeatable: true
 			id: "2E14A021B4D73D1D"
 			tasks: [{
 				id: "448E456863E69925"
@@ -571,9 +627,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "029E0073E1FB3668"
-				type: "questsadditions:repeat"
-				table_id: 3642587891519684709L
+				id: "2D332080905EE2F7"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 240
 			}]
 		}
 		{
@@ -583,6 +640,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["70CCE5AE5442C98D"]
+			repeatable: true
 			id: "5E68D289DD155161"
 			tasks: [{
 				id: "2E49EAC2DB55C53D"
@@ -591,9 +649,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "5689D59F4AC9CA52"
-				type: "questsadditions:repeat"
-				table_id: 5579678204809421604L
+				id: "28E7C6C1995C5147"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 320
 			}]
 		}
 		{
@@ -603,6 +662,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["456F50BFC7926902"]
+			repeatable: true
 			id: "0D8459D0E32EBA8D"
 			tasks: [{
 				id: "2388E2A3BD001DA7"
@@ -611,9 +671,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6B2776E471AE2928"
-				type: "questsadditions:repeat"
-				table_id: 5974346767320365010L
+				id: "447DDC70BC87873A"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 80
 			}]
 		}
 		{
@@ -623,6 +684,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["79AF2B1DD5ADD008"]
+			repeatable: true
 			id: "201EFA0E089FE3D1"
 			tasks: [{
 				id: "3499173926614553"
@@ -631,9 +693,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3DA6B9CD8E8851F1"
-				type: "questsadditions:repeat"
-				table_id: 1128229046183112898L
+				id: "7B5F3C0E2A42FBBA"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 160
 			}]
 		}
 		{
@@ -644,6 +707,7 @@
 			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: ["2C5CB8C2E2C18160"]
+			repeatable: true
 			id: "7AC27C3DA5B3A0EA"
 			tasks: [{
 				id: "3845D3BCDB9AA9FC"
@@ -652,9 +716,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "51CC2A79D609411D"
-				type: "questsadditions:repeat"
-				table_id: 3132277182778068353L
+				id: "7BA230781F04BEEB"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				count: 60
 			}]
 		}
 		{
@@ -663,6 +728,7 @@
 			x: -1.0d
 			y: 4.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "52C06E4AAB8E648F"
 			tasks: [{
 				id: "2C1416A5BEF3986B"
@@ -671,9 +737,23 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "26A327EC2DEC75CA"
-				type: "questsadditions:repeat"
-				table_id: 8730779865638041047L
+				id: "086233E77149A764"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
+				count: 10
 			}]
 		}
 		{
@@ -682,6 +762,7 @@
 			x: 4.0d
 			y: 4.5d
 			dependencies: ["77B7D2B9F6EBAD36"]
+			repeatable: true
 			id: "04963BD29AFD1773"
 			tasks: [{
 				id: "3838B0D57A1CFD3F"
@@ -691,9 +772,23 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "634299CE7BEE7CB9"
-				type: "questsadditions:repeat"
-				table_id: 7782086514109519092L
+				id: "086F5AB383734A04"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "silents_mechanisms:polyethylene"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
+				count: 10
 			}]
 		}
 		{
@@ -702,6 +797,7 @@
 			x: 0.5d
 			y: 4.5d
 			dependencies: ["64950E39BDA6F0A0"]
+			repeatable: true
 			id: "00A786FB9E4A0A25"
 			tasks: [{
 				id: "00900CB8F1DFB31A"
@@ -711,9 +807,23 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "375C95F0B2B176C1"
-				type: "questsadditions:repeat"
-				table_id: 5583481643741265072L
+				id: "292E224BB7EAE51C"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:latex"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
+				count: 10
 			}]
 		}
 		{
@@ -722,6 +832,7 @@
 			x: 1.5d
 			y: 4.5d
 			dependencies: ["07FDB2ADF7A64D06"]
+			repeatable: true
 			id: "043A7621DD1BCCC4"
 			tasks: [{
 				id: "0F9234D6BCCED11B"
@@ -731,9 +842,23 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "46D6AB65AC593739"
-				type: "questsadditions:repeat"
-				table_id: 8997778220701508913L
+				id: "585299C19DE61F3A"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:pink_slime"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
+				count: 5
 			}]
 		}
 		{
@@ -742,6 +867,7 @@
 			x: 2.5d
 			y: 4.5d
 			dependencies: ["5FA459D4205EC62B"]
+			repeatable: true
 			id: "0C0EC4EE38AB7955"
 			tasks: [{
 				id: "40D610DA770E3C3C"
@@ -751,9 +877,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7FB7CD4BBA1C1EA9"
-				type: "questsadditions:repeat"
-				table_id: 3130361591777553331L
+				id: "7D7B4EE2F156A8A4"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:ether_gas"
+									Amount: 10000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -763,6 +902,7 @@
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "58A3F78947D0D9BF"
 			tasks: [{
 				id: "46D23E50AE52681C"
@@ -771,9 +911,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "5A40C51FEF9141E5"
-				type: "questsadditions:repeat"
-				table_id: 5629094878002423635L
+				id: "60D9513C7245B9E6"
+				type: "item"
+				item: "pamhc2foodextended:friedfeastitem"
+				count: 100
 			}]
 		}
 		{
@@ -782,6 +923,7 @@
 			x: -0.5d
 			y: -1.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "7D6FD6624D66049A"
 			tasks: [{
 				id: "0A4A4336D46AC28B"
@@ -790,9 +932,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "74C23701A993DE9F"
-				type: "questsadditions:repeat"
-				table_id: 1141480293342747541L
+				id: "57904FB7B8188A16"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 80
 			}]
 		}
 		{
@@ -802,6 +945,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["60977FB1A20D739C"]
+			repeatable: true
 			id: "2F44C4CA936DF791"
 			tasks: [{
 				id: "05FC69F881EFAA6D"
@@ -810,9 +954,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3F0EC23952653019"
-				type: "questsadditions:repeat"
-				table_id: 5570549714952992909L
+				id: "46C2CCF9658BD6A4"
+				type: "item"
+				item: "botania:terrasteel_ingot"
 			}]
 		}
 		{
@@ -822,6 +966,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["05FCAB98D60C4188"]
+			repeatable: true
 			id: "761D04FC22F2F621"
 			tasks: [{
 				id: "1A2320ECD35F595E"
@@ -831,9 +976,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3821EC7BAA10FA75"
-				type: "questsadditions:repeat"
-				table_id: 79485267401715496L
+				id: "2C0CC714078C0A44"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 16
 			}]
 		}
 		{
@@ -843,6 +989,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["209E8E5C4C4FDE65"]
+			repeatable: true
 			id: "34ED2DA6DC8E19B1"
 			tasks: [{
 				id: "0CE99BC43009C05A"
@@ -851,9 +998,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "263C4DFC1AE6A0C2"
-				type: "questsadditions:repeat"
-				table_id: 5891652327764382348L
+				id: "09D3074F2F4C4ACF"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				count: 5
 			}]
 		}
 		{
@@ -863,6 +1011,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["4BD5F8A095C15E61"]
+			repeatable: true
 			id: "03953D62FDAA0601"
 			tasks: [{
 				id: "01AD458FF8D5DD09"
@@ -871,9 +1020,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "416264921D0FED00"
-				type: "questsadditions:repeat"
-				table_id: 2345041837097344737L
+				id: "069264F3CDD42601"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
 			}]
 		}
 		{
@@ -883,6 +1033,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["7F47A2B80FA8122A"]
+			repeatable: true
 			id: "2CAB8799D43680F1"
 			tasks: [{
 				id: "71C3C2ABF82438BC"
@@ -892,9 +1043,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "219E0052D6DAC646"
-				type: "questsadditions:repeat"
-				table_id: 3201223105065745524L
+				id: "0B556A10BFFF0871"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+				count: 5
 			}]
 		}
 		{
@@ -904,6 +1056,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["3FFB427BE9055990"]
+			repeatable: true
 			id: "1F162CD296418BD1"
 			tasks: [{
 				id: "7EB67611E5BD2AEE"
@@ -913,9 +1066,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "03B3FBEC2D52C193"
-				type: "questsadditions:repeat"
-				table_id: 150400871133533900L
+				id: "612FD46161E2AA40"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -925,6 +1079,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["07E75EB414953E31"]
+			repeatable: true
 			id: "2A2F9819DE3656B1"
 			tasks: [{
 				id: "672549653226F5FD"
@@ -933,9 +1088,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "5791B8829F0C9C59"
-				type: "questsadditions:repeat"
-				table_id: 2569215261411306976L
+				id: "2DCD1EC4C675AF3E"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 12
 			}]
 		}
 		{
@@ -945,6 +1101,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["775CD8607FB6618A"]
+			repeatable: true
 			id: "2BA0649ABA4C9041"
 			tasks: [{
 				id: "48E1717DCD37C65B"
@@ -954,9 +1111,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "38B2EF4243802E7A"
-				type: "questsadditions:repeat"
-				table_id: 8511548836866303907L
+				id: "4C100E74D8E8D742"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 50
 			}]
 		}
 		{
@@ -969,6 +1127,7 @@
 				"799626B76C7E5509"
 				"2EADF779D02067AA"
 			]
+			repeatable: true
 			id: "66EC008C0DD18DE1"
 			tasks: [{
 				id: "6519904FD21BC53E"
@@ -977,9 +1136,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "319CCB8812D479D8"
-				type: "questsadditions:repeat"
-				table_id: 6400403204817353963L
+				id: "294A2BB4D0D24095"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 10
 			}]
 		}
 		{
@@ -989,6 +1149,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["07FDB2ADF7A64D06"]
+			repeatable: true
 			id: "54070CB0F87D5901"
 			tasks: [{
 				id: "1DA8987C5E3A2A0B"
@@ -998,9 +1159,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "76609704C23ABA05"
-				type: "questsadditions:repeat"
-				table_id: 6379939675049823834L
+				id: "62D77EAE7936D802"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -1010,6 +1172,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["32CAD5043CC64B02"]
+			repeatable: true
 			id: "7666E802683E7771"
 			tasks: [{
 				id: "4F66314CF58D8980"
@@ -1018,9 +1181,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "750787D524A74DC4"
-				type: "questsadditions:repeat"
-				table_id: 8813177028820729791L
+				id: "307DE89099E2B329"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -1030,6 +1194,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["32CAD5043CC64B02"]
+			repeatable: true
 			id: "776780A04E26D6B1"
 			tasks: [{
 				id: "57C1FB3082EE365D"
@@ -1038,9 +1203,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "47EBE5DD43087ECC"
-				type: "questsadditions:repeat"
-				table_id: 1393831548345342534L
+				id: "70D9145A7E066D5D"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -1050,6 +1216,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "00A1B1B15634C4A1"
 			tasks: [{
 				id: "5A53EAB01972F56E"
@@ -1059,9 +1226,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "175CF5EB3E07FFCB"
-				type: "questsadditions:repeat"
-				table_id: 5439934741230642945L
+				id: "721F664FFF5F728C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+				count: 3
 			}]
 		}
 		{
@@ -1071,6 +1239,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["080C6B406DD3A752"]
+			repeatable: true
 			id: "46F47332A0E4AC71"
 			tasks: [{
 				id: "798710D7BF3AC337"
@@ -1079,9 +1248,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "1DBA809609B42AF4"
-				type: "questsadditions:repeat"
-				table_id: 4015114987479886011L
+				id: "5AA680D4EA8B835E"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -1091,6 +1261,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "0FE1CAA4AFC8B7C1"
 			tasks: [{
 				id: "2859073A2EB36D1F"
@@ -1099,9 +1270,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6001A2170F0A20CF"
-				type: "questsadditions:repeat"
-				table_id: 7468749664487926502L
+				id: "4126FD01FCF7D723"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+				count: 2
 			}]
 		}
 		{
@@ -1111,6 +1283,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["0786C14473741661"]
+			repeatable: true
 			id: "443F9351199F7121"
 			tasks: [{
 				id: "4E314F1242AA40C5"
@@ -1120,9 +1293,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6244F17EC276055B"
-				type: "questsadditions:repeat"
-				table_id: 5953910195792595937L
+				id: "13A700B32DBF188B"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
 			}]
 		}
 		{
@@ -1132,6 +1305,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["35EB10F4C9A852AF"]
+			repeatable: true
 			id: "21C22007AF9AC0D1"
 			tasks: [{
 				id: "7BE02B4CC034FE5D"
@@ -1140,9 +1314,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "62CA7D11E84AEB13"
-				type: "questsadditions:repeat"
-				table_id: 6404377296762666503L
+				id: "40559080307B6361"
+				type: "item"
+				item: "create:precision_mechanism"
+				count: 3
 			}]
 		}
 		{
@@ -1152,6 +1327,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["2A16772ED21FB338"]
+			repeatable: true
 			id: "2CAE7E5E80B18FA1"
 			tasks: [{
 				id: "629EF196387389B6"
@@ -1161,9 +1337,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6E4D9A9EFA0CEF5A"
-				type: "questsadditions:repeat"
-				table_id: 6052302380087290851L
+				id: "07F1014078CD4B6B"
+				type: "item"
+				item: "bloodmagic:demonslate"
 			}]
 		}
 		{
@@ -1173,6 +1349,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["6A62267F6E3067D0"]
+			repeatable: true
 			id: "37A862ACF3D4AC71"
 			tasks: [{
 				id: "0F5631FC28DCEF94"
@@ -1182,9 +1359,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "694DC0CD5FA87D70"
-				type: "questsadditions:repeat"
-				table_id: 6523759472100820418L
+				id: "33074E673B1A7368"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 4
 			}]
 		}
 		{
@@ -1194,6 +1372,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["731B5DB0F8A693E6"]
+			repeatable: true
 			id: "5A086ACDC038FC41"
 			tasks: [{
 				id: "71D75E68AE923B9E"
@@ -1202,9 +1381,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7497D724940BA428"
-				type: "questsadditions:repeat"
-				table_id: 7505520998276833565L
+				id: "1BAFE6E6A18700A6"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -1214,6 +1394,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["79D7A7BC76EA68D0"]
+			repeatable: true
 			id: "18DA8DE8F2B2D721"
 			tasks: [{
 				id: "683EF69A81BF8020"
@@ -1222,9 +1403,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "612DEF58A122646A"
-				type: "questsadditions:repeat"
-				table_id: 4194925339360515902L
+				id: "1902ABCDB6C9135B"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 3
 			}]
 		}
 		{
@@ -1234,6 +1416,7 @@
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["2BFB87D8E395F92B"]
+			repeatable: true
 			id: "1C333652C95A9031"
 			tasks: [{
 				id: "50F2C6E52A40678B"
@@ -1242,9 +1425,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4CBCFFDAAAFDFD28"
-				type: "questsadditions:repeat"
-				table_id: 2232873964126963405L
+				id: "022F2E067C2C4B96"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 12
 			}]
 		}
 		{
@@ -1254,6 +1438,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["3C9E297921A25476"]
+			repeatable: true
 			id: "038C1314232969F1"
 			tasks: [{
 				id: "32EC3A75309933CB"
@@ -1263,9 +1448,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "637FD3EF94748CAF"
-				type: "questsadditions:repeat"
-				table_id: 8050455985820996186L
+				id: "4A41469F7F9952CB"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
 			}]
 		}
 		{
@@ -1275,6 +1460,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["42A3302AE240F60F"]
+			repeatable: true
 			id: "5BDCCB4E62857001"
 			tasks: [{
 				id: "16ABC0942503A421"
@@ -1283,9 +1469,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7ED56BCA0FFFCC07"
-				type: "questsadditions:repeat"
-				table_id: 6220749041003584780L
+				id: "3E43535176BD7694"
+				type: "item"
+				item: "minecraft:coal"
+				count: 50
 			}]
 		}
 		{
@@ -1295,6 +1482,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["7E371A293BA50F73"]
+			repeatable: true
 			id: "42A3D11FF75ACB71"
 			tasks: [{
 				id: "555E7608B4084B78"
@@ -1303,9 +1491,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "385E31CB6837AEFF"
-				type: "questsadditions:repeat"
-				table_id: 3799108737989131320L
+				id: "3E2E0FE787507F38"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 128
 			}]
 		}
 		{
@@ -1315,6 +1504,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["09F80EA2F63C463D"]
+			repeatable: true
 			id: "3BF01EB2DEC5A101"
 			tasks: [{
 				id: "1873794C12D83288"
@@ -1323,9 +1513,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "7E97CE45EF3E40F5"
-				type: "questsadditions:repeat"
-				table_id: 3376265397209772502L
+				id: "3C01A4F08E8EB96D"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64
 			}]
 		}
 		{
@@ -1335,6 +1526,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["69B77907AC1E584F"]
+			repeatable: true
 			id: "067A32A9AFF45611"
 			tasks: [{
 				id: "266A180FB3CB3979"
@@ -1343,9 +1535,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "519A2EDDA8C8BEAB"
-				type: "questsadditions:repeat"
-				table_id: 8367346372090263773L
+				id: "13748BB06F954127"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -1355,6 +1548,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["5D6A0D5041F5F83A"]
+			repeatable: true
 			id: "2E14A021B4D73D11"
 			tasks: [{
 				id: "6FB8B29ECE1D52A3"
@@ -1363,9 +1557,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6DADE958452480F0"
-				type: "questsadditions:repeat"
-				table_id: 7150952484847168976L
+				id: "4440BB3698BAE734"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 24
 			}]
 		}
 		{
@@ -1375,6 +1570,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["70CCE5AE5442C98D"]
+			repeatable: true
 			id: "5E68D289DD155162"
 			tasks: [{
 				id: "1583EFC1A95CA1A9"
@@ -1383,9 +1579,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2D63EADDA15C7F9B"
-				type: "questsadditions:repeat"
-				table_id: 3263009273991517943L
+				id: "5DD4283100A76353"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 32
 			}]
 		}
 		{
@@ -1395,6 +1592,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["456F50BFC7926902"]
+			repeatable: true
 			id: "0D8459D0E32EBA81"
 			tasks: [{
 				id: "4FD47F4DBF761CFF"
@@ -1403,9 +1601,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "50F0C30D45CC052B"
-				type: "questsadditions:repeat"
-				table_id: 893600527132804929L
+				id: "4F016E4803A620A3"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 8
 			}]
 		}
 		{
@@ -1415,6 +1614,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["79AF2B1DD5ADD008"]
+			repeatable: true
 			id: "201EFA0E089FE3D2"
 			tasks: [{
 				id: "192A066AC6033D52"
@@ -1423,9 +1623,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4EC34E6DF5F1C168"
-				type: "questsadditions:repeat"
-				table_id: 4583564681763467847L
+				id: "018A9E5AE114589D"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
 			}]
 		}
 		{
@@ -1435,6 +1636,7 @@
 			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["2C5CB8C2E2C18160"]
+			repeatable: true
 			id: "7AC27C3DA5B3A0E1"
 			tasks: [{
 				id: "4C73C202CCFF2DC1"
@@ -1444,9 +1646,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "0A672533C0B4A73B"
-				type: "questsadditions:repeat"
-				table_id: 7459821023978820306L
+				id: "527D6A5BC40D170D"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				count: 6
 			}]
 		}
 		{
@@ -1455,6 +1658,7 @@
 			x: -1.0d
 			y: 3.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "52C06E4AAB8E6481"
 			tasks: [{
 				id: "5D0CAB44A4994757"
@@ -1464,9 +1668,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "32E1204A5D486B9B"
-				type: "questsadditions:repeat"
-				table_id: 664006990101489470L
+				id: "46B23A53D6B3496D"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1475,6 +1692,7 @@
 			x: 4.0d
 			y: 3.5d
 			dependencies: ["77B7D2B9F6EBAD36"]
+			repeatable: true
 			id: "04963BD29AFD1771"
 			tasks: [{
 				id: "21B1B1B37C844998"
@@ -1483,9 +1701,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "12FD4A3D648238D2"
-				type: "questsadditions:repeat"
-				table_id: 6314371564964487488L
+				id: "6CBA356B43E394D4"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "silents_mechanisms:polyethylene"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1494,6 +1725,7 @@
 			x: 0.5d
 			y: 3.5d
 			dependencies: ["64950E39BDA6F0A0"]
+			repeatable: true
 			id: "00A786FB9E4A0A21"
 			tasks: [{
 				id: "699866E620760EC8"
@@ -1502,9 +1734,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4988C3094588DD77"
-				type: "questsadditions:repeat"
-				table_id: 824242670749522118L
+				id: "209D66279D0BBD17"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:latex"
+									Amount: 14000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1513,6 +1758,7 @@
 			x: 1.5d
 			y: 3.5d
 			dependencies: ["07FDB2ADF7A64D06"]
+			repeatable: true
 			id: "043A7621DD1BCCC1"
 			tasks: [{
 				id: "7F7DAA5D516CAF53"
@@ -1521,9 +1767,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4397E964FE030323"
-				type: "questsadditions:repeat"
-				table_id: 9025646518549987808L
+				id: "33C1B57793C19303"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:pink_slime"
+									Amount: 7000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1532,6 +1791,7 @@
 			x: 2.5d
 			y: 3.5d
 			dependencies: ["5FA459D4205EC62B"]
+			repeatable: true
 			id: "0C0EC4EE38AB7951"
 			tasks: [{
 				id: "11694ABF52F3D063"
@@ -1540,9 +1800,22 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2E46135BFDE1435E"
-				type: "questsadditions:repeat"
-				table_id: 8288245304827176403L
+				id: "0CB0980CB0D29AD0"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								stored: {
+									FluidName: "industrialforegoing:ether_gas"
+									Amount: 1000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1552,6 +1825,7 @@
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "58A3F78947D0D9B1"
 			tasks: [{
 				id: "57673D4A6531934E"
@@ -1561,9 +1835,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "1C227C9FEBB9F553"
-				type: "questsadditions:repeat"
-				table_id: 773650110982786319L
+				id: "15815AB961874E99"
+				type: "item"
+				item: "pamhc2foodextended:friedfeastitem"
+				count: 10
 			}]
 		}
 		{
@@ -1572,6 +1847,7 @@
 			x: 4.5d
 			y: -1.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "79DF6E46DC9331F1"
 			tasks: [{
 				id: "56F74F60ACB8BFF1"
@@ -1581,9 +1857,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "55B0E97F68DD7955"
-				type: "questsadditions:repeat"
-				table_id: 935609720777906449L
+				id: "2F9549FF4138CF1A"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
 			}]
 		}
 		{
@@ -1592,6 +1868,7 @@
 			x: 4.5d
 			y: -0.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "77B9EBEB9A4A8652"
 			tasks: [{
 				id: "51798DAF8DFF477C"
@@ -1601,9 +1878,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "0D305F953E2A766C"
-				type: "questsadditions:repeat"
-				table_id: 2588347941174568817L
+				id: "1ADEB4C79A9DE3FB"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
 			}]
 		}
 		{
@@ -1612,6 +1889,7 @@
 			x: 4.5d
 			y: 0.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "5BE2D8EE9BDCEBA1"
 			tasks: [{
 				id: "3DD36A302F2EC261"
@@ -1621,9 +1899,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "214EEB6060D0F020"
-				type: "questsadditions:repeat"
-				table_id: 4042526619991382153L
+				id: "09CBAFFC44CCA338"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
 			}]
 		}
 		{
@@ -1632,6 +1910,7 @@
 			x: 4.5d
 			y: 1.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "4D870B57EF077301"
 			tasks: [{
 				id: "786A2525D8BD8E60"
@@ -1641,9 +1920,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "0F593B7995EA5C03"
-				type: "questsadditions:repeat"
-				table_id: 1236728968340691110L
+				id: "30B45F6715F54C53"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
 			}]
 		}
 		{
@@ -1652,6 +1931,7 @@
 			x: -0.5d
 			y: -2.5d
 			dependencies: ["799626B76C7E5509"]
+			repeatable: true
 			id: "7D6FD6624D660491"
 			tasks: [{
 				id: "01599F896240A9E7"
@@ -1660,9 +1940,10 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3BD504CEB1D5AFC0"
-				type: "questsadditions:repeat"
-				table_id: 7258092882063970077L
+				id: "732DD5B2D6C7A44E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 8
 			}]
 		}
 	]

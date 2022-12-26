@@ -1,4 +1,4 @@
-onEvent('recipes', event => {  ´
+onEvent('recipes', event => {
 event.custom({
     "input": [
       {
@@ -216,4 +216,77 @@ allmarble = ["quark:marble", "chisel:marble/raw", "enviromats:marble"].forEach(m
         }
     })
 })
+// adding new powah energizing orbs recipes (blocks)
+event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+        { item: 'minecraft:diamond_block' }
+    ],
+    energy: 3000000,
+    result: {
+		item: 'powah:niotic_crystal_block'
+    }
+})
+event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+        { item: 'botania:blaze_block' }
+    ],
+    energy: 900000,
+    result: {
+		item: 'powah:blazing_crystal_block'
+    }
+})
+event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+        { item: 'minecraft:iron_block' },
+        { item: 'minecraft:gold_block' }
+    ],
+    energy: 100000,
+    result: {
+		item: 'powah:energized_steel_block'
+    }
+})
+event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+        { item: 'minecraft:emerald_block' }
+    ],
+    energy: 10000000,
+    result: {
+		item: 'powah:spirited_crystal_block'
+    }
+})
+//adding flux recipe
+event.shaped("9x fluxnetworks:flux_dust",[
+    " A ",
+    " B ",
+    " C "
+],{
+    A:Item.of('betterendforge:diamond_hammer').ignoreNBT(),
+    B:"minecraft:redstone_block",
+    C:"minecraft:obsidian"
+}).damageIngredient(1)
+// adding constantan_ingot recipe in alloy smelter
+event.custom({
+  type: "silents_mechanisms:alloy_smelting",
+  process_time: 400,
+  ingredients: [{
+      value: [
+        {tag: "forge:ingots/nickel"},
+        {tag: "silents_mechanisms:chunks/nickel"},
+        {tag: "forge:dusts/nickel"}],
+      count: 1
+    },{
+      value: [
+        {tag: "forge:ingots/copper"},
+        {tag: "silents_mechanisms:chunks/copper"},
+        {tag: "forge:dusts/copper"}],
+      count: 1
+    }],
+  result: {
+    item: "emendatusenigmatica:constantan_ingot",
+    count: 2
+}})
 })

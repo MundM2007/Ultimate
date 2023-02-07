@@ -1,7 +1,5 @@
-
-#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
-	#The Application ID of the Discord App to use
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
 	applicationID = 762726289341677668
 	#Enable/Disable the mod
 	enabled = true
@@ -10,11 +8,10 @@
 	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
 	configScreen = true
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
-	launcherIntegration = false
+	launcherIntegration = true
 	#Internal Version Number. NO TOUCHY!
 	version = 18
 
-#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
@@ -22,43 +19,41 @@
 	description = "Minecraft is loading"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[init.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% is currently lazy"
-	#The seconds line of text under the app name
+	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[main_menu.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
@@ -66,21 +61,20 @@
 	description = "%player% is looking for a server"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[server_list.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
@@ -88,21 +82,20 @@
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[realms_list.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
@@ -110,21 +103,20 @@
 	description = "%player% is joining a game"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[join_game.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
@@ -132,21 +124,20 @@
 	description = "Currently In %world%"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[single_player.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
@@ -154,21 +145,20 @@
 	description = "Playing on %servername% with %players% players"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[multi_player.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
@@ -176,53 +166,48 @@
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[realms.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
 	description = "Playing Minecraft"
 	#The second line of text under the app name
 	state = "Playing Ultimate Progression"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[generic.buttons]]
-		label = "!!!Download the Modpack!!!"
+		label = "Download the Modpack!"
 		url = "https://www.curseforge.com/minecraft/modpacks/ultimate-progression"
 
-#Custom Config Variables that you can use
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = true
 	#Your custom variables to add
 	variables = []
 
-#Dimension Information Overrides
 [dimension_overrides]
-	#Allows you to override the displayed values for dimensions
 	enabled = false
 
-	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
 		description = "%player% is in The Overworld"
@@ -252,4 +237,5 @@
 		smallImageKey = ["mclogo"]
 		smallImageText = "%mods% mods installed"
 		buttons = []
+
 

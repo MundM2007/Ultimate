@@ -331,23 +331,6 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -5.5d
-			dependencies: ["3A4D14B03CFAE30D"]
-			id: "7014D03506980F41"
-			tasks: [{
-				id: "63008AF908C76499"
-				type: "item"
-				item: "thermal:machine_frame"
-			}]
-			rewards: [{
-				id: "5D2A370A1A51DEB3"
-				type: "item"
-				item: "decimal_coins:coin_1"
-				count: 2
-			}]
-		}
-		{
 			x: 6.5d
 			y: -3.0d
 			description: ["Sumary of all Alloy from Silent's Mechansims"]

@@ -3,7 +3,7 @@
 	group: "6C2F3374A4B40AD0"
 	order_index: 5
 	filename: "immersieve_enginnering"
-	title: "Immersieve Enginnering (Quests:59)"
+	title: "Immersive Engineering (Quests:59)"
 	icon: "immersiveengineering:ingot_steel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

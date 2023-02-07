@@ -149,10 +149,10 @@ onEvent('recipes', (event) => {
         'mysticalagriculture:essence/mekanism/refined_glowstone_ingot',
         'mysticalagriculture:essence/thermal/enderium_ingot',
         'mysticalagriculture:essence/botania/terrasteel_ingot',
-        'mysticalagriculture:nether_star_crux',
-        'mysticalagriculture:awakened_draconium_crux',
-        'mysticalagriculture:dragon_egg_crux',
-        'mysticalagriculture:nitro_crystal_crux',
+        'mysticalagradditions:nether_star_crux',
+        'mysticalagradditions:awakened_draconium_crux',
+        'mysticalagradditions:dragon_egg_crux',
+        'mysticalagradditions:nitro_crystal_crux'
         ];
 
         EssenceRemove.forEach((id) => {

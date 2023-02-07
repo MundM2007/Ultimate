@@ -207,15 +207,8 @@ craftingTable.addShaped("furnator_nitro", <item:powah:furnator_nitro>, [
 
 
 //Solarflux
-<recipetype:create:mixing>.addRecipe("photovoltaic_cell_2", "heated", <item:solarflux:photovoltaic_cell_2>, [
-	<item:minecraft:lapis_lazuli> * 2, <tag:items:forge:ingots/steel>, <item:solarflux:photovoltaic_cell_1>
-]);
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("photovoltaic_cell_3",
- <item:solarflux:photovoltaic_cell_2> * 1 , [<item:tconstruct:manyullyn_ingot> * 1], 40, 10240,
- [<item:solarflux:photovoltaic_cell_3>], <item:immersiveengineering:slag>);
-<recipetype:thermal:smelter>.addRecipe("photovoltaic_cell_4", [<item:solarflux:photovoltaic_cell_4> % 100], [
-	<item:solarflux:photovoltaic_cell_3>, <item:silentgear:azure_electrum_ingot>, <item:silentgear:blaze_gold_ingot>],
-1, 1000);
+<recipetype:create:mixing>.addRecipe("photovoltaic_cell_2", "heated", <item:solarflux:photovoltaic_cell_2>, [<item:minecraft:lapis_lazuli> * 2, <tag:items:forge:ingots/steel>, <item:solarflux:photovoltaic_cell_1>]);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("photovoltaic_cell_3",<item:solarflux:photovoltaic_cell_2> * 1 , [<item:tconstruct:manyullyn_ingot> * 1], 40, 10240,[<item:solarflux:photovoltaic_cell_3>], <item:immersiveengineering:slag>);
 <recipetype:botania:mana_infusion>.addRecipe("photovoltaic_cell_5",<item:solarflux:photovoltaic_cell_5>,<item:solarflux:photovoltaic_cell_4>,5000);
 <recipetype:bloodmagic:altar>.addRecipe("photovoltaic_cell_6", <item:solarflux:photovoltaic_cell_6>, <item:solarflux:photovoltaic_cell_5>, 3, 1000, 5, 5);
 

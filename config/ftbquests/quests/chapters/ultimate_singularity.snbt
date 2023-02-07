@@ -129,8 +129,8 @@
 			x: 2.5d
 			y: 8.0d
 			dependencies: [
-				"66DE67AD0D440DC5"
 				"5EF2D0DDAEF5B8A9"
+				"7425C8C4CA08794C"
 			]
 			id: "408602F4B78A1153"
 			tasks: [{
@@ -148,8 +148,8 @@
 			x: 2.5d
 			y: 9.0d
 			dependencies: [
-				"408602F4B78A1153"
 				"5EF2D0DDAEF5B8A9"
+				"7425C8C4CA08794C"
 			]
 			id: "7E11B39AA105E0E6"
 			tasks: [{
@@ -167,8 +167,8 @@
 			x: 2.5d
 			y: 10.0d
 			dependencies: [
-				"7E11B39AA105E0E6"
 				"5EF2D0DDAEF5B8A9"
+				"7425C8C4CA08794C"
 			]
 			id: "3BA5AA48778C2707"
 			tasks: [{
@@ -1686,7 +1686,7 @@
 			tasks: [{
 				id: "5EC9F39C72F0C288"
 				type: "item"
-				item: "bigreactors:yellorium_ingot"
+				item: "bigreactors:cyanite_ingot"
 			}]
 			rewards: [{
 				id: "7CBF3E044EB403AB"

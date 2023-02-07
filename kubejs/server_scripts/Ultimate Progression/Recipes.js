@@ -216,6 +216,7 @@ allmarble = ["quark:marble", "chisel:marble/raw", "enviromats:marble"].forEach(m
         }
     })
 })
+
 // adding new powah energizing orbs recipes (blocks)
 event.custom({
     type: 'powah:energizing',
@@ -258,6 +259,7 @@ event.custom({
 		item: 'powah:spirited_crystal_block'
     }
 })
+
 //adding flux recipe
 event.shaped("9x fluxnetworks:flux_dust",[
     " A ",
@@ -268,6 +270,7 @@ event.shaped("9x fluxnetworks:flux_dust",[
     B:"minecraft:redstone_block",
     C:"minecraft:obsidian"
 }).damageIngredient(1)
+
 // adding constantan_ingot recipe in alloy smelter
 event.custom({
   type: "silents_mechanisms:alloy_smelting",
@@ -289,4 +292,24 @@ event.custom({
     item: "emendatusenigmatica:constantan_ingot",
     count: 2
 }})
+// photovolatic cell IV
+event.custom({
+  type: "silents_mechanisms:alloy_smelting",
+  process_time: 400,
+  ingredients: [{
+      value: [{item: "solarflux:photovoltaic_cell_3"}],
+      count: 1
+    },{
+      value: [{item: "silentgear:azure_electrum_ingot"}],
+      count: 1
+    },{
+      value: [{item: "silentgear:blaze_gold_ingot"}],
+      count: 1
+    }
+  ],
+  result: {
+    item: "solarflux:photovoltaic_cell_4",
+    count: 1
+  }
+})
 })

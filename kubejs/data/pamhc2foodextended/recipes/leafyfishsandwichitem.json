@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+	{	
+      "tag": "pamhc2foodcore:basicfishsandwichitem"
+    },
+	{	
+      "tag": "forge:leafyvegetables"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:leafyfishsandwichitem",
+	"count": 1}
+	
+}

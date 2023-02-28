@@ -316,4 +316,40 @@ event.custom({
 // remove project red recipe allowing 1 tin ore to convert to 9 tin ingots
 // other recipes exist for tin_from_block, so this can be removed instead of replaced
 event.remove({id: "projectred-exploration:tin_from_block"})
+
+// add grinder recipes for all variants of charged certus quartz
+event.custom({
+  type: "appliedenergistics2:grinder",
+  input: ingredient.of("#forge:ores/charged_certus_quartz").toJson(),
+  result: {
+    primary: item.of("appliedenergistics2:certus_quartz_dust", 2).toResultJson(),
+  },
+  turns: 4
+})
+
+// add crushing wheel recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "create:compat/ae2/crushing/certus_ore"})
+event.recipes.createCrushing([
+  "2x appliedenergistics2:certus_quartz_crystal",
+  item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+  item.of("minecraft:cobblestone").withChance(0.12)],
+  "#forge:ores/certus_quartz")
+event.remove({id: "create:compat/ae2/crushing/charged_certus_ore"})
+event.recipes.createCrushing([
+  "2x appliedenergistics2:certus_quartz_crystal",
+  item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+  item.of("minecraft:cobblestone").withChance(0.12)],
+  "#forge:ores/charged_certus_quartz")
+
+// add enrichment chamber recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "mekanism:compat/appliedenergistics2/certus_ore_to_crystal"})
+event.recipes.mekanismEnriching("4x appliedenergistics2:certus_quartz_crystal", "#forge:ores/certus_quartz")
+event.remove({id: "mekanism:compat/appliedenergistics2/charged_certus_ore_to_crystal"})
+event.recipes.mekanismEnriching("4x appliedenergistics2:certus_quartz_crystal", "#forge:ores/charged_certus_quartz")
+
+// add pulverizer recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_certus_quartz_ore"})
+event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/certus_quartz")
+event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_charged_certus_quartz_ore"})
+event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/charged_certus_quartz")
 })

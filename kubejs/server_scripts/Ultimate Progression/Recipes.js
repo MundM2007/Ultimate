@@ -312,4 +312,8 @@ event.custom({
     count: 1
   }
 })
+
+// remove project red recipe allowing 1 tin ore to convert to 9 tin ingots
+// other recipes exist for tin_from_block, so this can be removed instead of replaced
+event.remove({id: "projectred-exploration:tin_from_block"})
 })

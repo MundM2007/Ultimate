@@ -1,0 +1,20 @@
+{
+    "programs": ["envirotech:ore", "envirotech:metallic_ore"],
+    "item": {
+        "raw:item_tag": "forge:ores/crimson_iron", "count":1,
+        "selector": {
+            "type": "first"
+        }
+    },
+    "config": [
+        {
+            "weight": 150,
+	    "dimensions": ["minecraft:the_nether"]
+        },
+        {
+            "focus": "envirotech:red",
+            "weight": 1200,
+	    "dimensions": ["minecraft:the_nether"]
+        }
+    ]
+}

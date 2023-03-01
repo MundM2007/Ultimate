@@ -8,11 +8,13 @@
     },
     "config": [
         {
-            "weight": 100
+            "weight": 100,
+	    "dimensions": ["minecraft:the_end"]
         },
         {
             "focus": "envirotech:purple",
-            "weight": 800
+            "weight": 800,
+	    "dimensions": ["minecraft:the_end"]
         }
     ]
 }

@@ -589,6 +589,7 @@
 			title: "Arc Furnace"
 			x: 14.5d
 			y: 0.0d
+			description: ["You can use any steel block tagged \"forge:storage_blocks/steel\""]
 			dependencies: [
 				"69B77907AC1E584F"
 				"290B6FABCC14D48B"

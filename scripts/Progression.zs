@@ -108,13 +108,6 @@ mods.extendedcrafting.TableCrafting.addShaped("transmutation_table", <item:proje
 	[<item:projecte:red_matter_block>, <item:immersivepetroleum:petcoke_block>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:botania:elementium_block>, <item:projecte:aeternalis_fuel_block>, <item:envirocore:xerothium>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:immersivepetroleum:petcoke_block>, <item:projecte:red_matter_block>], 
 	[<item:powah:nitro_crystal_block>, <item:projecte:red_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:red_matter_block>, <item:powah:nitro_crystal_block>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped("tome_of_knowledge", <item:projecte:tome>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:book>, <item:minecraft:book>, <item:minecraft:book>], 
-	[<item:minecraft:air>, <item:minecraft:book>, <item:minecraft:book>, <item:projectexpansion:magnum_star_omega>, <item:minecraft:book>], 
-	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:book>], 
-	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:air>], 
-	[<item:minecraft:book>, <item:minecraft:book>, <item:minecraft:book>, <item:minecraft:air>, <item:minecraft:air>]
-]);
 craftingTable.removeByName("projecte:condenser_mk1");
 mods.extendedcrafting.TableCrafting.addShaped("condenser_mk1", <item:projecte:condenser_mk1>, [
 	[<item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:dark_matter>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:dark_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>], 

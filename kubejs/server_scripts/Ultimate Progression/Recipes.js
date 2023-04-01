@@ -313,8 +313,16 @@ event.custom({
   }
 })
 
-// remove project red recipe allowing 1 tin ore to convert to 9 tin ingots
-// other recipes exist for tin_from_block, so this can be removed instead of replaced
+//smithing automated
+event.shaped("metalbarrels:netherite_barrel",[
+    "BCB"
+],{
+    B: "minecraft:netherite_ingot",
+    C: "metalbarrels:obsidian_barrel"
+})
+
+
+// remove recipe allowing 1 tin ore to 9 tin ingots
 event.remove({id: "projectred-exploration:tin_from_block"})
 
 // add grinder recipes for all variants of charged certus quartz
@@ -352,4 +360,9 @@ event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_certus_quar
 event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/certus_quartz")
 event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_charged_certus_quartz_ore"})
 event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/charged_certus_quartz")
+
+// remove draconic machinery recipes
+event.remove({id: "draconicmachinery:chunk_loader_rcp"})
+event.remove({id: "draconicmachinery:anchor_rcp"})
+event.remove({id: "draconicmachinery:redstone_card_rcp"})
 })

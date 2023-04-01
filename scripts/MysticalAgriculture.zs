@@ -3,6 +3,7 @@ import mods.botanypots.ZenCrop;
 val crops = <recipetype:botanypots:crop>;
 import crafttweaker.api.tag.MCTag;
 import mods.botania.ManaInfusion;
+import mods.mysticalagriculture.ReprocessorCrafting;
 
 <tag:items:mysticalagriculture:watering_cans/basic>.add(<item:mysticalagriculture:watering_can>) as void;
 <tag:items:mysticalagriculture:watering_cans/basic>.add(<item:pickletweaks:watering_can>) as void;
@@ -199,148 +200,137 @@ mods.mysticalagriculture.InfusionCrafting.addRecipe("saltpeter_seeds", <item:mys
 	<item:mysticalagriculture:prosperity_seed_base>, <item:emendatusenigmatica:potassium_nitrate_dust>, <item:mysticalagriculture:prudentium_essence>, <item:emendatusenigmatica:potassium_nitrate_dust>, <item:mysticalagriculture:prudentium_essence>, <item:emendatusenigmatica:potassium_nitrate_dust>, <item:mysticalagriculture:prudentium_essence>, <item:emendatusenigmatica:potassium_nitrate_dust>, <item:mysticalagriculture:prudentium_essence>
 ]);
 
+//ReprocessorCrafting
+mods.mysticalagriculture.ReprocessorCrafting.addRecipe("seed/reprocessor/compressed_iron", <item:mysticalagriculture:compressed_iron_essence> * 2, <item:mysticalagriculture:compressed_iron_seeds>);
 
 //Botany Pots Seed Aditions
-val cobaltCrop = crops.create("misticalagriculture:cobalt", <item:mysticalagriculture:cobalt_seeds>, <blockstate:mysticalagriculture:cobalt_crop>, 1800, "farmland");
-cobaltCrop.addDrop(<item:mysticalagriculture:cobalt_essence>, 0.75);
-cobaltCrop.addDrop(<item:mysticalagriculture:cobalt_seeds>, 0.05);
-cobaltCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val manyullynCrop = crops.create("misticalagriculture:manyullyn", <item:mysticalagriculture:manyullyn_seeds>, <blockstate:mysticalagriculture:manyullyn_crop>, 1800, "farmland");
-manyullynCrop.addDrop(<item:mysticalagriculture:manyullyn_essence>, 0.75);
-manyullynCrop.addDrop(<item:mysticalagriculture:manyullyn_seeds>, 0.05);
-manyullynCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val livingwoodCrop = crops.create("misticalagriculture:livingwood", <item:mysticalagriculture:livingwood_seeds>, <blockstate:mysticalagriculture:livingwood_crop>, 1800, "farmland");
+val livingwoodCrop = crops.create("mysticalagriculture:livingwood", <item:mysticalagriculture:livingwood_seeds>, <blockstate:mysticalagriculture:livingwood_crop>, 2400, "prudentium");
 livingwoodCrop.addDrop(<item:mysticalagriculture:livingwood_essence>, 0.75);
 livingwoodCrop.addDrop(<item:mysticalagriculture:livingwood_seeds>, 0.05);
 livingwoodCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val livingrockCrop = crops.create("misticalagriculture:livingrock", <item:mysticalagriculture:livingrock_seeds>, <blockstate:mysticalagriculture:livingrock_crop>, 1800, "farmland");
+val livingrockCrop = crops.create("mysticalagriculture:livingrock", <item:mysticalagriculture:livingrock_seeds>, <blockstate:mysticalagriculture:livingrock_crop>, 2400, "prudentium");
 livingrockCrop.addDrop(<item:mysticalagriculture:livingrock_essence>, 0.75);
 livingrockCrop.addDrop(<item:mysticalagriculture:livingrock_seeds>, 0.05);
 livingrockCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val hepatizonCrop = crops.create("misticalagriculture:hepatizon", <item:mysticalagriculture:hepatizon_seeds>, <blockstate:mysticalagriculture:hepatizon_crop>, 1800, "farmland");
-hepatizonCrop.addDrop(<item:mysticalagriculture:hepatizon_essence>, 0.75);
-hepatizonCrop.addDrop(<item:mysticalagriculture:hepatizon_seeds>, 0.05);
-hepatizonCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val marbleCrop = crops.create("misticalagriculture:marble", <item:mysticalagriculture:marble_seeds>, <blockstate:mysticalagriculture:marble_crop>, 1800, "farmland");
+val marbleCrop = crops.create("mysticalagriculture:marble", <item:mysticalagriculture:marble_seeds>, <blockstate:mysticalagriculture:marble_crop>, 2400, "prudentium");
 marbleCrop.addDrop(<item:mysticalagriculture:marble_essence>, 0.75);
 marbleCrop.addDrop(<item:mysticalagriculture:marble_seeds>, 0.05);
 marbleCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val limestoneCrop = crops.create("misticalagriculture:limestone", <item:mysticalagriculture:limestone_seeds>, <blockstate:mysticalagriculture:limestone_crop>, 1800, "farmland");
+val limestoneCrop = crops.create("mysticalagriculture:limestone", <item:mysticalagriculture:limestone_seeds>, <blockstate:mysticalagriculture:limestone_crop>, 2400, "prudentium");
 limestoneCrop.addDrop(<item:mysticalagriculture:limestone_essence>, 0.75);
 limestoneCrop.addDrop(<item:mysticalagriculture:limestone_seeds>, 0.05);
 limestoneCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val basaltCrop = crops.create("misticalagriculture:basalt", <item:mysticalagriculture:basalt_seeds>, <blockstate:mysticalagriculture:basalt_crop>, 1800, "farmland");
+val basaltCrop = crops.create("mysticalagriculture:basalt", <item:mysticalagriculture:basalt_seeds>, <blockstate:mysticalagriculture:basalt_crop>, 2400, "prudentium");
 basaltCrop.addDrop(<item:mysticalagriculture:basalt_essence>, 0.75);
 basaltCrop.addDrop(<item:mysticalagriculture:basalt_seeds>, 0.05);
 basaltCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val tinkersbronzeCrop = crops.create("misticalagriculture:tinkers_bronze", <item:mysticalagriculture:tinkers_bronze_seeds>, <blockstate:mysticalagriculture:tinkers_bronze_crop>, 1800, "farmland");
-tinkersbronzeCrop.addDrop(<item:mysticalagriculture:tinkers_bronze_essence>, 0.75);
-tinkersbronzeCrop.addDrop(<item:mysticalagriculture:tinkers_bronze_seeds>, 0.05);
-tinkersbronzeCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val slimesteelCrop = crops.create("misticalagriculture:slimesteel", <item:mysticalagriculture:slimesteel_seeds>, <blockstate:mysticalagriculture:slimesteel_crop>, 1800, "farmland");
-slimesteelCrop.addDrop(<item:mysticalagriculture:slimesteel_essence>, 0.75);
-slimesteelCrop.addDrop(<item:mysticalagriculture:slimesteel_seeds>, 0.05);
-slimesteelCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val pigironCrop = crops.create("misticalagriculture:pig_iron", <item:mysticalagriculture:pig_iron_seeds>, <blockstate:mysticalagriculture:pig_iron_crop>, 1800, "farmland");
-pigironCrop.addDrop(<item:mysticalagriculture:pig_iron_essence>, 0.75);
-pigironCrop.addDrop(<item:mysticalagriculture:pig_iron_seeds>, 0.05);
-pigironCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val zombifiedpiglinCrop = crops.create("misticalagriculture:zombified_piglin", <item:mysticalagriculture:zombified_piglin_seeds>, <blockstate:mysticalagriculture:zombified_piglin_crop>, 1800, "farmland");
-zombifiedpiglinCrop.addDrop(<item:mysticalagriculture:zombified_piglin_essence>, 0.75);
-zombifiedpiglinCrop.addDrop(<item:mysticalagriculture:zombified_piglin_seeds>, 0.05);
-zombifiedpiglinCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val bismuthCrop = crops.create("misticalagriculture:bismuth", <item:mysticalagriculture:bismuth_seeds>, <blockstate:mysticalagriculture:bismuth_crop>, 1800, "farmland");
+val bismuthCrop = crops.create("mysticalagriculture:bismuth", <item:mysticalagriculture:bismuth_seeds>, <blockstate:mysticalagriculture:bismuth_crop>, 3600, "tertium");
 bismuthCrop.addDrop(<item:mysticalagriculture:bismuth_essence>, 0.75);
 bismuthCrop.addDrop(<item:mysticalagriculture:bismuth_seeds>, 0.05);
 bismuthCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val rubyCrop = crops.create("misticalagriculture:ruby", <item:mysticalagriculture:ruby_seeds>, <blockstate:mysticalagriculture:ruby_crop>, 1800, "farmland");
+val rubyCrop = crops.create("mysticalagriculture:ruby", <item:mysticalagriculture:ruby_seeds>, <blockstate:mysticalagriculture:ruby_crop>, 4000, "imperium");
 rubyCrop.addDrop(<item:mysticalagriculture:ruby_essence>, 0.75);
 rubyCrop.addDrop(<item:mysticalagriculture:ruby_seeds>, 0.05);
 rubyCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val sapphireCrop = crops.create("misticalagriculture:sapphire", <item:mysticalagriculture:sapphire_seeds>, <blockstate:mysticalagriculture:sapphire_crop>, 1800, "farmland");
+val sapphireCrop = crops.create("mysticalagriculture:sapphire", <item:mysticalagriculture:sapphire_seeds>, <blockstate:mysticalagriculture:sapphire_crop>, 4000, "imperium");
 sapphireCrop.addDrop(<item:mysticalagriculture:sapphire_essence>, 0.75);
 sapphireCrop.addDrop(<item:mysticalagriculture:sapphire_seeds>, 0.05);
 sapphireCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val rosegoldCrop = crops.create("misticalagriculture:rose_gold", <item:mysticalagriculture:rose_gold_seeds>, <blockstate:mysticalagriculture:rose_gold_crop>, 1800, "farmland");
-rosegoldCrop.addDrop(<item:mysticalagriculture:rose_gold_essence>, 0.75);
-rosegoldCrop.addDrop(<item:mysticalagriculture:rose_gold_seeds>, 0.05);
-rosegoldCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val redstonealloyCrop = crops.create("misticalagriculture:redstone_alloy", <item:mysticalagriculture:redstone_alloy_seeds>, <blockstate:mysticalagriculture:redstone_alloy_crop>, 1800, "farmland");
+val redstonealloyCrop = crops.create("mysticalagriculture:redstone_alloy", <item:mysticalagriculture:redstone_alloy_seeds>, <blockstate:mysticalagriculture:redstone_alloy_crop>, 4000, "imperium");
 redstonealloyCrop.addDrop(<item:mysticalagriculture:redstone_alloy_essence>, 0.75);
 redstonealloyCrop.addDrop(<item:mysticalagriculture:redstone_alloy_seeds>, 0.05);
 redstonealloyCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val refinedironCrop = crops.create("misticalagriculture:refined_iron", <item:mysticalagriculture:refined_iron_seeds>, <blockstate:mysticalagriculture:refined_iron_crop>, 1800, "farmland");
+val refinedironCrop = crops.create("mysticalagriculture:refined_iron", <item:mysticalagriculture:refined_iron_seeds>, <blockstate:mysticalagriculture:refined_iron_crop>, 4000, "imperium");
 refinedironCrop.addDrop(<item:mysticalagriculture:refined_iron_essence>, 0.75);
 refinedironCrop.addDrop(<item:mysticalagriculture:refined_iron_seeds>, 0.05);
 refinedironCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val aluminumsteelCrop = crops.create("misticalagriculture:aluminum_steel", <item:mysticalagriculture:aluminum_steel_seeds>, <blockstate:mysticalagriculture:aluminum_steel_crop>, 1800, "farmland");
+val aluminumsteelCrop = crops.create("mysticalagriculture:aluminum_steel", <item:mysticalagriculture:aluminum_steel_seeds>, <blockstate:mysticalagriculture:aluminum_steel_crop>, 4000, "imperium");
 aluminumsteelCrop.addDrop(<item:mysticalagriculture:aluminum_steel_essence>, 0.75);
 aluminumsteelCrop.addDrop(<item:mysticalagriculture:aluminum_steel_seeds>, 0.05);
 aluminumsteelCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val ravagerCrop = crops.create("misticalagriculture:ravager", <item:mysticalagriculture:ravager_seeds>, <blockstate:mysticalagriculture:ravager_crop>, 1800, "farmland");
-ravagerCrop.addDrop(<item:mysticalagriculture:ravager_essence>, 0.75);
-ravagerCrop.addDrop(<item:mysticalagriculture:ravager_seeds>, 0.05);
-ravagerCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val bismuthbrassCrop = crops.create("misticalagriculture:bismuth_brass", <item:mysticalagriculture:bismuth_brass_seeds>, <blockstate:mysticalagriculture:bismuth_brass_crop>, 1800, "farmland");
+val bismuthbrassCrop = crops.create("mysticalagriculture:bismuth_brass", <item:mysticalagriculture:bismuth_brass_seeds>, <blockstate:mysticalagriculture:bismuth_brass_crop>, 4000, "imperium");
 bismuthbrassCrop.addDrop(<item:mysticalagriculture:bismuth_brass_essence>, 0.75);
 bismuthbrassCrop.addDrop(<item:mysticalagriculture:bismuth_brass_seeds>, 0.05);
 bismuthbrassCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val piglinCrop = crops.create("misticalagriculture:piglin", <item:mysticalagriculture:piglin_seeds>, <blockstate:mysticalagriculture:piglin_crop>, 1800, "farmland");
-piglinCrop.addDrop(<item:mysticalagriculture:piglin_essence>, 0.75);
-piglinCrop.addDrop(<item:mysticalagriculture:piglin_seeds>, 0.05);
-piglinCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val bismuthsteelCrop = crops.create("misticalagriculture:bismuth_steel", <item:mysticalagriculture:bismuth_steel_seeds>, <blockstate:mysticalagriculture:bismuth_steel_crop>, 1800, "farmland");
+val bismuthsteelCrop = crops.create("mysticalagriculture:bismuth_steel", <item:mysticalagriculture:bismuth_steel_seeds>, <blockstate:mysticalagriculture:bismuth_steel_crop>, 4000, "imperium");
 bismuthsteelCrop.addDrop(<item:mysticalagriculture:bismuth_steel_essence>, 0.75);
 bismuthsteelCrop.addDrop(<item:mysticalagriculture:bismuth_steel_seeds>, 0.05);
 bismuthsteelCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val queensslimeCrop = crops.create("misticalagriculture:queens_slime", <item:mysticalagriculture:queens_slime_seeds>, <blockstate:mysticalagriculture:queens_slime_crop>, 1800, "farmland");
-queensslimeCrop.addDrop(<item:mysticalagriculture:queens_slime_essence>, 0.75);
-queensslimeCrop.addDrop(<item:mysticalagriculture:queens_slime_seeds>, 0.05);
-queensslimeCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val draconiumCrop = crops.create("misticalagriculture:draconium", <item:mysticalagriculture:draconium_seeds>, <blockstate:mysticalagriculture:draconium_crop>, 1800, "farmland");
-draconiumCrop.addDrop(<item:mysticalagriculture:draconium_essence>, 0.75);
-draconiumCrop.addDrop(<item:mysticalagriculture:draconium_seeds>, 0.05);
-draconiumCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val piglinbruteCrop = crops.create("misticalagriculture:piglin_brute", <item:mysticalagriculture:piglin_brute_seeds>, <blockstate:mysticalagriculture:piglin_brute_crop>, 1800, "farmland");
-piglinbruteCrop.addDrop(<item:mysticalagriculture:piglin_brute_essence>, 0.75);
-piglinbruteCrop.addDrop(<item:mysticalagriculture:piglin_brute_seeds>, 0.05);
-piglinbruteCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
-
-val apatiteCrop = crops.create("misticalagriculture:apatite", <item:mysticalagriculture:apatite_seeds>, <blockstate:mysticalagriculture:apatite_crop>, 1800, "farmland");
+val apatiteCrop = crops.create("mysticalagriculture:apatite", <item:mysticalagriculture:apatite_seeds>, <blockstate:mysticalagriculture:apatite_crop>, 2400, "prudentium");
 apatiteCrop.addDrop(<item:mysticalagriculture:apatite_essence>, 0.75);
 apatiteCrop.addDrop(<item:mysticalagriculture:apatite_seeds>, 0.05);
 apatiteCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-val compressedironCrop = crops.create("misticalagriculture:compressed_iron", <item:mysticalagriculture:compressed_iron_seeds>, <blockstate:mysticalagriculture:compressed_iron_crop>, 1800, "farmland");
+val compressedironCrop = crops.create("mysticalagriculture:compressed_iron", <item:mysticalagriculture:compressed_iron_seeds>, <blockstate:mysticalagriculture:compressed_iron_crop>, 4000, "imperium");
 compressedironCrop.addDrop(<item:mysticalagriculture:compressed_iron_essence>, 0.75);
 compressedironCrop.addDrop(<item:mysticalagriculture:compressed_iron_seeds>, 0.05);
 compressedironCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
+val draconiumCrop = crops.getCrop("draconic_evolution:crops/draconium");
+draconiumCrop.removeCategory("imperium");
+draconiumCrop.addCategory("supremium");
+draconiumCrop.setGrowthTicks(4500);
+
+val hepatizonCrop = crops.getCrop("tconstruct:crops/hepatizon");
+hepatizonCrop.removeCategory("prudentium");
+hepatizonCrop.addCategory("supremium");
+hepatizonCrop.setGrowthTicks(4500);
+
+val manyullynCrop = crops.getCrop("tconstruct:crops/manyullyn");
+manyullynCrop.removeCategory("prudentium");
+manyullynCrop.addCategory("supremium");
+manyullynCrop.setGrowthTicks(4500);
+
+val queensslimeCrop = crops.getCrop("tconstruct:crops/queens_slime");
+queensslimeCrop.removeCategory("prudentium");
+queensslimeCrop.addCategory("supremium");
+queensslimeCrop.setGrowthTicks(4500);
+
+val huskCrop = crops.getCrop("industrialagriculture:crops/husk");
+huskCrop.setGrowthTicks(3600);
+
+val silverfishCrop = crops.getCrop("industrialagriculture:crops/silverfish");
+silverfishCrop.setGrowthTicks(3600);
+
+val strayCrop = crops.getCrop("industrialagriculture:crops/stray");
+strayCrop.setGrowthTicks(3600);
+
+val vexCrop = crops.getCrop("industrialagriculture:crops/vex");
+vexCrop.setGrowthTicks(3600);
+
+val dolphinCrop = crops.getCrop("industrialagriculture:crops/dolphin");
+dolphinCrop.setGrowthTicks(3600);
+
+val drownedCrop = crops.getCrop("industrialagriculture:crops/drowned");
+drownedCrop.setGrowthTicks(3600);
+
+val llamaCrop = crops.getCrop("industrialagriculture:crops/llama");
+llamaCrop.setGrowthTicks(3600);
+
+val horseCrop = crops.getCrop("industrialagriculture:crops/horse");
+horseCrop.setGrowthTicks(3600);
+
+val guardianCrop = crops.getCrop("industrialagriculture:crops/guardian");
+guardianCrop.setGrowthTicks(3600);
+
+val polarbearCrop = crops.getCrop("industrialagriculture:crops/polar_bear");
+polarbearCrop.setGrowthTicks(3600);
+
+val witchCrop = crops.getCrop("industrialagriculture:crops/witch");
+witchCrop.setGrowthTicks(3600);
 
 //PhytogenicInsolator
 <recipetype:thermal:insolator_catalyst>.removeCatalyst(<item:minecraft:bone_meal>);

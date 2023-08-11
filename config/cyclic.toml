@@ -405,7 +405,7 @@
 			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use. For example, if you add 'minecraft:stick' here, all recipes that craft into one or more sticks will be disabled (including two wooden planks).
 			ignore_list = ["minecraft:elytra", "minecraft:tipped_arrow", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
-			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "crafttweaker:dragon_heart"]
+			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "crafttweaker:dragon_heart", "travelersbackpack:travelers_backpack"]
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60

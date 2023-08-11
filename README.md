@@ -14,4 +14,4 @@ Requirements: at least 6 GB of Allocated Ram (recommended are 8-10 GB), a decent
 
 ## Get your server here and support us!
 
-<a href="https://www.bisecthosting.com/ULTIMATEPROGRESS"><img src="https://www.bisecthosting.com/images/CF/Ultimate%20Progression/bh_up_promo.png" width="780" height="123" border="0"></a>
+<a href="https://www.bisecthosting.com/ULTIMATEPROGRESS?r=githubup"><img src="https://www.bisecthosting.com/images/CF/Ultimate%20Progression/bh_up_promo.png" width="780" height="123" border="0"></a>

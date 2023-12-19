@@ -804,20 +804,6 @@ craftingTable.removeByName("cyclic:emerald_chestplate");
 craftingTable.removeByName("cyclic:emerald_leggings");
 craftingTable.removeByName("cyclic:emerald_boots");
 
-smithing.addRecipe("emerald_sword_pt", <item:pickletweaks:emerald_sword>, <item:minecraft:diamond_sword>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_shovel_pt", <item:pickletweaks:emerald_shovel>, <item:minecraft:diamond_shovel>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_pickaxe_pt", <item:pickletweaks:emerald_pickaxe>, <item:minecraft:diamond_pickaxe>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_axe_pt", <item:pickletweaks:emerald_axe>, <item:minecraft:diamond_axe>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_hoe_pt", <item:pickletweaks:emerald_hoe>, <item:minecraft:diamond_hoe>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_helmet_pt", <item:pickletweaks:emerald_helmet>, <item:minecraft:diamond_helmet>, <item:minecraft:emerald_block>);
-smithing.addRecipe("emerald_chestplate_pt", <item:pickletweaks:emerald_chestplate>, <item:minecraft:diamond_chestplate>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_leggings_pt", <item:pickletweaks:emerald_leggings>, <item:minecraft:diamond_leggings>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_boots_pt", <item:pickletweaks:emerald_boots>, <item:minecraft:diamond_boots>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_scythe_pt", <item:pickletweaks:emerald_scythe>, <item:pickletweaks:diamond_scythe>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_paxel_pt", <item:pickletweaks:emerald_paxel>, <item:pickletweaks:diamond_paxel>, <item:minecraft:emerald>);
-smithing.addRecipe("emerald_sickle_pt", <item:pickletweaks:emerald_sickle>, <item:pickletweaks:diamond_sickle>, <item:minecraft:emerald>);
-
-
 //environmentaltech
 craftingTable.addShaped("erodium_crystal", <item:envirocore:erodium_crystal> * 2, [
 	[<item:minecraft:air>, <item:envirocore:litherite_crystal>, <item:minecraft:air>], 
@@ -1035,12 +1021,3 @@ craftingTable.removeByName("mekanismtools:refined_obsidian/tools/pickaxe");
 craftingTable.removeByName("mekanismtools:refined_obsidian/tools/axe");
 craftingTable.removeByName("mekanismtools:refined_obsidian/tools/hoe");
 craftingTable.removeByName("mekanismtools:refined_obsidian/tools/shovel");
-smithing.addRecipe("refined_obsidian/armor/helmet", <item:mekanismtools:refined_obsidian_helmet>, <item:minecraft:netherite_helmet>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/armor/chestplate", <item:mekanismtools:refined_obsidian_chestplate>, <item:minecraft:netherite_chestplate>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/armor/leggings", <item:mekanismtools:refined_obsidian_leggings>, <item:minecraft:netherite_leggings>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/armor/boots", <item:mekanismtools:refined_obsidian_boots>, <item:minecraft:netherite_boots>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/tools/sword", <item:mekanismtools:refined_obsidian_sword>, <item:minecraft:netherite_sword>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/tools/pickaxe", <item:mekanismtools:refined_obsidian_pickaxe>, <item:minecraft:netherite_pickaxe>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/tools/axe", <item:mekanismtools:refined_obsidian_axe>, <item:minecraft:netherite_axe>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/tools/hoe", <item:mekanismtools:refined_obsidian_hoe>, <item:minecraft:netherite_hoe>, <item:mekanism:block_refined_obsidian>);
-smithing.addRecipe("refined_obsidian/tools/shovel", <item:mekanismtools:refined_obsidian_shovel>, <item:minecraft:netherite_shovel>, <item:mekanism:block_refined_obsidian>);

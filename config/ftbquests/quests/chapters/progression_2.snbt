@@ -2464,7 +2464,10 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["To Modify the Sound Settings from Dynamic Surroundings press CTRL + v"]
+			description: [
+				"To Modify the Sound Settings from Dynamic Surroundings press CTRL + v"
+				"To muffle Sounds using Dynamic Surroundings press CTRL + i"
+			]
 			dependencies: ["799626B76C7E5509"]
 			id: "4D22C3BCD3302CE0"
 			tasks: [{

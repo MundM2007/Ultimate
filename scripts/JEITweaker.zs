@@ -10,3 +10,4 @@ mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk1>, ["Values for this Powe
 mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk2>, ["Values for this Power Pot can be seen below:", "Item Output: x5", "Speed Multiplyer: x2.0", "Energy Cost: 230 FE/t", "Energy Capacity: 230k FE"]);
 mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk3>, ["Values for this Power Pot can be seen below:", "Item Output: x16", "Speed Multiplyer: x3.7", "Energy Cost: 1.6k FE/t", "Energy Capacity: 1.6m FE"]);
 mods.jei.JEI.addInfo(<item:ftb-power-pots:power_pot_mk4>, ["Values for this Power Pot can be seen below:", "Item Output: x64", "Speed Multiplyer: x8.0", "Energy Cost: 16k FE/t", "Energy Capacity: 16m FE"]);
+mods.jei.JEI.addInfo(<item:appliedenergistics2:quantum_entangled_singularity>, ["Don't listen to the above Information. To make a Quantum Entangled Singularity, drop 1 Singularity and 1 Ender Pearl and cause an explosion within range of the items."]);

@@ -28,7 +28,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:certus_quartz_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/certus_quartz/ingot_gold_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/certus_quartz/ingot_gold_cast`)
 
 		event.custom({
 			type: `tconstruct:casting_table`,
@@ -44,7 +44,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:certus_quartz_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/certus_quartz/ingot_sand_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/certus_quartz/ingot_sand_cast`)
 
 		//BLOCK
 			event.custom({
@@ -57,7 +57,7 @@ onEvent('recipes', event => {
 					tag: `forge:storage_blocks/certus_quartz`
 				},
 				cooling_time: 300
-			}).id(`AVSP:tconstruct/smeltery/casting/gem/certus_quartz/block`)
+			}).id(`avsp:tconstruct/smeltery/casting/gem/certus_quartz/block`)
 
 		//MELTING
 		event.custom({
@@ -71,7 +71,7 @@ onEvent('recipes', event => {
 			},
 			temperature: 1400,
 			time: 50
-		}).id(`AVSP:tconstruct/smelting/certus_quartz_gems`)
+		}).id(`avsp:tconstruct/smelting/certus_quartz_gems`)
 
 	//CHARGED CERTUS QUARTZ
 		event.custom({
@@ -85,7 +85,7 @@ onEvent('recipes', event => {
 			},
 			temperature: 950,
 			time: 40
-		}).id(`AVSP:tconstruct/smelting/charged_certus_quartz_gems`)
+		}).id(`avsp:tconstruct/smelting/charged_certus_quartz_gems`)
 
 		event.custom({
 			type: `tconstruct:casting_table`,
@@ -100,7 +100,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:charged_certus_quartz_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/charged_certus_quartz/ingot_gold_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/charged_certus_quartz/ingot_gold_cast`)
 
 		event.custom({
 			type: `tconstruct:casting_table`,
@@ -116,7 +116,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:charged_certus_quartz_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/charged_certus_quartz/ingot_sand_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/charged_certus_quartz/ingot_sand_cast`)
 
 		//BLOCK
 			event.custom({
@@ -129,7 +129,7 @@ onEvent('recipes', event => {
 					tag: `forge:storage_blocks/charged_certus_quartz`
 				},
 				cooling_time: 300
-			}).id(`AVSP:tconstruct/smeltery/casting/gem/charged_certus_quartz/block`)
+			}).id(`avsp:tconstruct/smeltery/casting/gem/charged_certus_quartz/block`)
 		//MELTING
 		event.custom({
 			type: `tconstruct:melting`,
@@ -142,7 +142,7 @@ onEvent('recipes', event => {
 			},
 			temperature: 1400,
 			time: 50
-		}).id(`AVSP:tconstruct/smelting/charged_certus_quartz_gems`)
+		}).id(`avsp:tconstruct/smelting/charged_certus_quartz_gems`)
 
 	//FLUIX
 		event.custom({
@@ -158,7 +158,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:fluix_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/fluix/ingot_gold_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/fluix/ingot_gold_cast`)
 
 		event.custom({
 			type: `tconstruct:casting_table`,
@@ -174,7 +174,7 @@ onEvent('recipes', event => {
 				item: `appliedenergistics2:fluix_crystal`
 			},
 			cooling_time: 40
-		}).id(`AVSP:tconstruct/smeltery/casting/gem/fluix/ingot_sand_cast`)
+		}).id(`avsp:tconstruct/smeltery/casting/gem/fluix/ingot_sand_cast`)
 
 		//BLOCK
 			event.custom({
@@ -187,7 +187,7 @@ onEvent('recipes', event => {
 					tag: `forge:storage_blocks/fluix`
 				},
 				cooling_time: 300
-			}).id(`AVSP:tconstruct/smeltery/casting/gem/fluix/block`)
+			}).id(`avsp:tconstruct/smeltery/casting/gem/fluix/block`)
 
 //
 //FLUIX ALLOYING
@@ -218,7 +218,7 @@ onEvent('recipes', event => {
 			amount: 288
 		},
 		temperature: 1450
-	}).id(`AVSP:tconstruct/smeltery/alloys/gem/fluix`)
+	}).id(`avsp:tconstruct/smeltery/alloys/gem/fluix`)
 
 //
 //fin

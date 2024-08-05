@@ -651,14 +651,14 @@ mods.extendedcrafting.TableCrafting.addShaped("rftoolsdim.dimension_builder", <i
 
 
 //thermal
-<recipetype:thermal:smelter>.addRecipe("crimson_steel_ingot", [<item:silentgear:crimson_steel_ingot> % 100], [<item:silentgear:crimson_iron_ingot> * 3, <item:minecraft:magma_cream>, <item:minecraft:blaze_rod>], 20, 1000);
-<recipetype:thermal:smelter>.addRecipe("blaze_gold_ingot", [<item:silentgear:blaze_gold_ingot> % 100], [<item:minecraft:gold_ingot>, <item:minecraft:blaze_powder> * 3], 10, 500);
-<recipetype:thermal:smelter>.addRecipe("azure_electrum_ingot", [<item:silentgear:azure_electrum_ingot> % 100], [<item:silentgear:azure_silver_ingot> * 3, <item:minecraft:ender_pearl>, <item:minecraft:gold_ingot>], 30, 1500);
+<recipetype:thermal:smelter>.addRecipe("crimson_steel_ingot", [<item:silentgear:crimson_steel_ingot> * 1], [<item:silentgear:crimson_iron_ingot> * 3, <item:minecraft:magma_cream>, <item:minecraft:blaze_rod>], 20, 1000);
+<recipetype:thermal:smelter>.addRecipe("blaze_gold_ingot", [<item:silentgear:blaze_gold_ingot> * 1], [<item:minecraft:gold_ingot>, <item:minecraft:blaze_powder> * 3], 10, 500);
+<recipetype:thermal:smelter>.addRecipe("azure_electrum_ingot", [<item:silentgear:azure_electrum_ingot> * 1], [<item:silentgear:azure_silver_ingot> * 3, <item:minecraft:ender_pearl>, <item:minecraft:gold_ingot>], 30, 1500);
 
 <recipetype:thermal:pyrolyzer>.removeRecipe([<item:minecraft:charcoal>], [<fluid:thermal:creosote>]);
 <recipetype:thermal:pyrolyzer>.removeRecipe([<item:emendatusenigmatica:coke_gem>, <item:thermal:tar>], [<fluid:thermal:creosote>]);
-<recipetype:thermal:pyrolyzer>.addRecipe("thermal.coke_gem", [<item:emendatusenigmatica:coke_gem> %100, <item:thermal:tar> %25], <fluid:immersiveengineering:creosote> *250, <item:minecraft:coal>, 2000);
-<recipetype:thermal:pyrolyzer>.addRecipe("thermal.charcoal", [<item:minecraft:charcoal> %100], <fluid:immersiveengineering:creosote> *125, <tag:items:minecraft:planks>, 2000);
+<recipetype:thermal:pyrolyzer>.addRecipe("thermal.coke_gem", [<item:emendatusenigmatica:coke_gem> * 1, <item:thermal:tar> %25], <fluid:immersiveengineering:creosote> *250, <item:minecraft:coal>, 2000);
+<recipetype:thermal:pyrolyzer>.addRecipe("thermal.charcoal", [<item:minecraft:charcoal> * 1], <fluid:immersiveengineering:creosote> *125, <tag:items:minecraft:planks>, 2000);
 
 
 //Extreme Reactors
@@ -666,7 +666,7 @@ mods.extendedcrafting.TableCrafting.addShaped("rftoolsdim.dimension_builder", <i
 <tag:items:forge:ores/uranium>.remove(<item:bigreactors:yellorite_ore>) as void;
 <tag:items:forge:dusts/uranium>.remove(<item:bigreactors:yellorium_dust>) as void;
 <recipetype:thermal:smelter>.removeRecipe(<item:silents_mechanisms:uranium_ingot>);
-<recipetype:thermal:smelter>.addRecipe("uranium_dust_to_ingot_thermal_smelter_jaopca", [<item:silents_mechanisms:uranium_ingot> % 100, <item:thermal:rich_slag> %20], [<tag:items:forge:dusts/uranium>], 10, 1600);
+<recipetype:thermal:smelter>.addRecipe("uranium_dust_to_ingot_thermal_smelter_jaopca", [<item:silents_mechanisms:uranium_ingot> * 1, <item:thermal:rich_slag> %20], [<tag:items:forge:dusts/uranium>], 10, 1600);
 
 
 //FTB Power Pots

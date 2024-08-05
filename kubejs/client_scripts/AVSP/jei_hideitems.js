@@ -522,7 +522,7 @@ onEvent('jei.hide.items', event => {
 	//Bitumen block
 	event.hide('thermal:bitumen_block')
 	//Crushed bitumen
-	event.hude('emendatusenigmatica:bitumen_crushed')
+	event.hide('emendatusenigmatica:bitumen_crushed')
 //
 //CINNABAR
 	//Cinnabar gem

@@ -1,0 +1,175 @@
+
+#General configuration options.
+[General]
+	#The effective radius of the Magnet.
+	#Range: 1.0 ~ 16.0
+	magnetRange = 7.0
+	#Should fake players be able to use watering cans?
+	fakePlayerWatering = true
+	#Here you can specify a list of tools that shouldn't have tool info tooltips.
+	#Ex. ["minecraft:iron_pickaxe"]
+	#You can also blacklist entire mods by doing <mod-id>:*
+	#Ex. ["pickletweaks:*"]
+	toolInfoTooltipBlacklist = ["silentgear:*"]
+
+#Disable features.
+[Features]
+	#Colored Cobblestone enabled?
+	coloredCobblestone = true
+	#Dark Glass enabled?
+	darkGlass = true
+	#Smooth Glowstone enabled?
+	smoothGlowstone = true
+	#Coal and Charcoal Piece enabled?
+	coalPiece = true
+	#Diamond and Emerald Apples enabled?
+	apples = true
+	#Watering Can enabled?
+	wateringCan = true
+	#Enable Meshes?
+	meshes = true
+	#Enable Magnet?
+	magnet = true
+	#Enable Night Vision Goggles?
+	nightVisionGoggles = true
+	#Enable Paxels?
+	paxels = true
+	#Enable Flint tools and armor?
+	flintGear = true
+	#Enable Emerald tools and armor?
+	emeraldGear = true
+	#Enable right click crop harvesting?
+	rightClickHarvest = true
+	#Enable Sickles?
+	sickles = true
+	#Enable Scythes?
+	scythes = true
+
+#Crafting grid tool repair configuration options.
+["Grid Repair"]
+	#Should Crafting Grid Tool Repairing be enabled?
+	enabled = true
+	#How much material should be required to fully repair a tool.
+	#Range: 1 ~ 8
+	cost = 4
+	#Crafting grid repair removes all non-curse enchantments.
+	stripEnchantments = false
+	#Should default repair materials be disabled? Doing this makes it so ONLY the custom materials work.
+	disableDefaults = false
+	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
+	overrideMode = false
+	#Makes it so shovels need 50% less material to repair.
+	cheapShovel = true
+	#Tools that should not be repairable in the crafting grid.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	blacklist = []
+	#Here you can specify custom repair materials for tools.
+	#Ex: ["minecraft:stone_shovel=minecraft:stick"]
+	#You can use tags for materials by doing tag:<tag-id>.
+	#Ex: ["minecraft:stone_shovel=tag:forge:ingots/iron"]
+	#You can specify how effective the material is by appending @<multiplier>
+	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
+	overrides = [
+		# paxels
+		"mekanismtools:wood_paxel=tag:minecraft:planks@0.5", "mekanismtools:stone_paxel=tag:quark:stone_tool_materials@0.5", "mekanismtools:iron_paxel=tag:forge:ingots/iron@0.5", "mekanismtools:diamond_paxel=tag:forge:gems/diamond@0.5", "mekanismtools:gold_paxel=tag:forge:ingots/gold@0.5", "mekanismtools:bronze_paxel=tag:forge:ingots/bronze@0.5", "mekanismtools:lapis_lazuli_paxel=tag:forge:gems/lapis@0.5", "mekanismtools:osmium_paxel=tag:forge:ingots/osmium@0.5", "mekanismtools:refined_glowstone_paxel=tag:forge:ingots/refined_glowstone@0.5", "mekanismtools:refined_obsidian_paxel=tag:forge:ingots/refined_obsidian@0.5", "mekanismtools:steel_paxel=tag:forge:ingots/steel@0.5", 
+		"pickletweaks:wooden_paxel=tag:minecraft:planks@0.5", "pickletweaks:stone_paxel=tag:quark:stone_tool_materials@0.5", "pickletweaks:iron_paxel=tag:forge:ingots/iron@0.5", "pickletweaks:golden_paxel=tag:forge:ingots/gold@0.5", "pickletweaks:diamond_paxel=tag:forge:gems/diamond@0.5", "pickletweaks:flint_paxel=minecraft:flint@0.5", "pickletweaks:emerald_paxel=tag:forge:gems/emerald@0.5",
+		# mystical
+		"mysticalalagriculture:inferium_sword=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_sword=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_sword=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_sword=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_sword=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_sword=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_pickaxe=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_pickaxe=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_pickaxe=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_pickaxe=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_pickaxe=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_pickaxe=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_shovel=mysticalagriculture:inferium_ingot@0.25", "mysticalalagriculture:prudentium_shovel=mysticalagriculture:prudentium_ingot@0.25", "mysticalalagriculture:tertium_shovel=mysticalagriculture:tertium_ingot@0.286", "mysticalalagriculture:imperium_shovel=mysticalagriculture:imperium_ingot@0.286", "mysticalalagriculture:supremium_shovel=mysticalagriculture:supremium_ingot@0.334", "mysticaladaptations:insanium_shovel=mysticalagradditions:insanium_ingot@0.334",
+		"mysticalalagriculture:inferium_axe=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_axe=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_axe=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_axe=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_axe=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_axe=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_hoe=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_hoe=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_hoe=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_hoe=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_hoe=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_hoe=mysticalagradditions:insanium_ingot@0.667", 
+		"mysticalalagriculture:inferium_helmet=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_helmet=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_helmet=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_helmet=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_helmet=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_helmet=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_chestplate=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_chestplate=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_chestplate=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_chestplate=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_chestplate=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_chestplate=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_leggings=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_leggings=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_leggings=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_leggings=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_leggings=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_leggings=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_boots=mysticalagriculture:inferium_ingot@0.5", "mysticalalagriculture:prudentium_boots=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagriculture:tertium_boots=mysticalagriculture:tertium_ingot@0.572", "mysticalalagriculture:imperium_boots=mysticalagriculture:imperium_ingot@0.572", "mysticalalagriculture:supremium_boots=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_boots=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagradditions:inferium_paxel=mysticalagriculture:inferium_ingot@0.5", "mysticalalagradditions:prudentium_paxel=mysticalagriculture:prudentium_ingot@0.5", "mysticalalagradditions:tertium_paxel=mysticalagriculture:tertium_ingot@0.572", "mysticalalagradditions:imperium_paxel=mysticalagriculture:imperium_ingot@0.572", "mysticalalagradditions:supremium_paxel=mysticalagriculture:supremium_ingot@0.667", "mysticaladaptations:insanium_paxel=mysticalagradditions:insanium_ingot@0.667",
+		"mysticalalagriculture:inferium_sword=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_sword=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_sword=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_sword=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_sword=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_sword=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_pickaxe=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_pickaxe=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_pickaxe=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_pickaxe=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_pickaxe=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_pickaxe=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_shovel=mysticalagriculture:inferium_gemstone@0.25", "mysticalalagriculture:prudentium_shovel=mysticalagriculture:prudentium_gemstone@0.25", "mysticalalagriculture:tertium_shovel=mysticalagriculture:tertium_gemstone@0.286", "mysticalalagriculture:imperium_shovel=mysticalagriculture:imperium_gemstone@0.286", "mysticalalagriculture:supremium_shovel=mysticalagriculture:supremium_gemstone@0.334", "mysticaladaptations:insanium_shovel=mysticalagradditions:insanium_gemstone@0.334",
+		"mysticalalagriculture:inferium_axe=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_axe=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_axe=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_axe=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_axe=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_axe=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_hoe=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_hoe=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_hoe=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_hoe=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_hoe=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_hoe=mysticalagradditions:insanium_gemstone@0.667", 
+		"mysticalalagriculture:inferium_helmet=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_helmet=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_helmet=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_helmet=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_helmet=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_helmet=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_chestplate=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_chestplate=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_chestplate=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_chestplate=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_chestplate=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_chestplate=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_leggings=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_leggings=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_leggings=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_leggings=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_leggings=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_leggings=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagriculture:inferium_boots=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagriculture:prudentium_boots=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagriculture:tertium_boots=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagriculture:imperium_boots=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagriculture:supremium_boots=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_boots=mysticalagradditions:insanium_gemstone@0.667",
+		"mysticalalagradditions:inferium_paxel=mysticalagriculture:inferium_gemstone@0.5", "mysticalalagradditions:prudentium_paxel=mysticalagriculture:prudentium_gemstone@0.5", "mysticalalagradditions:tertium_paxel=mysticalagriculture:tertium_gemstone@0.572", "mysticalalagradditions:imperium_paxel=mysticalagriculture:imperium_gemstone@0.572", "mysticalalagradditions:supremium_paxel=mysticalagriculture:supremium_gemstone@0.667", "mysticaladaptations:insanium_paxel=mysticalagradditions:insanium_gemstone@0.667",
+		# armor
+		# vanilla
+		"minecraft:leather_helmet=minecraft:leather@0.667", "minecraft:chainmail_helmet=tag:forge:ingots/iron@0.667", "minecraft:iron_helmet=tag:forge:ingots/iron@0.667", "minecraft:golden_helmet=tag:forge:ingots/gold@0.667", "minecraft:diamond_helmet=tag:forge:gems/diamond@0.667",
+		"minecraft:leather_chestplate=minecraft:leather@0.445", "minecraft:chainmail_chestplate=tag:forge:ingots/iron@0.445", "minecraft:iron_chestplate=tag:forge:ingots/iron@0.445", "minecraft:golden_chestplate=tag:forge:ingots/gold@0.445", "minecraft:diamond_chestplate=tag:forge:gems/diamond@0.445",
+		"minecraft:leather_leggings=minecraft:leather@0.5", "minecraft:chainmail_leggings=tag:forge:ingots/iron@0.5", "minecraft:iron_leggings=tag:forge:ingots/iron@0.5", "minecraft:golden_leggings=tag:forge:ingots/gold@0.5", "minecraft:diamond_leggings=tag:forge:gems/diamond@0.5",
+		"minecraft:leather_boots=minecraft:leather@0.8", "minecraft:chainmail_boots=tag:forge:ingots/iron@0.8", "minecraft:iron_boots=tag:forge:ingots/iron@0.8", "minecraft:golden_boots=tag:forge:ingots/gold@0.8", "minecraft:diamond_boots=tag:forge:gems/diamond@0.8",
+		# aquaculture
+		"aquaculture:neptunium_helmet=aquaculture:neptunium_ingot@0.667", "aquaculture:neptunium_chestplate=aquaculture:neptunium_ingot@0.445", "aquaculture:neptunium_leggings=aquaculture:neptunium_ingot@0.5", "aquaculture:neptunium_boots=aquaculture:neptunium_ingot@0.8",
+		# better end
+		"betterendforge:thallasium_helmet=betterendforge:thallasium_ingot@0.667", "betterendforge:terminite_helmet=betterendforge:terminite_ingot@0.667", "betterendforge:crystalite_helmet=betterendforge:terminite_ingot@0.5", 
+		"betterendforge:thallasium_chestplate=betterendforge:thallasium_ingot@0.445", "betterendforge:terminite_chestplate=betterendforge:terminite_ingot@0.445", "betterendforge:crystalite_chestplate=betterendforge:terminite_ingot@0.364",
+		"betterendforge:thallasium_leggings=betterendforge:thallasium_ingot@0.5", "betterendforge:terminite_leggings=betterendforge:terminite_ingot@0.5", "betterendforge:crystalite_leggings=betterendforge:terminite_ingot@0.4",
+		"betterendforge:thallasium_boots=betterendforge:thallasium_ingot@0.8", "betterendforge:terminite_boots=betterendforge:terminite_ingot@0.8", "betterendforge:crystalite_boots=betterendforge:terminite_ingot@0.572",
+		# blood magic
+		"bloodmagic:livinghelmet=tag:forge:ingots/iron@0.667", "bloodmagic:livingchestplate=tag:forge:ingots/iron@0.445", "bloodmagic:livingleggings=tag:forge:ingots/iron@0.5", "bloodmagic:livingboots=tag:forge:ingots/iron@0.8",
+		# botania
+		"botania:manasteel_helmet=botania:manasteel_ingot@0.667", "botania:elementium_helmet=botania:elementium_ingot@0.667",
+		"botania:manasteel_chestplate=botania:manasteel_ingot@0.445", "botania:elementium_chestplate=botania:elementium_ingot@0.445",
+		"botania:manasteel_leggings=botania:manasteel_ingot@0.5", "botania:elementium_leggings=botania:elementium_ingot@0.5",
+		"botania:manasteel_boots=botania:manasteel_ingot@0.8", "botania:elementium_boots=botania:elementium_ingot@0.8",
+		# create
+		"create:diving_helmet=tag:forge:ingots/copper@0.667", "create:diving_boots=tag:forge:ingots/copper@0.667",
+		# cyclic
+		"cyclic:crystal_helmet=cyclic:gem_obsidian@0.445", "cyclic:crystal_chestplate=cyclic:gem_obsidian@0.286", "cyclic:crystal_leggings=cyclic:gem_obsidian@0.334", "cyclic:crystal_boots=cyclic:gem_obsidian@0.5",
+		# immersive engineering
+		"immersiveengineering:armor_steel_head=tag:forge:plates/steel@0.667", "immersiveengineering:armor_faraday_head=tag:forge:plates/aluminum@0.667",
+		"immersiveengineering:armor_steel_chest=tag:forge:plates/steel@0.445", "immersiveengineering:armor_faraday_chest=tag:forge:plates/aluminum@0.445",
+		"immersiveengineering:armor_steel_legs=tag:forge:plates/steel@0.5", "immersiveengineering:armor_faraday_legs=tag:forge:plates/aluminum@0.5",
+		"immersiveengineering:armor_steel_feet=tag:forge:plates/steel@0.8", "immersiveengineering:armor_faraday_feet=tag:forge:plates/aluminum@0.8",
+		# mekanism
+		"mekanism:hazmat_mask=tag:forge:ingots/lead@0.667", "mekanismtools:bronze_helmet=tag:forge:ingots/bronze@0.667", "mekanismtools:lapis_lazuli_helmet=tag:forge:gems/lapis@0.667", "mekanismtools:osmium_helmet=tag:forge:ingots/osmium@0.667", "mekanismtools:refined_glowstone_helmet=tag:forge:ingots/refined_glowstone@0.667", "mekanismtools:refined_obsidian_helmet=tag:forge:ingots/refined_obsidian@0.667", "mekanismtools:steel_helmet=tag:forge:ingots/steel@0.667",
+		"mekanism:hazmat_gown=tag:forge:ingots/lead@0.445", "mekanismtools:bronze_chestplate=tag:forge:ingots/bronze@0.445", "mekanismtools:lapis_lazuli_chestplate=tag:forge:gems/lapis@0.445", "mekanismtools:osmium_chestplate=tag:forge:ingots/osmium@0.445", "mekanismtools:refined_glowstone_chestplate=tag:forge:ingots/refined_glowstone@0.445", "mekanismtools:refined_obsidian_chestplate=tag:forge:ingots/refined_obsidian@0.445", "mekanismtools:steel_chestplate=tag:forge:ingots/steel@0.445",
+		"mekanism:hazmat_pants=tag:forge:ingots/lead@0.5", "mekanismtools:bronze_leggings=tag:forge:ingots/bronze@0.5", "mekanismtools:lapis_lazuli_leggings=tag:forge:gems/lapis@0.5", "mekanismtools:osmium_leggings=tag:forge:ingots/osmium@0.5", "mekanismtools:refined_glowstone_leggings=tag:forge:ingots/refined_glowstone@0.5", "mekanismtools:refined_obsidian_leggings=tag:forge:ingots/refined_obsidian@0.5", "mekanismtools:steel_leggings=tag:forge:ingots/steel@0.5",
+		"mekanism:hazmat_boots=tag:forge:ingots/lead@0.8", "mekanismtools:bronze_boots=tag:forge:ingots/bronze@0.8", "mekanismtools:lapis_lazuli_boots=tag:forge:gems/lapis@0.8", "mekanismtools:osmium_boots=tag:forge:ingots/osmium@0.8", "mekanismtools:refined_glowstone_boots=tag:forge:ingots/refined_glowstone@0.8", "mekanismtools:refined_obsidian_boots=tag:forge:ingots/refined_obsidian@0.8", "mekanismtools:steel_boots=tag:forge:ingots/steel@0.8",
+		# mining helmet
+		"mininggadgets:mining_helmet=tag:forge:ingots/iron@0.8",
+		# nature's aura
+		"naturesaura:infused_iron_helmet=naturesaura:infused_iron@0.667", "naturesaura:sky_helmet=naturesaura:sky_ingot@0.667",
+		"naturesaura:infused_iron_chest=naturesaura:infused_iron@0.445", "naturesaura:sky_chest=naturesaura:sky_ingot@0.445",
+		"naturesaura:infused_iron_pants=naturesaura:infused_iron@0.5", "naturesaura:sky_pants=naturesaura:sky_ingot@0.5",
+		"naturesaura:infused_iron_shoes=naturesaura:infused_iron@0.8", "naturesaura:sky_shoes=naturesaura:sky_ingot@0.8",
+		# pickletweaks
+		"pickletweaks:flint_helmet=minecraft:flint@0.667", "pickletweaks:emerald_helmet=tag:forge:gems/emerald@0.4",
+		"pickletweaks:flint_chestplate=minecraft:flint@0.445", "pickletweaks:emerald_chestplate=tag:forge:gems/emerald@0.25",
+		"pickletweaks:flint_leggings=minecraft:flint@0.5", "pickletweaks:emerald_leggings=tag:forge:gems/emerald@0.286",
+		"pickletweaks:flint_boots=minecraft:flint@0.8", "pickletweaks:emerald_boots=tag:forge:gems/emerald@0.5",
+		# projectred
+		"projectred-exploration:ruby_helmet=tag:forge:gems/ruby@0.667", "projectred-exploration:sapphire_helmet=tag:forge:gems/sapphire@0.667", "projectred-exploration:peridot_helmet=tag:forge:gems/peridot@0.667",
+		"projectred-exploration:ruby_chestplate=tag:forge:gems/ruby@0.445", "projectred-exploration:sapphire_chestplate=tag:forge:gems/sapphire@0.445", "projectred-exploration:peridot_chestplate=tag:forge:gems/peridot@0.445",
+		"projectred-exploration:ruby_leggings=tag:forge:gems/ruby@0.5", "projectred-exploration:sapphire_leggings=tag:forge:gems/sapphire@0.5", "projectred-exploration:peridot_leggings=tag:forge:gems/peridot@0.5",
+		"projectred-exploration:ruby_boots=tag:forge:gems/ruby@0.8", "projectred-exploration:sapphire_boots=tag:forge:gems/sapphire@0.8", "projectred-exploration:peridot_boots=tag:forge:gems/peridot@0.8",
+		# theoneprobe
+		"theoneprobe:diamond_helmet_probe=tag:forge:gems/diamond@0.667", "theoneprobe:gold_helmet_probe=tag:forge:ingots/gold@0.667", "theoneprobe:iron_helmet_probe=tag:forge:ingots/iron@0.667",
+		# thermal
+		"thermal:beekeeper_helmet=thermal:beekeeper_fabric@0.667", "thermal:diving_helmet=thermal:diving_fabric@0.4", "thermal:hazmat_helmet=thermal:hazmat_fabric@0.4",
+		"thermal:beekeeper_chestplate=thermal:beekeeper_fabric@0.445", "thermal:diving_chestplate=thermal:diving_fabric@0.25", "thermal:hazmat_chestplate=thermal:hazmat_fabric@0.25",
+		"thermal:beekeeper_leggings=thermal:beekeeper_fabric@0.5", "thermal:diving_leggings=thermal:diving_fabric@0.286", "thermal:hazmat_leggings=thermal:hazmat_fabric@0.286",
+		"thermal:beekeeper_boots=thermal:beekeeper_fabric@0.8", "thermal:diving_boots=thermal:diving_fabric@0.5", "thermal:hazmat_boots=thermal:hazmat_fabric@0.5",
+		# netherite
+		"minecraft:netherite_sword=minecraft:netherite_ingot@2", "minecraft:netherite_pickaxe=minecraft:netherite_ingot@2", "minecraft:netherite_axe=minecraft:netherite_ingot@2", "minecraft:netherite_hoe=minecraft:netherite_ingot@2", "minecraft:netherite_helmet=minecraft:netherite_ingot@2", "minecraft:netherite_chestplate=minecraft:netherite_ingot@2", "minecraft:netherite_leggings=minecraft:netherite_ingot@2", "minecraft:netherite_boots=minecraft:netherite_ingot@2",
+		"chiselsandbits:chisel_netherite=minecraft:netherite_ingot@2", "exnihilosequentia:hammer_netherite=minecraft:netherite_ingot@2", "excompressum:compressed_hammer_netherite=minecraft:netherite_ingot@0.334", "farmersdelight:netherite_knife=minecraft:netherite_ingot@2", "mekanismtools:netherite_paxel=minecraft:netherite_ingot@2", "pickletweaks:netherite_sickle=minecraft:netherite_ingot@2", "pickletweaks:netherite_scythe=minecraft:netherite_ingot@2", "betterendforge:netherite_hammer=minecraft:netherite_ingot@2",
+		# aeternium
+		"betterendforge:aeternium_helmet=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_chestplate=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_leggings=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_boots=betterendforge:aeternium_ingot@2",
+		"betterendforge:aeternium_sword=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_pickaxe=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_axe=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_hoe=betterendforge:aeternium_ingot@2", "betterendforge:aeternium_hammer=betterendforge:aeternium_ingot@2",
+		# alfsteel
+		"mythicbotany:alfsteel_sword=mythicbotany:alfsteel_ingot@2", "mythicbotany:alfsteel_pick=mythicbotany:alfsteel_ingot@2", "mythicbotany:alfsteel_axe=mythicbotany:alfsteel_ingot@2", "aiotbotania:alfsteel_shovel=mythicbotany:alfsteel_ingot@1", "aiotbotania:alfsteel_hoe=mythicbotany:alfsteel_ingot@2", 
+		"mythicbotany:alfsteel_helmet=mythicbotany:alfsteel_ingot@1.334", "mythicbotany:alfsteel_chestplate=mythicbotany:alfsteel_ingot@1.334", "mythicbotany:alfsteel_leggings=mythicbotany:alfsteel_ingot@1.334", "mythicbotany:alfsteel_boots=mythicbotany:alfsteel_ingot@1.334", "aiotbotania:alfsteel_aiot=mythicbotany:mythicbotany:alfsteel_ingot@0.445",
+		# ametrine
+		"byg:ametrine_helmet=byg:ametrine_gems@0.25", "byg:ametrine_chestplate=byg:ametrine_gems@0.25", "byg:ametrine_leggings=byg:ametrine_gems@0.25", "byg:ametrine_boots=byg:ametrine_gems@0.25",
+	]
+
+#Disable and configure tweaks.
+[Tweaks]
+	#Enabled tools not breaking?
+	toolBreaking = true
+	#Tools and weapons that should be ineffective.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	uselessTools = []
+

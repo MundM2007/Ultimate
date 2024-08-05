@@ -26,7 +26,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:coal_dust', 2).toResultJson(),
 		},
 		turns: 2
-	}).id('AVSP:AE2/grinder/chunks_to_dust/coal')
+	}).id('avsp:AE2/grinder/chunks_to_dust/coal')
 
 	//DIAMOND
 	event.custom({
@@ -36,7 +36,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:diamond_dust', 2).toResultJson(),
 		},
 		turns: 10
-	}).id('AVSP:AE2/grinder/chunks_to_dust/coal')
+	}).id('avsp:AE2/grinder/chunks_to_dust/coal')
 
 	//EMERALD
 	event.custom({
@@ -46,7 +46,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:emerald_dust', 2).toResultJson(),
 		},
 		turns: 10
-	}).id('AVSP:AE2/grinder/chunks_to_dust/emerald')
+	}).id('avsp:AE2/grinder/chunks_to_dust/emerald')
 
 	//LAPIS
 	event.custom({
@@ -56,7 +56,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:lapis_dust', 6).toResultJson(),
 		},
 		turns: 4
-	}).id('AVSP:AE2/grinder/chunks_to_dust/lapis')
+	}).id('avsp:AE2/grinder/chunks_to_dust/lapis')
 
 	//REDSTONE
 	event.custom({
@@ -66,7 +66,7 @@ onEvent('recipes', event => {
 			primary: item.of('minecraft:redstone', 6).toResultJson(),
 		},
 		turns: 3
-	}).id('AVSP:AE2/grinder/chunks_to_dust/redstone')
+	}).id('avsp:AE2/grinder/chunks_to_dust/redstone')
 
 	//COPPER
 	event.custom({
@@ -76,7 +76,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:copper_dust', 2).toResultJson(),
 		},
 		turns: 4
-	}).id('AVSP:AE2/grinder/chunks_to_dust/copper')
+	}).id('avsp:AE2/grinder/chunks_to_dust/copper')
 
 	//ALUMINUM
 	event.custom({
@@ -86,7 +86,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:aluminum_dust', 2).toResultJson(),
 		},
 		turns: 4
-	}).id('AVSP:AE2/grinder/chunks_to_dust/aluminum')
+	}).id('avsp:AE2/grinder/chunks_to_dust/aluminum')
 
 	//SILVER
 	event.custom({
@@ -96,7 +96,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:silver_dust', 2).toResultJson(),
 		},
 		turns: 5
-	}).id('AVSP:AE2/grinder/chunks_to_dust/silver')
+	}).id('avsp:AE2/grinder/chunks_to_dust/silver')
 
 	//LEAD
 	event.custom({
@@ -106,7 +106,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:lead_dust', 2).toResultJson(),
 		},
 		turns: 6
-	}).id('AVSP:AE2/grinder/chunks_to_dust/lead')
+	}).id('avsp:AE2/grinder/chunks_to_dust/lead')
 
 	//NICKEL
 	event.custom({
@@ -116,7 +116,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:nickel_dust', 2).toResultJson(),
 		},
 		turns: 4
-	}).id('AVSP:AE2/grinder/chunks_to_dust/nickel')
+	}).id('avsp:AE2/grinder/chunks_to_dust/nickel')
 
 	//URANIUM
 	event.custom({
@@ -126,7 +126,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:uranium_dust', 2).toResultJson(),
 		},
 		turns: 6
-	}).id('AVSP:AE2/grinder/chunks_to_dust/uranium')
+	}).id('avsp:AE2/grinder/chunks_to_dust/uranium')
 
 	//OSMIUM
 	event.custom({
@@ -136,7 +136,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:osmium_dust', 2).toResultJson(),
 		},
 		turns: 5
-	}).id('AVSP:AE2/grinder/chunks_to_dust/osmium')
+	}).id('avsp:AE2/grinder/chunks_to_dust/osmium')
 
 	//TIN
 	event.custom({
@@ -146,7 +146,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:tin_dust', 2).toResultJson(),
 		},
 		turns: 3
-	}).id('AVSP:AE2/grinder/chunks_to_dust/tin')
+	}).id('avsp:AE2/grinder/chunks_to_dust/tin')
 
 	//ZINC
 	event.custom({
@@ -156,7 +156,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:zinc_dust', 2).toResultJson(),
 		},
 		turns: 4
-	}).id('AVSP:AE2/grinder/chunks_to_dust/zinc')
+	}).id('avsp:AE2/grinder/chunks_to_dust/zinc')
 
 	//COPPER
 	event.custom({
@@ -166,7 +166,7 @@ onEvent('recipes', event => {
 			primary: item.of('emendatusenigmatica:cobalt_dust', 2).toResultJson(),
 		},
 		turns: 6
-	}).id('AVSP:AE2/grinder/chunks_to_dust/cobalt')
+	}).id('avsp:AE2/grinder/chunks_to_dust/cobalt')
 })
 
 onEvent('item.tags', event => {

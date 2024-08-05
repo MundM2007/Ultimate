@@ -356,12 +356,12 @@ mods.extendedcrafting.TableCrafting.addShaped("machine_frame_table", 0, <item:th
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:hepatizon_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:queens_slime_ingot>);
 <recipetype:thermal:smelter>.removeRecipe(<item:tconstruct:manyullyn_ingot>);
-<recipetype:thermal:smelter>.addRecipe("hepatizon_ingot", [<item:tconstruct:hepatizon_ingot> % 200], [<tag:items:forge:ingots/copper> * 2, <tag:items:forge:ingots/cobalt>, <tag:items:forge:obsidian>], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("manyullyn_ingot", [<item:tconstruct:manyullyn_ingot> % 400], [<item:minecraft:netherite_scrap>, <tag:items:forge:ingots/cobalt> * 3], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("queens_slime_ingot", [<item:tconstruct:queens_slime_ingot> % 100], [<item:minecraft:gold_ingot>, <tag:items:forge:ingots/cobalt>, <item:minecraft:magma_cream>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("hepatizon_ingot", [<item:tconstruct:hepatizon_ingot> * 2], [<tag:items:forge:ingots/copper> * 2, <tag:items:forge:ingots/cobalt>, <tag:items:forge:obsidian>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("manyullyn_ingot", [<item:tconstruct:manyullyn_ingot> * 4], [<item:minecraft:netherite_scrap>, <tag:items:forge:ingots/cobalt> * 3], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("queens_slime_ingot", [<item:tconstruct:queens_slime_ingot> * 1], [<item:minecraft:gold_ingot>, <tag:items:forge:ingots/cobalt>, <item:minecraft:magma_cream>], 0, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100] , <item:minecraft:shulker_shell>, 0, 1000);
-<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/ae2/sky_dust", [<item:appliedenergistics2:sky_dust> % 100] , <item:appliedenergistics2:sky_stone_block>, 0, 1000);
+<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> * 1] , <item:minecraft:shulker_shell>, 0, 1000);
+<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/ae2/sky_dust", [<item:appliedenergistics2:sky_dust> * 1] , <item:appliedenergistics2:sky_stone_block>, 0, 1000);
 
 //Industrial Foregoing (Removes:4,Addiotions:1)
 
@@ -545,8 +545,8 @@ craftingTable.addShaped("crafting/materials/refined_radiance_casing_custom", <it
 <recipetype:create:mixing>.removeRecipe(<item:tconstruct:hepatizon_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:tconstruct:queens_slime_ingot>);
 
-<recipetype:create:crushing>.addRecipe("create.crushing/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100], <item:minecraft:shulker_shell>);
-<recipetype:create:milling>.addRecipe("create.milling/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> % 100], <item:minecraft:shulker_shell>);
+<recipetype:create:crushing>.addRecipe("create.crushing/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> * 1], <item:minecraft:shulker_shell>);
+<recipetype:create:milling>.addRecipe("create.milling/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> * 1], <item:minecraft:shulker_shell>);
 
 
 //silent's Mechanisms (Removes:5,Addiotions:2)
@@ -574,27 +574,27 @@ craftingTable.removeByName("morered:red_alloy_ingot_without_jumbo_furnace");
 
 //EnderIO Alloys  (Removes:1,Addiotions:91)
 <recipetype:thermal:smelter>.removeRecipe(<item:silents_mechanisms:redstone_alloy_ingot>);
-<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_ingots/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> % 400], [<tag:items:forge:ingots/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
-<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_dusts/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> % 400], [<tag:items:forge:dusts/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
-<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_chunks/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> % 400], [<tag:items:silents_mechanisms:chunks/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
-<recipetype:thermal:smelter>.addRecipe("conductive_iron", [<item:enderioalloys:item_alloy_ingot_conductive_iron> % 100], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>], 0, 2000);
-<recipetype:thermal:smelter>.addRecipe("pulsating_iron", [<item:enderioalloys:item_alloy_ingot_pulsating_iron> % 100], [<item:minecraft:iron_ingot>, <item:minecraft:ender_pearl>], 0, 2000);
-<recipetype:thermal:smelter>.addRecipe("dark_steel", [<item:enderioalloys:item_alloy_ingot_dark_steel> % 100], [<item:minecraft:iron_ingot>, <tag:items:forge:dusts/coal>, <item:minecraft:obsidian>], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("electrical_steel", [<item:enderioalloys:item_alloy_ingot_electrical_steel> % 100], [<item:minecraft:iron_ingot>, <tag:items:forge:dusts/coal>, <tag:items:forge:silicon>], 0, 3000);
-<recipetype:thermal:smelter>.addRecipe("end_steel", [<item:enderioalloys:item_alloy_ingot_end_steel> % 100], [<item:minecraft:end_stone>, <item:enderioalloys:item_alloy_ingot_dark_steel>, <item:minecraft:obsidian>], 0, 5000);
-<recipetype:thermal:smelter>.addRecipe("energetic_alloy", [<item:enderioalloys:item_alloy_ingot_energetic_alloy> % 100], [<item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:glowstone_dust>], 0, 3000);
-<recipetype:thermal:smelter>.addRecipe("vibrant_alloy", [<item:enderioalloys:item_alloy_ingot_vibrant_alloy> % 100], [<item:enderioalloys:item_alloy_ingot_energetic_alloy>, <item:minecraft:ender_pearl>], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("redstone_alloy", [<item:enderioalloys:item_alloy_ingot_redstone_alloy> % 100], [<item:minecraft:redstone>, <tag:items:forge:silicon>], 0, 2000);
-<recipetype:thermal:smelter>.addRecipe("soularium", [<item:enderioalloys:item_alloy_ingot_soularium> % 100], [<item:minecraft:soul_sand>, <item:minecraft:gold_ingot>], 0, 3000);
-<recipetype:thermal:smelter>.addRecipe("crude_steel", [<item:enderioalloys:item_alloy_ingot_crude_steel> % 100], [<item:minecraft:gravel>, <item:minecraft:clay_ball> , <item:minecraft:cobblestone>], 0, 2000);
-<recipetype:thermal:smelter>.addRecipe("crystalline_alloy", [<item:enderioalloys:item_alloy_ingot_crystalline_alloy> % 100], [<item:minecraft:gold_ingot>, <item:enderioalloys:item_material_pulsating_powder>], 0, 3000);
-<recipetype:thermal:smelter>.addRecipe("melodic_alloy", [<item:enderioalloys:item_alloy_ingot_melodic_alloy> % 100], [<item:enderioalloys:item_alloy_ingot_end_steel>, <item:minecraft:popped_chorus_fruit>], 0, 5000);
-<recipetype:thermal:smelter>.addRecipe("stellar_alloy", [<item:enderioalloys:item_alloy_ingot_stellar_alloy> % 100], [<item:minecraft:nether_star>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:minecraft:clay_ball> * 4], 0,10000);
-<recipetype:thermal:smelter>.addRecipe("crystalline_pink_slime", [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> % 100], [<item:enderioalloys:item_alloy_ingot_crystalline_alloy>, <item:industrialforegoing:pink_slime_ingot>], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("energetic_silver", [<item:enderioalloys:item_alloy_ingot_energetic_silver> % 100], [<item:enderioalloys:item_alloy_ingot_energetic_alloy>, <tag:items:forge:ingots/silver>], 0, 4000);
-<recipetype:thermal:smelter>.addRecipe("vivid_alloy", [<item:enderioalloys:item_alloy_ingot_vivid_alloy> % 100], [<item:minecraft:ender_pearl>, <item:enderioalloys:item_alloy_ingot_energetic_silver>], 0, 4500);
-<recipetype:thermal:smelter>.addRecipe("nethercotta", [<item:enderioalloys:item_material_glazed_nether_brick> % 100], [<item:minecraft:nether_brick>, <item:minecraft:nether_wart> * 4, <item:minecraft:clay_ball> * 6], 0, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("grains_of_piezallity", [<item:enderioalloys:item_material_pulsating_powder> % 100,], <fluid:minecraft:empty>, <item:enderioalloys:item_material_pulsating_crystal>, 500);
+<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_ingots/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> * 4], [<tag:items:forge:ingots/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
+<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_dusts/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> * 4], [<tag:items:forge:dusts/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
+<recipetype:thermal:smelter>.addRecipe("silents_mechanisms.redstone_alloy_ingot_with_chunks/thermal", [<item:silents_mechanisms:redstone_alloy_ingot> * 4], [<tag:items:silents_mechanisms:chunks/iron> * 2, <item:minecraft:redstone_block>], 0, 4500);
+<recipetype:thermal:smelter>.addRecipe("conductive_iron", [<item:enderioalloys:item_alloy_ingot_conductive_iron> * 1], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>], 0, 2000);
+<recipetype:thermal:smelter>.addRecipe("pulsating_iron", [<item:enderioalloys:item_alloy_ingot_pulsating_iron> * 1], [<item:minecraft:iron_ingot>, <item:minecraft:ender_pearl>], 0, 2000);
+<recipetype:thermal:smelter>.addRecipe("dark_steel", [<item:enderioalloys:item_alloy_ingot_dark_steel> * 1], [<item:minecraft:iron_ingot>, <tag:items:forge:dusts/coal>, <item:minecraft:obsidian>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("electrical_steel", [<item:enderioalloys:item_alloy_ingot_electrical_steel> * 1], [<item:minecraft:iron_ingot>, <tag:items:forge:dusts/coal>, <tag:items:forge:silicon>], 0, 3000);
+<recipetype:thermal:smelter>.addRecipe("end_steel", [<item:enderioalloys:item_alloy_ingot_end_steel> * 1], [<item:minecraft:end_stone>, <item:enderioalloys:item_alloy_ingot_dark_steel>, <item:minecraft:obsidian>], 0, 5000);
+<recipetype:thermal:smelter>.addRecipe("energetic_alloy", [<item:enderioalloys:item_alloy_ingot_energetic_alloy> * 1], [<item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:glowstone_dust>], 0, 3000);
+<recipetype:thermal:smelter>.addRecipe("vibrant_alloy", [<item:enderioalloys:item_alloy_ingot_vibrant_alloy> * 1], [<item:enderioalloys:item_alloy_ingot_energetic_alloy>, <item:minecraft:ender_pearl>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("redstone_alloy", [<item:enderioalloys:item_alloy_ingot_redstone_alloy> * 1], [<item:minecraft:redstone>, <tag:items:forge:silicon>], 0, 2000);
+<recipetype:thermal:smelter>.addRecipe("soularium", [<item:enderioalloys:item_alloy_ingot_soularium> * 1], [<item:minecraft:soul_sand>, <item:minecraft:gold_ingot>], 0, 3000);
+<recipetype:thermal:smelter>.addRecipe("crude_steel", [<item:enderioalloys:item_alloy_ingot_crude_steel> * 1], [<item:minecraft:gravel>, <item:minecraft:clay_ball> , <item:minecraft:cobblestone>], 0, 2000);
+<recipetype:thermal:smelter>.addRecipe("crystalline_alloy", [<item:enderioalloys:item_alloy_ingot_crystalline_alloy> * 1], [<item:minecraft:gold_ingot>, <item:enderioalloys:item_material_pulsating_powder>], 0, 3000);
+<recipetype:thermal:smelter>.addRecipe("melodic_alloy", [<item:enderioalloys:item_alloy_ingot_melodic_alloy> * 1], [<item:enderioalloys:item_alloy_ingot_end_steel>, <item:minecraft:popped_chorus_fruit>], 0, 5000);
+<recipetype:thermal:smelter>.addRecipe("stellar_alloy", [<item:enderioalloys:item_alloy_ingot_stellar_alloy> * 1], [<item:minecraft:nether_star>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:minecraft:clay_ball> * 4], 0,10000);
+<recipetype:thermal:smelter>.addRecipe("crystalline_pink_slime", [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> * 1], [<item:enderioalloys:item_alloy_ingot_crystalline_alloy>, <item:industrialforegoing:pink_slime_ingot>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("energetic_silver", [<item:enderioalloys:item_alloy_ingot_energetic_silver> * 1], [<item:enderioalloys:item_alloy_ingot_energetic_alloy>, <tag:items:forge:ingots/silver>], 0, 4000);
+<recipetype:thermal:smelter>.addRecipe("vivid_alloy", [<item:enderioalloys:item_alloy_ingot_vivid_alloy> * 1], [<item:minecraft:ender_pearl>, <item:enderioalloys:item_alloy_ingot_energetic_silver>], 0, 4500);
+<recipetype:thermal:smelter>.addRecipe("nethercotta", [<item:enderioalloys:item_material_glazed_nether_brick> * 1], [<item:minecraft:nether_brick>, <item:minecraft:nether_wart> * 4, <item:minecraft:clay_ball> * 6], 0, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("grains_of_piezallity", [<item:enderioalloys:item_material_pulsating_powder> * 1,], <fluid:minecraft:empty>, <item:enderioalloys:item_material_pulsating_crystal>, 500);
 
 craftingTable.addShapeless("nugget_conductive_iron", <item:enderioalloys:item_alloy_nugget_conductive_iron> * 9, [
 	<item:enderioalloys:item_alloy_ingot_conductive_iron>

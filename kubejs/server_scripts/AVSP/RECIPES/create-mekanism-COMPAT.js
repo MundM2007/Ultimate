@@ -14,6 +14,7 @@ onEvent('recipes', event => {
 //
 //ENRICHMENT
 //
+	/*
 	//COAL
 	  	event.custom({
   		type: 'mekanism:enriching',
@@ -117,7 +118,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:dimensional_gem'
   		}
   	}).id('AVSP:create_mekanism_compat/enriching/dimensional')
-
+	*/
 //
 //fin
 //

@@ -1,71 +1,71 @@
 onEvent('recipes', event => {
     event.custom({
         input: [
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:gunpowder"
-          },
-          {
-            item: "minecraft:gunpowder"
-          }
+            {
+              item: "minecraft:yellow_dye"
+            },
+            {
+              item: "minecraft:yellow_dye"
+            },
+            {
+                item: "minecraft:yellow_dye"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:gunpowder"
+            },
+            {
+                item: "minecraft:gunpowder"
+            }
         ],
         inputFluid: "{FluidName:\"tconstruct:molten_gold\",Amount:576}",
         processingTime: 100,
         output: {
-          item: "extendedcrafting:luminessence",
-          count: 1
+            item: "extendedcrafting:luminessence",
+            count: 1
         },
         type: "industrialforegoing:dissolution_chamber",
-      })
+    })
     event.custom({
         input: [
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:yellow_dye"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:redstone"
-          },
-          {
-            item: "minecraft:gunpowder"
-          },
-          {
-            item: "minecraft:gunpowder"
-          }
+            {
+                item: "minecraft:yellow_dye"
+            },
+            {
+                item: "minecraft:yellow_dye"
+            },
+            {
+                item: "minecraft:yellow_dye"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:redstone"
+            },
+            {
+                item: "minecraft:gunpowder"
+            },
+            {
+                item: "minecraft:gunpowder"
+            }
         ],
         inputFluid: "{FluidName:\"emendatusenigmatica:molten_gold\",Amount:576}",
         processingTime: 100,
         output: {
-          item: "extendedcrafting:luminessence",
-          count: 1
+            item: "extendedcrafting:luminessence",
+            count: 1
         },
         type: "industrialforegoing:dissolution_chamber",
     })
@@ -436,4 +436,8 @@ onEvent('recipes', event => {
             item: "mysticalagriculture:zombified_piglin_seeds"
         }
     })
+
+    // (certus) quartz dust to gem recipes
+    event.smelting("minecraft:quartz", "emendatusenigmatica:quartz_dust")
+    event.smelting("appliedenergistics2:certus_quartz_crystal", "appliedenergistics2:certus_quartz_dust")
 })

@@ -1287,7 +1287,7 @@
 			title: "Arc Furnace"
 			x: 13.0d
 			y: 3.0d
-			description: ["You can use any steel block tagged \"forge:storage_block/steel\""]
+			description: [""]
 			dependencies: ["77D4060EBD1EE011"]
 			id: "4E7AAAB864EE8BEE"
 			tasks: [
@@ -1319,14 +1319,8 @@
 					id: "4988B199C07D4AEC"
 					type: "item"
 					title: "Block of Steel"
-					icon: "immersiveengineering:storage_steel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:storage_blocks/steel"
-						}
-					}
+					icon: "emendatusenigmatica:steel_block"
+					item: "emendatusenigmatica:steel_block"
 					count: 6L
 				}
 				{
@@ -1370,45 +1364,40 @@
 					id: "5BDAAF27292E9563"
 					type: "item"
 					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 52L
+					count: 26L
 				}
 				{
 					id: "796FF0780A1A5393"
 					type: "item"
 					item: "immersiveengineering:sheetmetal_steel"
-					count: 32L
+					count: 16L
 				}
 				{
 					id: "39DE8C91AC4D2E1A"
 					type: "item"
 					title: "Block of Steel"
-					icon: "immersiveengineering:storage_steel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:storage_blocks/steel"
-						}
-					}
-					count: 18L
+					icon: "emendatusenigmatica:steel_block"
+					item: "emendatusenigmatica:steel_block"
+					count: 9L
+					only_from_crafting: false
 				}
 				{
 					id: "43D4C7C9A6E26A31"
 					type: "item"
 					item: "immersiveengineering:light_engineering"
-					count: 18L
+					count: 9L
 				}
 				{
 					id: "543589F7DED336BA"
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
-					count: 8L
+					count: 4L
 				}
 				{
 					id: "3EDC1AA46B0EEE24"
 					type: "item"
 					item: "immersiveengineering:radiator"
-					count: 6L
+					count: 3L
 				}
 				{
 					id: "7CA93470499582EB"
@@ -1458,14 +1447,8 @@
 					id: "4DEB19C68613311A"
 					type: "item"
 					title: "Block of Steel"
-					icon: "immersiveengineering:storage_steel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:storage_blocks/steel"
-						}
-					}
+					icon: "emendatusenigmatica:steel_block"
+					item: "emendatusenigmatica:steel_block"
 					count: 2L
 				}
 				{

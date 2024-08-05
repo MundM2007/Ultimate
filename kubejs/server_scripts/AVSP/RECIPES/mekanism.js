@@ -19,8 +19,8 @@ onEvent('recipes', event => {
 //
 
 	//ENDERPEARL DUST
-	event.recipes.mekanismCrushing('emendatusenigmatica:ender_dust', 'minecraft:ender_pearl').id('AVSP:mekanism/crushing/ender_dust')
-	event.recipes.mekanismEnriching('minecraft:ender_pearl', 'emendatusenigmatica:ender_dust').id('AVSP:mekanism/enriching/enderpearl')
+	event.recipes.mekanismCrushing('emendatusenigmatica:ender_dust', 'minecraft:ender_pearl').id('avsp:mekanism/crushing/ender_dust')
+	event.recipes.mekanismEnriching('minecraft:ender_pearl', 'emendatusenigmatica:ender_dust').id('avsp:mekanism/enriching/enderpearl')
 
 //
 //fin

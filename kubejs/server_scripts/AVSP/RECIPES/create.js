@@ -41,6 +41,7 @@ onEvent('recipes', event => {
 //
 //CRUSHING
 //
+/*
 	//OBSIDIAN
 	event.recipes.createCrushing([
 		'4x emendatusenigmatica:obsidian_dust',
@@ -288,7 +289,7 @@ onEvent('recipes', event => {
 
 	//ENDERIUM
 	multiSmelt('emendatusenigmatica:enderium_ingot', 'emendatusenigmatica:enderium_crushed', true, 'enderium')
-
+*/
 //
 //PRESSING
 //
@@ -298,37 +299,37 @@ onEvent('recipes', event => {
 	*/
 	
 	//COAL
-	event.recipes.createPressing('minecraft:coal', 'emendatusenigmatica:coal_crushed').id('AVSP:create/pressing/coal')
+	event.recipes.createPressing('minecraft:coal', 'emendatusenigmatica:coal_crushed').id('avsp:create/pressing/coal')
 
 	//DIAMOND
-	event.recipes.createPressing('minecraft:diamond', 'emendatusenigmatica:diamond_crushed').id('AVSP:create/pressing/diamond')
+	event.recipes.createPressing('minecraft:diamond', 'emendatusenigmatica:diamond_crushed').id('avsp:create/pressing/diamond')
 
 	//EMERALD
-	event.recipes.createPressing('minecraft:emerald', 'emendatusenigmatica:emerald_crushed').id('AVSP:create/pressing/emerald')
+	event.recipes.createPressing('minecraft:emerald', 'emendatusenigmatica:emerald_crushed').id('avsp:create/pressing/emerald')
 
 	//CINNABAR
-	event.recipes.createPressing('emendatusenigmatica:cinnabar_gem', 'emendatusenigmatica:cinnabar_crushed').id('AVSP:create/pressing/cinnabar')
+	event.recipes.createPressing('emendatusenigmatica:cinnabar_gem', 'emendatusenigmatica:cinnabar_crushed').id('avsp:create/pressing/cinnabar')
 
 	//APATITE
-	event.recipes.createPressing('emendatusenigmatica:apatite_gem', 'emendatusenigmatica:apatite_crushed').id('AVSP:create/pressing/apatite')
+	event.recipes.createPressing('emendatusenigmatica:apatite_gem', 'emendatusenigmatica:apatite_crushed').id('avsp:create/pressing/apatite')
 
 	//SULFUR
-	event.recipes.createPressing('emendatusenigmatica:sulfur_gem', 'emendatusenigmatica:sulfur_crushed').id('AVSP:create/pressing/sulfur')
+	event.recipes.createPressing('emendatusenigmatica:sulfur_gem', 'emendatusenigmatica:sulfur_crushed').id('avsp:create/pressing/sulfur')
 
 	//POTASSIUM NITRATE / NITER
-	event.recipes.createPressing('emendatusenigmatica:potassium_nitrate_gem', 'emendatusenigmatica:potassium_nitrate_crushed').id('AVSP:create/pressing/potassium_nitrate-niter')
+	event.recipes.createPressing('emendatusenigmatica:potassium_nitrate_gem', 'emendatusenigmatica:potassium_nitrate_crushed').id('avsp:create/pressing/potassium_nitrate-niter')
 
 	//DIMENSIONAL
-	event.recipes.createPressing('emendatusenigmatica:dimensional_gem', 'emendatusenigmatica:dimensional_crushed').id('AVSP:create/pressing/dimensional')
+	event.recipes.createPressing('emendatusenigmatica:dimensional_gem', 'emendatusenigmatica:dimensional_crushed').id('avsp:create/pressing/dimensional')
 
 //
 //OVERALL DUST COMPATIBILITY
 //
 	let crushDaddy = (output, input, includeMilling, name) => {
-    	event.recipes.createCrushing(output, input).id(`AVSP:create/material_to_dust/crushing/${name}`)
+    	event.recipes.createCrushing(output, input).id(`avsp:create/material_to_dust/crushing/${name}`)
     
     if (includeMilling) {
-    	event.recipes.createMilling(output, input).id(`AVSP:create/material_to_dust/milling/${name}`)
+    	event.recipes.createMilling(output, input).id(`avsp:create/material_to_dust/milling/${name}`)
     }
 	}
 	//CHARCOAL

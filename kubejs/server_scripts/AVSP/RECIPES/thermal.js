@@ -28,9 +28,9 @@ onEvent('recipes', event => {
     event.replaceInput({}, 'mekanism:ingot_osmium', '#forge:ingots/osmium')
 
     //Adding new recipes.
-    event.recipes.thermal.pulverizer('4x emendatusenigmatica:obsidian_dust', 'minecraft:obsidian').id('AVSP:thermal/pulverizer/obsidian_dust')
-    event.recipes.thermal.pulverizer('emendatusenigmatica:coal_dust', 'minecraft:coal').id('AVSP:thermal/pulverizer/coal_dust')
-    event.recipes.thermal.pulverizer('emendatusenigmatica:fluorite_dust', 'emendatusenigmatica:fluorite_gem').id('AVSP:thermal/pulverizer/fluorite_dust')
+    event.recipes.thermal.pulverizer('4x emendatusenigmatica:obsidian_dust', 'minecraft:obsidian').id('avsp:thermal/pulverizer/obsidian_dust')
+    event.recipes.thermal.pulverizer('emendatusenigmatica:coal_dust', 'minecraft:coal').id('avsp:thermal/pulverizer/coal_dust')
+    event.recipes.thermal.pulverizer('emendatusenigmatica:fluorite_dust', 'emendatusenigmatica:fluorite_gem').id('avsp:thermal/pulverizer/fluorite_dust')
 
 //
 //Removing recipes for the chunk to gem functions.
@@ -104,52 +104,52 @@ onEvent('recipes', event => {
     event.replaceOutput({id:'thermal:machine/pulverizer/pulverizer_niter_ore'}, '#forge:gems/niter', 'emendatusenigmatica:potassium_nitrate_dust')
 
     //DIMENSIONAL
-    event.recipes.thermal.pulverizer('6x emendatusenigmatica:dimensional_dust', 'emendatusenigmatica:dimensional_chunk').id('AVSP:thermal/pulverizer/dimensional_chunk_to_gem')
+    event.recipes.thermal.pulverizer('6x emendatusenigmatica:dimensional_dust', 'emendatusenigmatica:dimensional_chunk').id('avsp:thermal/pulverizer/dimensional_chunk_to_gem')
 
     //CHARCOAL
-    event.recipes.thermal.pulverizer('emendatusenigmatica:charcoal_dust', 'minecraft:charcoal').id('AVSP:thermal/pulverizer/charcoal_dust')
+    event.recipes.thermal.pulverizer('emendatusenigmatica:charcoal_dust', 'minecraft:charcoal').id('avsp:thermal/pulverizer/charcoal_dust')
 
 //MULTISERVO PRESS RECIPES
 //
 
     //COAL
-    event.recipes.thermal.press('minecraft:coal', 'emendatusenigmatica:coal_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/coal')
+    event.recipes.thermal.press('minecraft:coal', 'emendatusenigmatica:coal_dust').id('avsp:thermal/multiservo_press/dust_to_gems/coal')
 
     //DIAMOND
-    event.recipes.thermal.press('minecraft:diamond', 'emendatusenigmatica:diamond_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/diamond')
+    event.recipes.thermal.press('minecraft:diamond', 'emendatusenigmatica:diamond_dust').id('avsp:thermal/multiservo_press/dust_to_gems/diamond')
 
     //EMERALD
-    event.recipes.thermal.press('minecraft:emerald', 'emendatusenigmatica:emerald_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/emerald')
+    event.recipes.thermal.press('minecraft:emerald', 'emendatusenigmatica:emerald_dust').id('avsp:thermal/multiservo_press/dust_to_gems/emerald')
 
     //LAPIS
-    event.recipes.thermal.press('minecraft:lapis_lazuli', 'emendatusenigmatica:lapis_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/lapis')
+    event.recipes.thermal.press('minecraft:lapis_lazuli', 'emendatusenigmatica:lapis_dust').id('avsp:thermal/multiservo_press/dust_to_gems/lapis')
 
     //FLUORITE
-    event.recipes.thermal.press('emendatusenigmatica:fluorite_gem', 'emendatusenigmatica:fluorite_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/fluorite')
+    event.recipes.thermal.press('emendatusenigmatica:fluorite_gem', 'emendatusenigmatica:fluorite_dust').id('avsp:thermal/multiservo_press/dust_to_gems/fluorite')
 
     //CINNABAR
-    event.recipes.thermal.press('emendatusenigmatica:cinnabar_gem', 'emendatusenigmatica:cinnabar_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/cinnabar')
+    event.recipes.thermal.press('emendatusenigmatica:cinnabar_gem', 'emendatusenigmatica:cinnabar_dust').id('avsp:thermal/multiservo_press/dust_to_gems/cinnabar')
 
     //APATITE
-    event.recipes.thermal.press('emendatusenigmatica:apatite_gem', 'emendatusenigmatica:apatite_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/apatite')
+    event.recipes.thermal.press('emendatusenigmatica:apatite_gem', 'emendatusenigmatica:apatite_dust').id('avsp:thermal/multiservo_press/dust_to_gems/apatite')
 
     //SULFUR
-    event.recipes.thermal.press('emendatusenigmatica:sulfur_gem', 'emendatusenigmatica:sulfur_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/sulfur')
+    event.recipes.thermal.press('emendatusenigmatica:sulfur_gem', 'emendatusenigmatica:sulfur_dust').id('avsp:thermal/multiservo_press/dust_to_gems/sulfur')
 
     //NITER POTASSIUM NITRATE
-    event.recipes.thermal.press('emendatusenigmatica:potassium_nitrate_gem', 'emendatusenigmatica:potassium_nitrate_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/potassium_nitrate-niter')
+    event.recipes.thermal.press('emendatusenigmatica:potassium_nitrate_gem', 'emendatusenigmatica:potassium_nitrate_dust').id('avsp:thermal/multiservo_press/dust_to_gems/potassium_nitrate-niter')
 
     //DIMENSIONAl
-    event.recipes.thermal.press('emendatusenigmatica:dimensional_gem', 'emendatusenigmatica:dimensional_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/dimensional')
+    event.recipes.thermal.press('emendatusenigmatica:dimensional_gem', 'emendatusenigmatica:dimensional_dust').id('avsp:thermal/multiservo_press/dust_to_gems/dimensional')
 
     //CHARCOAL
-    event.recipes.thermal.press('minecraft:charcoal', 'emendatusenigmatica:charcoal_dust').id('AVSP:thermal/multiservo_press/dust_to_gems/charcoal')
+    event.recipes.thermal.press('minecraft:charcoal', 'emendatusenigmatica:charcoal_dust').id('avsp:thermal/multiservo_press/dust_to_gems/charcoal')
 
     //OBSIDIAN
-    event.recipes.thermal.press('minecraft:obsidian', '4x emendatusenigmatica:obsidian_dust').id('AVSP:thermal/multiservo_press/obsidian_dust_to_block')
+    event.recipes.thermal.press('minecraft:obsidian', '4x emendatusenigmatica:obsidian_dust').id('avsp:thermal/multiservo_press/obsidian_dust_to_block')
 
     //ENDERPEARL
-    event.recipes.thermal.press('minecraft:ender_pearl', 'emendatusenigmatica:ender_dust').id('AVSP:thermal/multiservo_press/ender_pearl')
+    event.recipes.thermal.press('minecraft:ender_pearl', 'emendatusenigmatica:ender_dust').id('avsp:thermal/multiservo_press/ender_pearl')
 
 //
 //fin

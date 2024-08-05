@@ -1,5 +1,4 @@
 onEvent('jei.hide.items', event => {
-
     const jeihide = [
         'mysticalagriculture:iridium_seeds',
         'mysticalagriculture:iridium_essence',
@@ -22,7 +21,7 @@ onEvent('jei.hide.items', event => {
         'thermal:electrum_gear',
         'thermal:bronze_gear'
     ];
-        jeihide.forEach((entry) => {
+    jeihide.forEach((entry) => {
         event.hide(entry);
     });
 })

@@ -246,7 +246,8 @@ onEvent('recipes', event => {
         ],
         energy: 100000,
         result: {
-            item: 'powah:energized_steel_block'
+            item: 'powah:energized_steel_block',
+			count: 2
         }
     })
     event.custom({

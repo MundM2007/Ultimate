@@ -361,7 +361,7 @@ mods.extendedcrafting.TableCrafting.addShaped("machine_frame_table", 0, <item:th
 <recipetype:thermal:smelter>.addRecipe("queens_slime_ingot", [<item:tconstruct:queens_slime_ingot> * 1], [<item:minecraft:gold_ingot>, <tag:items:forge:ingots/cobalt>, <item:minecraft:magma_cream>], 0, 4000);
 
 <recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/silentgear/crushed_shulker_shell", [<item:silentgear:crushed_shulker_shell> * 1] , <item:minecraft:shulker_shell>, 0, 1000);
-<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/ae2/sky_dust", [<item:appliedenergistics2:sky_dust> * 1] , <item:appliedenergistics2:sky_stone_block>, 0, 1000);
+<recipetype:thermal:pulverizer>.addRecipe("thermal.pulverizer/ae2/sky_dust", [<item:appliedenergistics2:sky_dust> * 1], <item:appliedenergistics2:sky_stone_block>, 0, 1000);
 
 //Industrial Foregoing (Removes:4,Addiotions:1)
 
@@ -594,7 +594,7 @@ craftingTable.removeByName("morered:red_alloy_ingot_without_jumbo_furnace");
 <recipetype:thermal:smelter>.addRecipe("energetic_silver", [<item:enderioalloys:item_alloy_ingot_energetic_silver> * 1], [<item:enderioalloys:item_alloy_ingot_energetic_alloy>, <tag:items:forge:ingots/silver>], 0, 4000);
 <recipetype:thermal:smelter>.addRecipe("vivid_alloy", [<item:enderioalloys:item_alloy_ingot_vivid_alloy> * 1], [<item:minecraft:ender_pearl>, <item:enderioalloys:item_alloy_ingot_energetic_silver>], 0, 4500);
 <recipetype:thermal:smelter>.addRecipe("nethercotta", [<item:enderioalloys:item_material_glazed_nether_brick> * 1], [<item:minecraft:nether_brick>, <item:minecraft:nether_wart> * 4, <item:minecraft:clay_ball> * 6], 0, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("grains_of_piezallity", [<item:enderioalloys:item_material_pulsating_powder> * 1,], <fluid:minecraft:empty>, <item:enderioalloys:item_material_pulsating_crystal>, 500);
+<recipetype:thermal:pulverizer>.addRecipe("grains_of_piezallity", [<item:enderioalloys:item_material_pulsating_powder> * 1], <item:enderioalloys:item_material_pulsating_crystal>, 0, 500);
 
 craftingTable.addShapeless("nugget_conductive_iron", <item:enderioalloys:item_alloy_nugget_conductive_iron> * 9, [
 	<item:enderioalloys:item_alloy_ingot_conductive_iron>
